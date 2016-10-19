@@ -31,6 +31,7 @@ gems:
 # Excludes
 exclude:
   - .sass-cache
+  - _site
 
 sass:
   sass_dir: _sass
