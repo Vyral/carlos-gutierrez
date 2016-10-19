@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+$main-width: 120rem
+$nav-height: 5rem
+
+//fonts
+$bodyfont: 'Source Sans Pro', helvetica, arial, sans-serif
+$headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
+
+//colors
+// If this is a really light color, you're going to have to mess around with some other settings.
+$brand: {{site.data.settings.brand_color}}
+$brand-light: lighten($brand, 20%)
+$brand-dark: darken($brand, 10%)
+$theme: {{site.data.settings.theme_color}}
+$theme-text: {{ site.data.settings.theme_text_color }}
+$theme-body-text: {{site.data.settings.main_body_text_color}}
+$theme-body-color: {{site.data.settings.main_body_color}}
+// $bodycolor: {{site.data.settings.fontcolor_hex}}
+$transparent-black: rgba(0,0,0,0.5)
+
+// All the white text and fills, just incase you want to change it up. This effects almost everything though.
+$light-text: white
+
+$nav-background: transparentize(black, 0.2)
+$header-font-color: $light-text
+$footer-font-color: #353535
+$header-shadow: 0 2px 7px black
+$post-wrapper-border: #D8D8D8
+$footer-background: darken(#f3f3f3, 10%)
+$readmore-border-color: $footer-background
+$form-border-color: gray
+$form-focus-outline: $brand-light
+
+//icon fills
+$icon-fill: $light-text
+
+//Mixins
+@mixin size($n)
+	height: $n
+	width: $n
+@mixin shadow
+	box-shadow: 0 2px 7px rgba(0,0,0,0.5)
+@mixin drop-shadow
+	filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-webkit-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-moz-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-o-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+@mixin transition
+	-webkit-transition: .5s ease-in-out
+	-moz-transition: .5s ease-in-out
+	-o-transition: .5s ease-in-out
+	transition: .5s ease-in-out
+
+
+//vendors
+@import "vendor/normalize"
+@import "vendor/skeleton"
+@import "vendor/flexslider"
+@import "vendor/bourbon/bourbon"
+@import "vendor/owl.carousel"
+
+@import "media-player"
+@import "navigation"
+@import "blog-archive"
+@import "header"
+@import "base"
+@import "pagination"
+@import "posts"
+@import "socials"
+@import "search"
+@import "reviews"
+@import "about"
+@import "footer"
+@import "testimonials"
+@import "modal"
+@import "forms"
+@import "newsletter"
+
+@import "custom"

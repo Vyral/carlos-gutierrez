@@ -1,0 +1,102 @@
+.socials
+	padding: 0.7rem
+	margin-bottom: 0.7rem
+
+	ul
+		margin-bottom: 0.1rem
+		max-height: 5rem
+		list-style-type: none
+		li
+			padding: 0.3rem
+			display: inline-block
+	svg
+		fill: $brand
+		@include size(3.5rem)
+		border-radius: 50%
+		@include transition
+		&:hover
+			fill: $brand-light
+			background: transparent
+			color: $brand-light
+			+shadow
+			// box-shadow: 4px 4px 0 $brand-light
+			// border: 2px solid $brand-light
+			@include transform(scale(1.05))
+			@include transform(translateY(-0.2rem))
+		&:active
+			box-shadow: 0 0 0 $brand-light
+			@include transform(translateY(0rem))
+
+//For about page
+.about .socials
+	margin-bottom: 2rem
+	li
+		margin: 1rem
+	svg
+		@include size(5rem)
+		fill: $brand
+		&:hover
+			fill: $brand-light
+
+.footer-socials
+	.socials
+		text-align: center
+		margin: 2rem
+		list-style-type: none
+		li
+			display: inline-block
+			margin: 0
+		svg
+			@include size(3rem)
+			border-radius: 50%
+			fill: $brand
+			-webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
+			transition: .3s cubic-bezier(0.4, 0, 0.2, 1)
+			&:hover
+				fill: $brand-light
+				background: transparent
+
+
+
+@media (max-width: 1450px)
+	.socials
+		svg
+			@include size(3rem)
+@media (max-width: 1255px)
+	.socials
+		svg
+			@include size(2.7rem)
+
+	.footer-socials
+		.socials
+			svg
+				@include size(2.4rem)
+
+@media (max-width: 990px)
+	.socials
+		svg
+			@include size(4rem)
+		text-align: center
+
+@media (max-width: 445px)
+
+	.socials
+		// margin-bottom: 6rem
+		svg
+			@include size(3rem)
+
+@media (max-width: 400px)
+	.socials
+		svg
+			@include size(2rem)
+
+@media (max-width: 350px)
+	.about
+		.socials
+			margin-bottom: 9rem
+			svg
+				@include size(1.8rem)
+	.footer-socials
+		.socials
+			svg
+				@include size(1.8rem)

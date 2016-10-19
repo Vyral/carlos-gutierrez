@@ -1,0 +1,89 @@
+.navbar-andross
+	border: none
+	border-radius: 0
+	min-height: 65px
+	background: $theme
+	width: 100%
+	overflow: hidden
+	// +shadow
+	.cta
+		background: $brand
+		color: $light-text
+		padding: 1.3rem 2rem
+		text-transform: capitalize
+		font-size: 2rem
+		font-weight: 300
+		border: 2px solid $brand
+		@include transition(0.3s)
+		&:hover
+			background: transparent
+			color: $brand-light
+			box-shadow: 4px 4px 0 $brand-light
+			border: 2px solid $brand-light
+			@include transform(scale(1.05))
+			@include transform(translateY(-0.2rem))
+		&:active
+			box-shadow: 0 0 0 $brand-light
+			@include transform(translateY(0rem))
+
+	.cta2
+		// background: $light-text
+		color: $brand
+		padding: 1.3rem 2rem
+		text-transform: capitalize
+		font-size: 2rem
+		font-weight: 300
+		border: 2px solid $brand
+		@include transition(0.3s)
+		&:hover
+			background: transparent
+			color: $brand-light
+			box-shadow: 4px 4px 0 $brand-light
+			border: 2px solid $brand-light
+			@include transform(scale(1.05))
+			@include transform(translateY(-0.2rem))
+		&:active
+			box-shadow: 0 0 0 $brand-light
+			@include transform(translateY(0rem))
+
+.navbar-andross .navbar-brand
+	color: $brand
+	padding-top: 20px
+	padding-bottom: 33px
+	font-size: 20px
+	text-transform: uppercase
+	max-width: 80%
+
+.navbar-nav>li
+	margin-right: 10px
+	@include transition
+
+.navbar-nav>li>a
+	font-size: 20px
+	margin-top: 12px
+	padding: 10px 10px
+	border-radius: 5px
+	@include transition
+
+.navbar-left>li>a
+	border: 0
+	background: transparent
+	color: $brand
+	&:hover
+		background: transparent
+		color: $brand-light
+
+.fa-bars
+	color: $brand
+
+.navbar-toggle
+	margin-top: 20px
+
+.navbar
+	padding-right: 15px
+	padding-left: 15px
+
+@media(max-width: 347px)
+	.navbar-header
+		a.navbar-brand
+			color: $theme

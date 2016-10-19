@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<!-- blog feed -->
+      {% for post in paginator.posts %}
+			<div class="row">
+			</div>
+			<div class="row content-container">
+				<div class="col-sm-12">
+					<h2 class="post-overview-title"><a class="post-link" href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h2>
+					<span class="post-meta">
+						{{ post.date | date: "%b %-d, %Y" }}</span>
+					</div>
+			    <ul class="post-list">
+      <li>
+        <div class="col-lg-6">
+          <div class="post-excerpts">
+						<a href="{{post.url}}">
+	            {% if post.use_youtube_image == true %}
+	            <img src="http://img.youtube.com/vi/{{post.youtube_code}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
+	            {% else %}
+	            <img src="{{post.youtube_alternate_image}}" alt="{{site.title}}" class="post-image"/>
+	            {% endif %}
+	          </a>
+          </div>
+        </div>
+				<div class="col-lg-6">
+					{{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "<p>" }}
+						<p class="readlink"><a href="{{post.url}}" class="readmore">Read More</a></p>
+				</div>
+      </li>
+		</ul>
+</div>
+      {% endfor %}

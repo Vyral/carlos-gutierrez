@@ -1,0 +1,102 @@
+<!-- Adopted from @shadowens brilliant solution: https://github.com/Shadowen/jekyll-paginator-links -->
+<!-- Paginator Links -->
+<div class="paginator-links">
+  {% if include.maxPages %}
+    {% assign maxPages = include.maxPages %}
+  {% else %}
+    <!-- maxPages attribute not passed in Liquid template, defaulting to 5 -->
+    {% assign maxPages = 5 %}
+  {% endif %}
+
+  {% assign halfPages = maxPages | divided_by: 2 %}
+  {% assign right-margin = paginator.total_pages | minus: paginator.page %}
+  {% if paginator.page <= halfPages %}
+    <!-- left-align -->
+    {% assign start = 1 %}
+    {% if paginator.total_pages > maxPages %}
+        {% assign end = maxPages %}
+    {% else %}
+        {% assign end = paginator.total_pages %}
+    {% endif %}
+  {% elsif right-margin <= halfPages %}
+    <!-- right-align -->
+    {% assign start = paginator.total_pages | minus: maxPages | plus: 1 | append: ',' | append: 1 | split: ',' | sort | last | plus: 0 %}
+    {% assign end = paginator.total_pages %}
+  {% else %}
+    <!-- center-align -->
+    {% assign position-less-half = paginator.page | minus: halfPages %}
+    {% if position-less-half < 1 %}
+        {% assign start = 1 %}
+    {% else %}
+        {% assign start = position-less-half %}
+    {% endif %}
+
+    {% assign position-plus-half = paginator.page | plus: halfPages %}
+    {% if position-plus-half > paginator.total_pages %}
+        {% assign end = paginator.total_pages %}
+    {% else %}
+        {% assign end = position-plus-half %}
+    {% endif %}
+  {% endif %}
+
+  {% if paginator.total_pages > 5 %}
+    <!-- First page -->
+    {% if paginator.previous_page %}
+      <a href="/" class="first-page"></a>
+    {% else %}
+      <span class="first-page"></span>
+    {% endif %}
+  {% endif %}
+
+  <!-- Previous page -->
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous-page"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.65"><defs><style>.cls-1{fill: $brand}</style></defs><title>arrow_left</title><path class="cls-1" d="M672.44 767a1 1 0 0 0 0 .13 1 1 0 0 0 0 .22 1 1 0 0 0 .29.71l12 12a1 1 0 0 0 1.41 0 1.25 1.25 0 0 0 0-1.61L675.77 768h21.66a1 1 0 1 0 0-2h-21.71l10.41-10.72a.89.89 0 0 0 0-1.32 1 1 0 0 0-.69-.23 1 1 0 0 0-.72.33l-12 12.57a1 1 0 0 0-.28.37z" transform="translate(-672.37 -753.74)"/></svg></a>
+  {% else %}
+    <span class="previous-page"><svg class="disabled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.65"><defs></defs><title>arrow_left</title><path class="cls-1" d="M672.44 767a1 1 0 0 0 0 .13 1 1 0 0 0 0 .22 1 1 0 0 0 .29.71l12 12a1 1 0 0 0 1.41 0 1.25 1.25 0 0 0 0-1.61L675.77 768h21.66a1 1 0 1 0 0-2h-21.71l10.41-10.72a.89.89 0 0 0 0-1.32 1 1 0 0 0-.69-.23 1 1 0 0 0-.72.33l-12 12.57a1 1 0 0 0-.28.37z" transform="translate(-672.37 -753.74)"/></svg></span>
+  {% endif %}
+
+  <!-- Start ellipsis -->
+  {% if start > 1 %}
+    <span class="start-ellipsis"></span>
+  {% endif %}
+
+    <!-- Page numbers -->
+    <span class="numbers">
+  {% for num  in (start..end)%}
+  	{% if num == paginator.page %}
+  	  <span class="number current">{{ num }}</span>
+  	{% elsif num == 1 %}
+  	  <a class="number" href="/">{{ num }}</a>
+  	{% else %}
+  	  <a class="number" href="/page{{ num }}">{{ num }}</a>
+  	{% endif %}
+    {% unless forloop.last %}
+      <span class="seperator"></span>
+    {% endunless %}
+  {% endfor %}
+  </span>
+
+  <!-- End ellipsis -->
+  {% if end < paginator.total_pages %}
+    <span class="end-ellipsis"></span>
+  {% endif %}
+
+  <!-- Next page -->
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next-page" target="_self"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.63"><title>arrow_right</title><path class="cls-1" d="M25.99 13.35a1 1 0 0 0 0-.13 1 1 0 0 0 0-.22 1 1 0 0 0-.29-.71l-12-12a1 1 0 0 0-1.41 0 1.15 1.15 0 0 0 0 1.54l10.34 10.41H1a1 1 0 0 0 0 2h21.72L12.31 25.03a.93.93 0 0 0 0 1.35 1 1 0 0 0 .69.25 1 1 0 0 0 .72-.32l12-12.57a1 1 0 0 0 .27-.39z"/></svg>
+</a>
+  {% else %}
+    <span class="next-page"><svg class="disabled" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.07 26.63"><title>arrow_right</title><path class="cls-1" d="M25.99 13.35a1 1 0 0 0 0-.13 1 1 0 0 0 0-.22 1 1 0 0 0-.29-.71l-12-12a1 1 0 0 0-1.41 0 1.15 1.15 0 0 0 0 1.54l10.34 10.41H1a1 1 0 0 0 0 2h21.72L12.31 25.03a.93.93 0 0 0 0 1.35 1 1 0 0 0 .69.25 1 1 0 0 0 .72-.32l12-12.57a1 1 0 0 0 .27-.39z"/></svg>
+</span>
+  {% endif %}
+
+<!-- becomes active if over 10pages -->
+{% if paginator.total_pages > 5 %}
+  <!-- Last page-->
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.total_pages }}" class="last-page" target="_self" ></a>
+  {% else %}
+    <span class="last-page"></span>
+  {% endif %}
+{% endif %}
+</div>

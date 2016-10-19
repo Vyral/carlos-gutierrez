@@ -1,0 +1,45 @@
+.zillow-logo
+	fill: $icon-fill
+	max-height: 3rem
+	position: relative
+	top: 0.5rem
+
+
+.trulia-logo
+	@extend .zillow-logo
+	top: 0.2rem
+
+.yelp-logo
+	@extend .zillow-logo
+
+.review-button-wrapper
+	text-align: left
+	height: 75px
+
+.review.button
+	svg
+		fill: $light-text
+		width: 100px
+	text-align: center
+	display: inline-block
+	max-width: 350px
+	width: 100%
+	margin: .5rem
+	font-size: 2rem
+	border-radius: 5px
+	@include transition(0.3s)
+	&:hover
+		svg
+			fill: $brand-light
+		background: transparent
+		color: $brand-light
+		box-shadow: 4px 4px 0 $brand-light
+		@include transform(scale(1.05))
+		@include transform(translateY(-0.2rem))
+	&:active
+		box-shadow: 0 0 0 $brand-light
+		@include transform(translateY(0rem))
+
+@media (max-width: 990px)
+	.review-button-wrapper
+		text-align: center

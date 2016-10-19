@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+	<body>
+
+		{% include navigation.html %}
+		{% include header.html %}
+
+  	<div class="container-fluid">
+
+				<div class="col-sm-12 visible-xs visible-sm sidebar">
+					{% include socials.html %}
+					{% include search-box.html %}
+
+				</div>
+			<div class="col-lg-7 col-md-7 col-lg-offset-1">
+				{{ content }}
+			</div>
+			<div class="col-md-5 col-lg-3 hidden-sm hidden-xs sidebar">
+				{% include socials.html %}
+				{% include search-box.html %}
+				{% include blog-archive-category.html %}
+			</div>
+		</div>
+		{% include footer.html %}
+  </body>
+</html>

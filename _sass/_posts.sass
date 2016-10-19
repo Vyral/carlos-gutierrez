@@ -1,0 +1,252 @@
+.content-wrapper
+  position: relative
+  bottom: 5.5rem
+  border-radius: 9px 9px 0 0
+  @include shadow
+
+.post-container
+  padding-right: 20px
+.pad
+  padding: 0 2rem
+
+.post-list
+  li
+    display: inline
+
+.post-overview-title
+  font-size: 3rem
+  text-align: left
+
+.post-title
+  font-size: 5rem
+  text-align: left
+
+.post-link
+  @include transition(all .3s ease-in-out)
+
+.post-image
+  width: 100%
+  margin-bottom: 20px
+  @include shadow
+
+.excerpt
+  font-size: 18px
+  padding-bottom: 20px
+
+.post-list
+  ul
+    margin: 0 auto
+  li
+    display: inline
+
+// .content-container
+// 	padding: 10px 5px 30px 5px
+.center-image
+  margin: 0 auto
+  display: block
+
+.readlink>a
+  background: $brand
+  color: $light-text
+  border: 1px solid $brand
+  border-radius: 5px
+  padding: 10px 20px
+  margin-top: 20px
+  text-decoration: none
+  font-size: 16px
+  +transition
+  &:hover
+    background: transparent
+    color: $brand-light
+    box-shadow: 4px 4px 0 $brand-light
+    border: 1px solid $brand-light
+    @include transform(scale(1.05))
+    @include transform(translateY(-0.2rem))
+  &:active
+    box-shadow: 0 0 0 $brand-light
+    @include transform(translateY(0rem))
+
+
+
+// .readmore
+//   color: $readmore-border-color
+//   padding: 1rem 2rem
+//   border: 1px solid $readmore-border-color
+//   border-radius: 7px
+//   @include transition(0.3s cubic-bezier(0.93, 1.9, 0.62, 0.74))
+//   &:hover
+//     background: $brand
+//     color: $light-text
+//     border: 1px solid $brand
+//     font-size: 1.8rem
+
+#arrow_left, #arrow_right
+  max-width: 2rem
+
+.pagination
+  text-align: center
+  padding: 1rem
+  font-size: 2.7rem
+  font-weight: 200
+
+.row.title
+  position: relative
+
+.post-content
+  padding: 1rem
+  p
+    font-size: 18px
+
+.pullquote
+  font-style: italic
+  font-size: 2rem
+  text-align: center
+  max-width: 70%
+  display: block
+  margin: 1.5rem auto
+  @include transition(0.3s)
+  &:hover
+    &::after
+      background-position: left
+  &::after
+    content: ""
+    height: 2rem
+    width: rem(41)
+    background: url(/img/svg/tweetlink.svg)
+    background-size: cover
+    background-position: right
+    display: inline-block
+    margin-left: 1rem
+    overflow: visible
+    a
+      width: 3rem
+
+.post
+  #hero
+    @include display(flex)
+  .site-logo
+    max-width: 15rem
+    margin-top: 3rem
+
+  .site-title
+    font-size: 3rem
+    text-align: left
+    position: absolute
+    bottom: 0
+
+  .post-title
+    font-size: 5rem
+    margin: 2rem 0
+    color: $header-font-color
+    text-transform: uppercase
+    text-shadow: $header-shadow
+
+  .headshot
+    width: 100%
+    max-width: 15rem
+    border-radius: 50%
+    @include transition(0.3s)
+    &:hover
+      @include transform(scale(0.9))
+
+  .fluid-vids
+    margin: 3rem 0
+
+.tag-container
+  color: $header-font-color
+  text-shadow: $header-shadow
+  margin-bottom: 1rem
+.tag
+  text-transform: uppercase
+  color: $header-font-color
+  font-weight: 300
+
+.author-attribution
+  color: $header-font-color
+  font-weight: 300
+  text-shadow: $header-shadow
+  margin-bottom: 2rem
+  font-style: italic
+  a
+    color: white
+    &:hover
+      color: $brand-light
+.post-share
+  text-align: center
+  padding-bottom: 0px
+  p
+    margin-bottom: 0
+    padding-bottom: 0
+  .socials
+    list-style: none
+    li
+      display: inline-block
+      margin: 0 auto
+      padding: .3rem
+  #Twitter
+    background: $light-text
+    border: 0
+    fill: #1DA1F2
+  #facebook
+    background: $light-text
+    border: 0
+    fill: #3B5999
+  #Google_plus
+    background: $light-text
+    border: 0
+    fill: #D73D32
+
+@media(max-width: 1000px)
+  .six.columns.post-wrapper
+    width: 100%
+  .content-wrapper
+    //padding-right: 2rem
+  .post
+    .site-logo
+      margin-top: $nav-height
+      margin-left: 1rem
+
+    .post-title
+      font-size: 3rem
+
+@media (max-width: 1000px)
+  .content-wrapper
+    box-shadow: none
+  .six.columns.post-wrapper
+    margin: 1rem 0
+
+@media (max-width: 1000px) and (min-width: 900px)
+  .six.columns.post-wrapper
+    width: 100%
+    height: 750px
+
+@media(max-width: 900px) and (min-width: 700px)
+  .six.columns.post-wrapper
+    height: 685px
+
+@media (max-width: 775px)
+  .content-wrapper
+    box-shadow: none
+  .single.content-wrapper
+    //padding-left: 2rem
+  .post-wrapper
+    height: 575px
+
+@media (max-width: 550px)
+  .six.columns.post-wrapper
+    height: 530px
+  .post
+    .site-logo
+      margin-left: 0
+    .site-title
+      position: relative
+      text-align: center
+      font-size: 2rem
+    .post-title
+      font-size: 2.5rem
+      margin: 1.5rem
+    .headshot
+      display: none
+@media (max-width: 992px)
+  .post-container
+    padding-right: 0px

@@ -1,0 +1,59 @@
+.modal-wrapper
+  display: none
+  position: fixed
+  z-index: 8
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  overflow: auto
+  background: $transparent-black
+  animation: fade .5s
+  color: #555
+@keyframes fade
+  0%
+    filter: opacity(0)
+  100%
+    filter: opacity(1)
+
+@keyframes slide
+  0%
+    filter: opacity(0)
+    transform: translateY(-300px)
+  100%
+    filter: opacity(1)
+    transform: translateY(0)
+
+.contact-modal
+  position: relative
+  background: white
+  padding: 2rem
+  margin: 10% auto
+  width: 90%
+  max-width: 50rem
+  animation: slide .5s
+  +shadow
+  +transition
+  address
+    font-style: normal
+.label
+  font-size: 2rem
+
+.fa-times-circle
+  position: absolute
+  right: 1rem
+  top: 1rem
+  color: $brand
+  +transition
+  cursor: pointer
+  background: #fff
+  border-radius: 50%
+  &:hover
+    color: $brand-light
+  &:focus
+    outline: 0
+    border: 0
+
+@media (max-width: 500px)
+  .contact-modal
+    margin: 25% auto

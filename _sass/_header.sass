@@ -1,0 +1,59 @@
+.hero-img
+	background-position: center
+	background-size: cover
+	padding-top: $nav-height + 5rem
+#hero
+	background-position: center
+	background-size: cover
+	background-attachment: fixed
+	background-repeat: no-repeat
+	// height: 50rem
+	text-align: center
+	margin-bottom: 20px
+
+.site-logo
+	width: 90%
+	max-width: 28rem
+
+	// margin-top: $nav-height + $nav-height
+	@include filter(drop-shadow($header-shadow))
+
+.site-title
+	color: $header-font-color
+	text-shadow: $header-shadow
+	text-transform: uppercase
+	font-size: 6.5rem
+	padding-bottom: 4rem
+
+@media (max-width: 1100px)
+	.site-title
+		font-size: 5rem
+
+@media (max-width: 1000px)
+	.site-logo
+		max-width: 20rem
+
+@media (max-width: 760px)
+	#hero
+		// height: 33rem
+	.site-logo
+		max-width: 20rem
+		margin-top: 4rem
+	.site-title
+		font-size: 5rem
+
+@media (max-width: 600px)
+	#hero
+		// height: 31rem
+	.site-logo
+		max-width: 15rem
+		margin-top: 2rem
+	.site-title
+		font-size: 3.5rem
+	.cta
+		padding: 1rem
+@media (max-width: 400px)
+	#hero
+		// height: 25rem
+	.cta
+		padding: 0.5rem

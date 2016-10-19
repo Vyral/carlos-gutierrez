@@ -1,0 +1,40 @@
+<div class="testimonial-area">
+		{% if site.data.testimonials.show_testimonials_section == true %}
+			<div class="testimonial-container">
+				<div class="testimonial-navigation">
+		  		<a class="testimonial-btn prev"><i class="fa fa-arrow-left"></i></a>
+						<h3>Hear what people are saying about us:</h3>
+		  		<a class="testimonial-btn next"><i class="fa fa-arrow-right"></i></a>
+				</div>
+				<div id="owl-carousel" class="owl-carousel">
+		      {% for item in site.data.testimonials.testimonial %}
+
+						<div class="item-container">
+							<div class="item">
+								<div id="item-truncated">
+		            {{item.quote | prepend: '<p class="testimonial">' | append: '</p>' | truncate: 300 }}
+								{% if item.quote.size >= 296 %}
+									<p class="expand item-toggle">Show More <i class="fa fa-plus-square-o expand"></i></p>
+								{% endif %}
+								</div>
+								<div id="item-expanded" class="item-hide">
+		            {{item.quote | prepend: '<p class="testimonial">' | append: '</p>' }}
+								{% if item.quote.size >= 296 %}
+									<p class="expand item-toggle">Show Less <i class="fa fa-minus-square-o expand"></i></p>
+								{% endif %}
+								</div>
+		            {{item.name | prepend: '<p class="testimonial-attribute"> - ' | append: '</p>'}}
+								<div class="testimonial-audio">
+									{% if item.audio != null %}
+										<p>Listen to the whole Interview:</p>
+										<audio class="jp-player-simple" src="{{item.audio}}" preload="auto">Your browser does not support HTML5 audio, please <a href="http://browsehappy.com/">update your browser.</a></audio>
+									{% endif %}
+									<i class="fa fa-quote-right fa-2x"></i>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{% endif %}
+</div>

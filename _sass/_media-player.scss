@@ -1,0 +1,111 @@
+$color-highlight: $brand-light;
+$color-background: rgba(0,0,0,0);
+$color-progress: $brand-light;
+$color-text: $brand;
+$color-text-muted: $brand;
+
+.jp-audio {
+  border: 0;
+  color: $color-text;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-tap-highlight-color: $brand-light;
+  text-align: left;
+  -webkit-touch-callout: none;
+  user-select: none;
+  width: 75%;
+
+
+  // hide volume buttons on mobile
+  &.jp-state-no-volume .jp-volume-controls {
+    display: none;
+  }
+
+  // toggle visibility of mute/volume buttons
+  &.jp-state-muted .jp-controls a {
+    &.jp-volume-max {
+      display: inline-block !important;
+
+    }
+
+    &.jp-mute {
+      display: none;
+    }
+  }
+
+  // toggle visibility of pause buttons when playing
+  &.jp-state-playing .jp-controls a {
+    &.jp-pause {
+      display: inline-block !important;
+    }
+  }
+
+  .jp-controls {
+    table-layout: fixed;
+    width: 100%;
+		border-bottom: 5px solid #fff;
+    font-size: 20px;
+    margin: 5px 0 0;
+
+    // hide volume button until muted
+    .jp-volume-max {
+      display: none !important;
+    }
+
+    .jp-pause,.jp-play {
+      background-color: $color-background;
+    }
+
+    a {
+      background-color: $color-background;
+      color: $brand;
+      display: inline-block;
+      line-height: 40px;
+      text-align: center;
+      text-decoration: none;
+      width: 100%;
+			@include transition;
+
+      &:hover {
+        color: $color-highlight;
+      }
+    }
+  }
+
+  .jp-progress {
+    background-color: #fff;
+    height: 10px;
+    margin-top: 10px;
+
+    .jp-seek-bar {
+      cursor: pointer;
+      height: 100%;
+    }
+
+    .jp-play-bar {
+      background-color: $color-progress;
+      height: 100%;
+      width: 0;
+    }
+  }
+
+  .timekeeper {
+    color: $color-text-muted;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  .jp-no-solution {
+    background-color: #b28282;
+    color: $color-background;
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    text-align: center;
+  }
+}

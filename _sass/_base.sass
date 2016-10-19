@@ -1,0 +1,194 @@
+\:root
+  font-size: 10px
+
+html
+  font-size: 10px
+
+*
+  box-sizing: border-box
+  -webkit-font-smoothing: subpixel-antialiased
+  -webkit-text-size-adjust: none
+
+::selection
+  text-shadow: none
+  background: $brand
+  color: $light-text
+
+.site-logo, h1.site-title
+  animation: 1s ease-in-out fadein
+
+.content-container, .post-container
+  animation: 1s ease-in-out slideup
+nav
+  animation: 1s ease-in-out slidedown
+.sidebar
+  animation: 1s ease-in-out slideup
+nav.socials
+  animation: .5s ease-in-out slideup
+@keyframes slideup
+  0%
+    opacity: 0
+    transform: translateY(40px)
+    -webkit-transform: translateY(40px)
+    -ms-transform: translateY(40px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+    -webkit-transform: translateY(0px)
+    -ms-transform: translateY(0px)
+@keyframes slidedown
+  0%
+    opacity: 0
+    transform: translateY(-40px)
+    -webkit-transform: translateY(-40px)
+    -ms-transform: translateY(-40px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+    -webkit-transform: translateY(0px)
+    -ms-transform: translateY(0px)
+@keyframes fadein
+  0%
+    transform: scale(1.01)
+    -webkit-transform: scale(1.01)
+    -ms-transform: scale(1.01)
+    opacity: 0
+  100%
+    transform: scale(1)
+    -webkit-transform: scale(1)
+    -ms-transform: scale(1)
+    opacity: 1
+
+// ::-webkit-scrollbar
+//  width: 12px
+//
+// //Pseudo ::scrollbar-button element
+// ::-webkit-scrollbar-button
+//   background: $brand
+//
+// //Pseudo ::scrollbar-corner element
+// ::-webkit-scrollbar-corner
+//   background: $brand
+//
+// //Pseudo ::scrollbar-thumb element
+// ::-webkit-scrollbar-thumb
+//   background: $brand
+//
+// //Pseudo ::scrollbar-track element
+// ::-webkit-scrollbar-track
+//   background: $footer-background
+
+body
+  font-family: $bodyfont
+  color: $theme-body-text
+  margin: 0
+  background: $theme-body-color
+  animation: 1s ease-in-out fadein
+
+h1, h2, h3, h4, h5, h6
+  font-family: $headerfont
+  font-weight: 200
+  margin: 1rem 0
+
+h1
+  font-size: 5rem
+
+h2
+  font-size: 4.2rem
+h3
+  font-size: 3.6rem
+h4
+  font-size: 3rem
+h5
+  font-size: 2.4rem
+h6
+  font-size: 1.5rem
+
+.left
+  text-align: left
+
+.center
+  text-align: center
+
+.container
+  width: 100%
+  max-width: $main-width
+  margin: 0 auto
+
+a
+  color: $brand
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    color: $brand-light
+
+//Buttons
+.button, button, input[type="button"],input[type="submit"]
+  color: $light-text
+  background: $brand
+  padding: 1rem 2rem
+  border: 1px solid $brand
+  border-radius: 0px
+  &:hover
+    background: $brand-light
+    border: 1px solid $brand-light
+    color: $light-text
+  &:visited
+    color: $light-text
+
+
+.button-ghost
+  @extend .button
+  background: transparent
+  border: 1px solid $light-text
+  &:hover
+    background: rgba(255,255,255,0.7)
+    border: 1px solid $light-text
+    color: $brand
+
+.button-ghost.brand
+  border-color: $brand
+  color: $brand
+  &:hover
+    border-color: $brand-light
+    color: $brand-light
+
+table
+  tr, td
+    border-bottom: 1px solid gray
+    padding: 0.5rem
+
+
+// Guess what I do
+.hidden
+  display: none
+// for screen readers
+.sr-only
+  position: absolute
+  width: 1px
+  height: 1px
+  padding: 0
+  margin: -1px
+  overflow: hidden
+  clip: rect(0,0,0,0)
+  border: 0
+
+//For pageination mostly...
+.disabled
+  color: gray
+  fill: grey
+
+//primarily for helper_header
+.warning
+  padding-top: $nav-height*2
+  background: red
+  color: $light-text
+
+// .content-container
+//   background: $light-text
+//   color: #000
+//   border-radius: 8px
+//   transition: all .3s ease-in-out
+//   margin-top: 20px
+//   &:hover
+//     +shadow

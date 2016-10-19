@@ -1,0 +1,54 @@
+
+<div class="modal-wrapper">
+  <div class="contact-modal" id="modal">
+    <strong class="label">Contact Us</strong>
+    <address>
+      <strong>{{site.data.settings.client.name}}</strong>
+      {% if site.data.settings.client.brand and site.data.settings.client.brokerage == null %}
+        <br>
+        {{site.data.settings.client.address}}
+				<br>
+      {% elsif site.data.settings.client.brand == null %}
+        <br>
+        {{site.data.settings.client.brokerage}}
+        <br>
+        {{site.data.settings.client.address}}
+				<br>
+      {% elsif site.data.settings.client.brokerage == null %}
+        <br>
+        {{site.data.settings.client.brand}}
+        <br>
+        {{site.data.settings.client.address}}
+				<br>
+      {% else %}
+        <br>
+        {{site.data.settings.client.brand}}
+        <br>
+        {{site.data.settings.client.brokerage}}
+        <br>
+        {{site.data.settings.client.address}}
+        <br>
+      {% endif %}
+      <a href="tel:1-{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
+      <br>
+      <a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
+    </address>
+
+    <i class="fa fa-times-circle fa-2x exit" aria-hidden="true"></i>
+
+    <form class="contact-form" method="post" action="http://formspree.io/{{site.data.settings.client.email}}">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="_replyto" placeholder="Email" required>
+      <textarea name="Message" placeholder="Message"></textarea>
+      <!-- Cloud cannon settings field -->
+      <div class="hidden">
+        <input type="hidden" name="_to" value="{{site.data.settings.client.email}}">
+        <input type="hidden" name="_subject" value="Contact Message From Your {{site.data.settings.title}}">
+        <input type="text" name="_gotcha">
+      </div>
+
+      <input type="submit" value="submit">
+    </form>
+
+  </div>
+</div>

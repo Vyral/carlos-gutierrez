@@ -1,0 +1,22 @@
+
+<div class="about-container">
+	<h5>About {{site.data.settings.client.name}}</h5>
+	<div class="client-image-container">
+	<img src="{{site.data.settings.images.client_headshot_path }}" alt="{{site.data.settings.client.company}}" class="client-image" />
+	</div><br />
+	{{site.data.settings.client.about_markdown | markdownify }}
+	<p>
+		<b>{{ site.data.settings.client.name }}</b><br />
+		{% if site.data.settings.client.license_number != null %}
+		#{{ site.data.settings.client.license_number }}</br>
+		{% endif %}
+		{{ site.data.settings.client.brand }}<br />
+		{% if site.data.settings.client.brokerage != null %}
+		{{ site.data.settings.client.brokerage }}<br />
+		{% endif %}
+		{{ site.data.settings.client.address }}<br />
+		{{ site.data.settings.client.phone }}<br />
+		<a href="mailto:{{ site.data.settings.client.email }}" target="_blank">{{ site.data.settings.client.email }}</a><br />
+		<a href="http://{{ site.data.settings.client.url }}" target="_blank">{{ site.data.settings.client.url }}</a><br />
+	</p>
+</div>

@@ -1,0 +1,24 @@
+  <div>
+			<h5>Post Library</h5>
+			{% for tag in site.tags %}
+					<div class="catbloc" id="{{ tag | first | remove:' ' }}">
+							<li>
+								<label class="tree-toggle nav-header">{{ tag | first }}</label>
+							<ul class="nav nav-list tree" style="display: none;">
+								 {% for posts in tag %}
+									 {% for post in posts %}
+										 {% if post.url %}
+											 <li>
+												 <!-- <time>{{ post.date | date: "%B %-d, %Y" }}</time> -->
+												 <a href="{{ post.url }}">
+													 {{ post.title }}
+												 </a>
+											 </li>
+										 {% endif %}
+									 {% endfor %}
+								 {% endfor %}
+							</ul>
+							</li>
+					</div>
+			{% endfor %}
+  </div>

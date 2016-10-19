@@ -1,0 +1,184 @@
+<form method="post" class="home-value" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
+    <fieldset>
+        <p id="thanks"></p>
+        <!--1-->
+        <label for="type">What type of property are you looking for?</label>
+        <select name="type">
+            <option value="-Any-" selected="selected">
+                -Any-
+            </option>
+            <option value="-Any-">
+                Single-Family Home
+            </option>
+            <option value="Condo">
+                Condo
+            </option>
+            <option value="Villa/Townhouse">
+                Villa/Townhouse
+            </option>
+            <option value="Rentals">
+                Rentals
+            </option>
+        </select>
+
+        <!--2-->
+        <label for="price">
+            What is your desired price range?
+        </label>
+        <select name="price">
+            <option value="-Any-" selected="selected">
+                -Any-
+            </option>
+            <option value="under 100k">
+                under 100k
+            </option>
+            <option value="in the $100's">
+                in the $100's
+            </option>
+            <option value="in the $200's">
+                in the $200's
+            </option>
+            <option value="in the $300's">
+                in the $300's
+            </option>
+            <option value="in the $400's">
+                in the $400's
+            </option>
+            <option value="in the $500's">
+                in the $500's
+            </option>
+            <option value="in the $600's">
+                in the $600's
+            </option>
+            <option value="in the $700's">
+                in the $700's
+            </option>
+            <option value="in the $800's">
+                in the $800's
+            </option>
+            <option value="in the $900's">
+                in the $900's
+            </option>
+            <option value="in $1Mil's">
+                in $1Mil's
+            </option>
+            <option value="more than 2M">
+                more than 2M
+            </option>
+        </select>
+
+        <!--3-->
+        <label for="bathrooms">Minimum number of bathrooms?</label>
+        <select name="bathrooms">
+            <option value="-Select-" selected="selected">
+                -Select-
+            </option>
+            <option value="1">
+                1
+            </option>
+            <option value="2">
+                2
+            </option>
+            <option value="3">
+                3
+            </option>
+            <option value="4">
+                4
+            </option>
+            <option value="5">
+                5
+            </option>
+            <option value="6">
+                6
+            </option>
+            <option value="7+">
+                7+
+            </option>
+        </select>
+        <!--4-->
+        <label for="bedrooms">Minimum number of bedrooms?</label>
+        <select name="bedrooms">
+            <option value="-Select-" selected="selected">
+                -Select-
+            </option>
+            <option value="1">
+                1
+            </option>
+            <option value="2">
+                2
+            </option>
+            <option value="3">
+                3
+            </option>
+            <option value="4">
+                4
+            </option>
+            <option value="5">
+                5
+            </option>
+            <option value="6">
+                6
+            </option>
+            <option value="7+">
+                7+
+            </option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <!--5-->
+        <label for="comments?">
+            Any important features or comments?
+        </label>
+        <textarea name="comments"></textarea>
+    </fieldset>
+    <fieldset>
+        <!--5-->
+        <label for="when?">
+            When are you looking to move?
+        </label>
+        <select name="when">
+            <option value="Just Browsing" selected="selected">
+                Just Browsing
+            </option>
+            <option value="Less than one month">
+                Less than one month
+            </option>
+            <option value="1-3 months">
+                1-3 months
+            </option>
+            <option value="3-6 months">
+                3-6 months
+            </option>
+            <option value="6 months+">
+                6 months+
+            </option>
+        </select>
+        <!--7-->
+        <label for="name">Name<span class="asterisk">*</span>
+        </label>
+        <input type="text" name="name" required>
+
+        <!--9-->
+        <label for="email">Email<span class="asterisk">*</span>
+        </label>
+        <input type="email" name="_replyto" required>
+        <!--10-->
+        <label for="phone">Number</label>
+        <input type="tel" name="phone">
+        <input type="submit" class="submit button" value="Submit" name="submitBuyerForm">
+        <span class="asterisk">*</span>required
+    </fieldset>
+      <!-- Cloud cannon settings field -->
+      <div class="hidden">
+        <input type="hidden" name="_to" value="{{site.data.settings.client.email}}">
+        <input type="hidden" name="_subject" value="Contact Message From Your {{site.data.settings.title}}">
+        <input type="text" name="_gotcha">
+      </div>
+    </form>
+<script>
+function setReturn(){
+  localStorage.setItem("thanks", "Your request was sent successfully!");
+  document.getElementById("thanks").innerHTML =    localStorage.getItem("thanks");
+  localStorage.clear();
+}
+</script>

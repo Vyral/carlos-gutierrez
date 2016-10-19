@@ -1,0 +1,44 @@
+title: "Andross"
+# the subpath of your site, e.g. /blog
+baseurl: ""
+# the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
+# Change for production:
+url: "localhost:5000"
+
+# Build settings
+markdown: kramdown
+
+#Handling Reading
+encoding: "utf-8"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+paginate: 5
+permalink: none
+
+gems:
+  - jemoji
+  - octopress-autoprefixer
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-admin
+#  - jekyll-seo-tag
+
+# Excludes
+exclude:
+  - .sass-cache
+
+sass:
+  sass_dir: _sass
+  style: :nested
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

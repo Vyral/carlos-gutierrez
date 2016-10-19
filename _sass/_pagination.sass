@@ -1,0 +1,64 @@
+.paginator-links
+  text-align: center
+  padding: 1rem
+  font-size: 3rem
+  font-weight: 300
+  display: inline-table
+  width: 100%
+  color: $footer-background
+  svg
+    fill: $brand
+    @include size(2rem)
+  .disabled
+    fill: $footer-background
+/* Text components */
+
+.paginator-links .start-ellipsis::before,
+.paginator-links .end-ellipsis::before
+  content: '...'
+
+
+.paginator-links .seperator::before
+  content: ''
+
+
+.paginator-links .first-page::before
+  content: 'First'
+
+
+.paginator-links .previous-page::before
+  content: ''
+
+
+.paginator-links .next-page::before
+  content: ''
+  display: table-row-group
+
+
+.paginator-links .last-page::before
+  content: 'Last'
+
+
+
+/* The actual buttons */
+
+// .paginator-links .numbers
+
+.paginator-links .first-page::before,
+.paginator-links .previous-page::before,
+.paginator-links .next-page::before,
+.paginator-links .last-page::before,
+.paginator-links .number
+  border-radius: 1em
+  margin: 0.5rem
+  padding: 0.5rem
+
+
+.paginator-links .number.current
+  font-weight: bold
+
+@media (max-width: 500px)
+  .paginator-links
+    font-size: 2.5rem
+    svg
+      @include size(2rem)
