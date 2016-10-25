@@ -1,4 +1,4 @@
-audit_header: true
+audit_header: false
 title: The Base Template
 description: If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- CLIENT BRAND -- - your professional -- MARKET -- Real Estate Agents.
 show_custom_links: false
@@ -22,6 +22,8 @@ client:
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
   VR_form:
+welcome-text: |
+  Each month we will send out two videos detailing what’s going on in our local real estate market. We’ll also discuss the latest market trends, the world of financing, and everything that’s happening in the real estate market. If you have any questions about real estate, let us know and we’ll answer you with a video.
 socials:
   review_sm_icons: false
   facebook_url:
@@ -47,10 +49,10 @@ images:
   client_headshot_path: '/img/headshot.jpg'
   hero_logo_path: '/img/logo.png'
   hero_text: Real Estate Video Blog
-  hero_background_hex: '#730709'
+  hero_background_hex: '#094264'
   hero_image_path: '/img/background.jpg'
 brand_color: '#094264'
-theme_color: '#ffffff'
+theme_color: '#094264'
 theme_text_color: '#353535'
 main_body_color: '#ffffff'
 main_body_text_color: '#353535'

@@ -1,0 +1,12 @@
+	<i class="fa fa-times fa-2x welcome-exit" aria-hidden="true"></i>
+<div class="col-lg-8 col-lg-offset-2">
+	<h2 class="center">Welcome!</h2>
+	<p class="center">
+	{{site.data.settings.welcome-text}}
+</p>
+        <form action="{{site.data.settings.client.VR_form}}" method="post" class='newsletter_optin' target="blank">
+          <input type="email" name="email_address" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required>
+          <input type="text" name="_gotcha" class="hidden">
+          <input type="submit" value="Sign up">
+        </form>
+</div>

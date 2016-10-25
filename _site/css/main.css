@@ -1177,6 +1177,28 @@ html[xmlns] .flexslider .slides {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
+.welcome-box {
+  background: #094264;
+  padding: 20px 0px;
+  color: white;
+  margin-top: -1px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; }
+
+.welcome-exit {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  cursor: pointer; }
+  .welcome-exit:hover {
+    color: #1180c2; }
+  .welcome-exit:focus {
+    outline: 0;
+    border: 0; }
+
 .jp-audio {
   border: 0;
   color: #094264;
@@ -1252,7 +1274,7 @@ html[xmlns] .flexslider .slides {
   border: none;
   border-radius: 0;
   min-height: 65px;
-  background: #ffffff;
+  background: #094264;
   width: 100%;
   overflow: hidden; }
   .navbar-andross .cta {
@@ -1343,7 +1365,7 @@ html[xmlns] .flexslider .slides {
 
 @media(max-width: 347px) {
   .navbar-header a.navbar-brand {
-    color: #ffffff; } }
+    color: #094264; } }
 .catbloc li {
   font-size: 20px;
   color: #094264;
@@ -1364,7 +1386,7 @@ label.tree-toggle {
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 0; }
 
 .site-logo {
   width: 90%;
@@ -1377,7 +1399,8 @@ label.tree-toggle {
   text-shadow: 0 2px 7px black;
   text-transform: uppercase;
   font-size: 6.5rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem;
+  margin-bottom: 0; }
 
 @media (max-width: 1100px) {
   .site-title {
@@ -2136,7 +2159,7 @@ table tr, table td {
     max-width: 350px; }
 
 .footer {
-  background: #fefefe;
+  background: #094163;
   color: #353535;
   padding: 2rem;
   text-align: center;
@@ -2236,7 +2259,7 @@ table tr, table td {
       align-self: flex-start; }
 
 .testimonial-container {
-  background: #f2f2f2;
+  background: #07334d;
   color: #353535;
   padding: 3rem 10rem; }
 
@@ -2357,7 +2380,7 @@ table tr, table td {
 .label {
   font-size: 2rem; }
 
-.fa-times-circle {
+.exit {
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -2367,9 +2390,9 @@ table tr, table td {
   cursor: pointer;
   background: #fff;
   border-radius: 50%; }
-  .fa-times-circle:hover {
+  .exit:hover {
     color: #1180c2; }
-  .fa-times-circle:focus {
+  .exit:focus {
     outline: 0;
     border: 0; }
 
@@ -2518,7 +2541,7 @@ form select {
     margin: 10px auto;
     width: 90%; } }
 .site-logo {
-  max-width: 18rem; }
+  max-width: 40rem; }
 
 .footer {
   color: #fff; }
@@ -2530,7 +2553,7 @@ form select {
     color: #fff; }
 
 .newsletter {
-  background: #f7f7f7; }
+  background: #083956; }
 
 .navbar-left li a {
   color: #fff; }

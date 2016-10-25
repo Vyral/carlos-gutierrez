@@ -130,4 +130,8 @@ $('.item-toggle').on('click', function(event){
 	 }
 });
 
+
+$('.welcome-exit').on('click', function(event){
+	$('.welcome-box').addClass('hidden');
+})
 });
