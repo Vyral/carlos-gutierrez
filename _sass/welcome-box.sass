@@ -1,3 +1,9 @@
+@media (max-width: 1113px)
+#welcome-box
+	form
+		input
+			width: 100%
+
 .welcome-box
 	background: $brand
 	padding: 20px 0px
@@ -5,8 +11,20 @@
 	margin-top: -21px
 	@include shadow
 	margin-bottom: 20px
-	height: 0px
+	max-height: 0px
 	overflow: hidden
+
+.welcome-box-seen-before
+	max-height: 500px
+	margin-top: -1px
+	opacity: 1
+	transform: translateX(0)
+	background: $brand
+	padding: 20px 0px
+	color: $light-text
+	margin-bottom: 20px
+	@include shadow
+	padding: 20px 0px
 
 .add-welcome-box
 	transform: translateY(-1000px)
@@ -20,22 +38,22 @@
 @keyframes drop-down
 	0%
 		transform: translateY(-1000px)
-		height: 0
+		max-height: 0
 	50%
-		height: 275px
+		max-height: 500px
 	100%
 		transform: translateX(0)
-		height: 275px
+		max-height: 500px
 
 @keyframes pull-up
 	0%
 		// opacity: 0
 		transform: translateX(0)
-		height: 275px
+		max-height: 500px
 	100%
 		// opacity: 1
 		transform: translateY(-1000px)
-		height: 0
+		max-height: 0
 // @keyframes fade-in-welcome
 .welcome-exit
 	position: absolute
@@ -49,3 +67,6 @@
 	&:focus
 		outline: 0
 		border: 0
+
+.welcome-hidden-margin
+	margin-bottom: 20px

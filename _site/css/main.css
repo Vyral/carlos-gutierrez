@@ -1177,6 +1177,9 @@ html[xmlns] .flexslider .slides {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
+#welcome-box form input {
+  width: 100%; }
+
 .welcome-box {
   background: #094264;
   padding: 20px 0px;
@@ -1184,8 +1187,21 @@ html[xmlns] .flexslider .slides {
   margin-top: -21px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
-  height: 0px;
+  max-height: 0px;
   overflow: hidden; }
+
+.welcome-box-seen-before {
+  max-height: 500px;
+  margin-top: -1px;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  background: #094264;
+  padding: 20px 0px;
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+  padding: 20px 0px; }
 
 .add-welcome-box {
   -webkit-transform: translateY(-1000px);
@@ -1205,43 +1221,43 @@ html[xmlns] .flexslider .slides {
   0% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
-    height: 0; }
+    max-height: 0; }
   50% {
-    height: 275px; }
+    max-height: 500px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    height: 275px; } }
+    max-height: 500px; } }
 
 @keyframes drop-down {
   0% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
-    height: 0; }
+    max-height: 0; }
   50% {
-    height: 275px; }
+    max-height: 500px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    height: 275px; } }
+    max-height: 500px; } }
 @-webkit-keyframes pull-up {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    height: 275px; }
+    max-height: 500px; }
   100% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
-    height: 0; } }
+    max-height: 0; } }
 @keyframes pull-up {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    height: 275px; }
+    max-height: 500px; }
   100% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
-    height: 0; } }
+    max-height: 0; } }
 .welcome-exit {
   position: absolute;
   right: 1rem;
@@ -1255,6 +1271,9 @@ html[xmlns] .flexslider .slides {
   .welcome-exit:focus {
     outline: 0;
     border: 0; }
+
+.welcome-hidden-margin {
+  margin-bottom: 20px; }
 
 .jp-audio {
   border: 0;

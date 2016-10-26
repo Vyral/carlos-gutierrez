@@ -130,27 +130,27 @@ $('.item-toggle').on('click', function(event){
 	 }
 });
 
-//add and remove welcome box
+//WELCOME BOX
+//only does dropdown animation once per session
 if(sessionStorage.getItem('popState') != 'shown'){
-$('.welcome-box').addClass('add-welcome-box');
-        sessionStorage.setItem('popState','shown')
-    }
-		else{
-			$('.welcome-box').addClass('hidden');
-		}
+$('#welcome-box').addClass('add-welcome-box');
+			sessionStorage.setItem('popState','shown')
+}
+else{
+	$('#welcome-box').addClass('welcome-box-seen-before');
+}
 
-    $('.welcome-exit').click(function(e) // You are clicking the close button
-    {
-			$('.welcome-box').addClass('remove-welcome-box');
-			$('.welcome-box').removeClass('add-welcome-box');
-    });
+//hide welcome box the remainder of the session if the X is pressed
+if(sessionStorage.getItem('exitState') == 'shown-exit'){
+	$('#welcome-box').addClass('hidden');
+	$('#hero').addClass('welcome-hidden-margin');
+}
 
-
-
-// $('.welcome-exit').on('click', function(event){
-// 	$('.welcome-box').addClass('remove-welcome-box');
-// 	$('.welcome-box').removeClass('add-welcome-box');
-// })
+$('.welcome-exit').click(function(e){
+	$('#welcome-box').addClass('remove-welcome-box');
+	$('#welcome-box').removeClass('add-welcome-box');
+	sessionStorage.setItem('exitState','shown-exit')
+});
 //end of welcome box
 
 });
