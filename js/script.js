@@ -130,8 +130,9 @@ $('.item-toggle').on('click', function(event){
 	 }
 });
 
-
+$('.welcome-box').addClass('add-welcome-box');
 $('.welcome-exit').on('click', function(event){
-	$('.welcome-box').addClass('hidden');
+	$('.welcome-box').addClass('remove-welcome-box');
+	$('.welcome-box').removeClass('add-welcome-box');
 })
 });
