@@ -6,9 +6,7 @@
 	@include shadow
 	margin-bottom: 20px
 	height: 0px
-
-.welcome-box>h1, .welcome-box>p, .welcome-box>form
-	animation: 1s fadein ease-in-out forwards
+	overflow: hidden
 
 .add-welcome-box
 	transform: translateY(-1000px)
@@ -19,21 +17,13 @@
 .remove-welcome-box
 	animation: 1s pull-up ease-in-out forwards
 
-@keyframes fadein
-	0%
-		opacity: 0
-	50%
-		opacity: 0
-	100%
-		opacity: 0
 @keyframes drop-down
 	0%
-		// opacity: 0
 		transform: translateY(-1000px)
 		height: 0
-
+	50%
+		height: 275px
 	100%
-		// opacity: 1
 		transform: translateX(0)
 		height: 275px
 

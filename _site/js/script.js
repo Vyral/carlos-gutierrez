@@ -130,9 +130,27 @@ $('.item-toggle').on('click', function(event){
 	 }
 });
 
+//add and remove welcome box
+if(sessionStorage.getItem('popState') != 'shown'){
 $('.welcome-box').addClass('add-welcome-box');
-$('.welcome-exit').on('click', function(event){
-	$('.welcome-box').addClass('remove-welcome-box');
-	$('.welcome-box').removeClass('add-welcome-box');
-})
+        sessionStorage.setItem('popState','shown')
+    }
+		else{
+			$('.welcome-box').addClass('hidden');
+		}
+
+    $('.welcome-exit').click(function(e) // You are clicking the close button
+    {
+			$('.welcome-box').addClass('remove-welcome-box');
+			$('.welcome-box').removeClass('add-welcome-box');
+    });
+
+
+
+// $('.welcome-exit').on('click', function(event){
+// 	$('.welcome-box').addClass('remove-welcome-box');
+// 	$('.welcome-box').removeClass('add-welcome-box');
+// })
+//end of welcome box
+
 });

@@ -1184,11 +1184,8 @@ html[xmlns] .flexslider .slides {
   margin-top: -21px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
-  height: 0px; }
-
-.welcome-box > h1, .welcome-box > p, .welcome-box > form {
-  -webkit-animation: 1s fadein ease-in-out forwards;
-          animation: 1s fadein ease-in-out forwards; }
+  height: 0px;
+  overflow: hidden; }
 
 .add-welcome-box {
   -webkit-transform: translateY(-1000px);
@@ -1204,35 +1201,25 @@ html[xmlns] .flexslider .slides {
   -webkit-animation: 1s pull-up ease-in-out forwards;
           animation: 1s pull-up ease-in-out forwards; }
 
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@keyframes fadein {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
 @-webkit-keyframes drop-down {
   0% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
     height: 0; }
+  50% {
+    height: 275px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
     height: 275px; } }
+
 @keyframes drop-down {
   0% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
     height: 0; }
+  50% {
+    height: 275px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -1455,8 +1442,7 @@ label.tree-toggle {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  text-align: center;
-  margin-bottom: 20px; }
+  text-align: center; }
 
 .site-logo {
   width: 90%;
@@ -1584,6 +1570,17 @@ nav.socials {
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px); } }
+@-webkit-keyframes fadein {
+  0% {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    opacity: 0; }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    opacity: 1; } }
 @keyframes fadein {
   0% {
     transform: scale(1.01);
