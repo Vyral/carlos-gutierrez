@@ -22,6 +22,36 @@ client:
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
   VR_form: http://oi.vresp.com?fid=cf8d350165
+welcome_headline:
+  - Learn More About Your Local Market
+  - Expert Tips for Home Buyers & Sellers
+  - Expert Tips for Navigating the Real Estate Market
+  - Make Smarter Real Estate Decisions
+  - Get Educated About Real Estate
+  - Be Your Own Real Estate Expert
+  - Find Out What You Need to Know About Your Market
+  - Don’t Navigate the Real Estate Market Without Us
+  - Your Ticket Into the Real Estate World
+  - The Easiest Way to Become a Real Estate Pro
+  - Educate Yourself on Current Market Conditions
+  - We Have The Latest Real Estate Market News
+  - We Want to Help You Become a Real Estate Expert
+  - Use Our Real Estate Expertise to Your Advantage
+options:
+   Learn More About Your Local Market: Learn More About Your Local Market
+   Expert Tips for Home Buyers & Sellers: Expert Tips for Home Buyers & Sellers
+   Expert Tips for Navigating the Real Estate Market: Expert Tips for Navigating the Real Estate Market
+   Make Smarter Real Estate Decisions: Make Smarter Real Estate Decisions
+   Get Educated About Real Estate: Get Educated About Real Estate
+   Be Your Own Real Estate Expert: Be Your Own Real Estate Expert
+   Find Out What You Need to Know About Your Market: Find Out What You Need to Know About Your Market
+   Don’t Navigate the Real Estate Market Without Us: Don’t Navigate the Real Estate Market Without Us
+   Your Ticket Into the Real Estate World: Your Ticket Into the Real Estate World
+   The Easiest Way to Become a Real Estate Pro: The Easiest Way to Become a Real Estate Pro
+   Educate Yourself on Current Market Conditions: Educate Yourself on Current Market Conditions
+   We Have The Latest Real Estate Market News: We Have The Latest Real Estate Market News
+   We Want to Help You Become a Real Estate Expert: We Want to Help You Become a Real Estate Expert
+   Use Our Real Estate Expertise to Your Advantage    : Use Our Real Estate Expertise to Your Advantage
 welcome_text_markdown: |
   Each month we will send out two videos detailing what’s going on in our local real estate market. We’ll also discuss the latest market trends, the world of financing, and everything that’s happening in the real estate market. If you have any questions about real estate, let us know and we’ll answer you with a video.
 socials:
