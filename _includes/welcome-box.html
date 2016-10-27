@@ -2,9 +2,9 @@
 <div class="col-lg-8 col-lg-offset-2 welcome-box-content">
 	<h2 class="center">Welcome!</h2>
 	<p class="center">
-	{{site.data.settings.welcome-text}}
+	{{site.data.settings.welcome_text_markdown}}
 </p>
-        <form action="{{site.data.settings.client.VR_form}}" method="post" class='newsletter_optin' target="blank">
+        <form action="{{site.data.settings.client.VR_form}}" method="post" id="welcome-box-form" class='newsletter_optin' target="_blank">
           <input type="email" name="email_address" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required>
           <input type="text" name="_gotcha" class="hidden">
           <input type="submit" value="Sign up">

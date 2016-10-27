@@ -1177,8 +1177,11 @@ html[xmlns] .flexslider .slides {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
-#welcome-box form input {
-  width: 100%; }
+#welcome-box form {
+  padding-left: 30px; }
+
+.welcome-0-height {
+  max-height: 0; }
 
 .welcome-box {
   background: #094264;
@@ -1222,8 +1225,6 @@ html[xmlns] .flexslider .slides {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
     max-height: 0; }
-  50% {
-    max-height: 500px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -1234,8 +1235,6 @@ html[xmlns] .flexslider .slides {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
     max-height: 0; }
-  50% {
-    max-height: 500px; }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -2005,6 +2004,35 @@ table tr, table td {
 @media (max-width: 992px) {
   .post-container {
     padding-right: 0px; } }
+.thankyou {
+  text-align: center;
+  margin-top: 3rem; }
+  .thankyou svg {
+    max-width: 50rem; }
+  .thankyou:first-child p {
+    margin-top: 2rem; }
+
+.checkmark {
+  fill: #094264;
+  -webkit-animation: checkmark 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  animation: checkmark 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards; }
+
+.envelope {
+  -webkit-animation: checkmark 2s cubic-bezier(0.23, 1, 0.32, 1);
+  animation: checkmark 2s cubic-bezier(0.23, 1, 0.32, 1); }
+
+@-webkit-keyframes checkmark {
+  0% {
+    -webkit-transform: rotate(-15deg) scale(0.02); }
+  100% {
+    -webkit-transform: rotate(0deg) scale(1) translate(-209px, -148px); } }
+@keyframes checkmark {
+  0% {
+    -webkit-transform: rotate(-15deg) scale(0.02);
+    transform: rotate(-15deg) scale(0.02); }
+  100% {
+    -webkit-transform: rotate(0deg) scale(1) translate(-209px, -148px);
+    transform: rotate(0deg) scale(1) translate(-209px, -148px); } }
 .socials {
   padding: 0.7rem;
   margin-bottom: 0.7rem; }

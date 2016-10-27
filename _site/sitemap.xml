@@ -27,6 +27,9 @@
 <loc>localhost:5000/search.html</loc>
 </url>
 <url>
+<loc>localhost:5000/thankyou/</loc>
+</url>
+<url>
 <loc>localhost:5000/bower_components/jPlayer/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html</loc>
 <lastmod>2016-10-06T18:13:09-05:00</lastmod>
 </url>
