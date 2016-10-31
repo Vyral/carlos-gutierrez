@@ -1195,7 +1195,6 @@ html[xmlns] .flexslider .slides {
 
 .welcome-box-seen-before {
   max-height: 500px;
-  margin-top: -1px;
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -2362,7 +2361,7 @@ table tr, table td {
       align-self: flex-start; }
 
 .testimonial-container {
-  background: #07334d;
+  background: #f2f2f2;
   color: #353535;
   padding: 3rem 10rem; }
 
