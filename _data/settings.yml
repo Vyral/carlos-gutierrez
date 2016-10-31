@@ -15,6 +15,9 @@ client:
   brokerage:
   address:
   phone:
+  phone_type:
+  phone2:
+  phone2_type:
   email:
   url:
   first_CTA_text: Home Evaluation
@@ -22,9 +25,9 @@ client:
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
   VR_form: http://oi.vresp.com?fid=cf8d350165
-welcome_headline:
+welcome_headline: Get Educated About Real Estate
 welcome_text_markdown: |
-  Each month we will send out two videos detailing what’s going on in our local real estate market. We’ll also discuss the latest market trends, the world of financing, and everything that’s happening in the real estate market. If you have any questions about real estate, let us know and we’ll answer you with a video.
+  Our mission at -- CLIENT BRAND -- is to be your best resource for real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. Subscribe to this blog to get the latest news on local market trends and receive expert tips for buying or selling a home.
 socials:
   review_sm_icons: false
   facebook_url:
