@@ -14,7 +14,7 @@ client:
   brand:
   brokerage:
   address:
-  phone:
+  phone: 402-320-6766
   phone_type:
   phone2:
   phone2_type:
@@ -24,6 +24,7 @@ client:
   first_CTA_URL: /homevalue/
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
+  phone_CTA: true
   VR_form: http://oi.vresp.com?fid=cf8d350165
 welcome_headline: Get Educated About Real Estate
 welcome_text_markdown: |
