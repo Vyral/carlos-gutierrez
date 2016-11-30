@@ -7,7 +7,7 @@ layout: null
     <title>{{site.data.settings.podcast.title}}</title>
     <link>{{site.url}}</link>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{site.url}}"/>
-    <description>{{site.data.settings.podcast.description}}</description>
+    <description>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</description>
     <language>en</language>
     <managingEditor>{{site.data.settings.podcast.author}}</managingEditor>
     <lastBuildDate>{{site.time}}</lastBuildDate>
@@ -24,7 +24,7 @@ layout: null
     <itunes:image href="{{site.data.settings.podcast.image | prepend: site.url}}"/>
     <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
     <itunes:subtitle>{{site.data.settings.podcast.subtitle}}</itunes:subtitle>
-    <itunes:summary>{{site.data.settings.podcast.description}}</itunes:summary>
+    <itunes:summary>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</itunes:summary>
       <itunes:category text="News &amp; Politics"/>
     {% for post in site.posts %}
       <item>
@@ -50,6 +50,6 @@ layout: null
     <copyright>{{site.data.settings.podcast.author}}</copyright>
     <media:credit role="author">{{site.data.settings.podcast.author}}</media:credit>
     <media:rating>nonadult</media:rating>
-    <media:description type="plain">{{site.data.settings.podcast.description}}</media:description>
+    <media:description type="plain">{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</media:description>
   </channel>
 </rss>

@@ -1503,7 +1503,7 @@ label.tree-toggle {
 
 .site-logo {
   width: 90%;
-  max-width: 28rem;
+  max-width: 40rem;
   -webkit-filter: drop-shadow(0 2px 7px black);
   filter: drop-shadow(0 2px 7px black); }
 
@@ -2685,9 +2685,6 @@ form select {
   .newsletter_optin input[type="submit"], .newsletter_optin input[type="email"] {
     margin: 10px auto;
     width: 90%; } }
-.site-logo {
-  max-width: 40rem; }
-
 .footer {
   color: #fff; }
   .footer .attribution svg {

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Base Template</title>
-    <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- CLIENT BRAND -- - your professional -- MARKET -- Real Estate Agents.</description>
+    <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <link>localhost:5000/</link>
     <atom:link href="localhost:5000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Nov 2016 10:58:07 -0600</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2016 10:58:07 -0600</lastBuildDate>
+    <pubDate>Wed, 30 Nov 2016 15:13:05 -0600</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 15:13:05 -0600</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
