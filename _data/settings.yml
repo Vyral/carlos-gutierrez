@@ -69,7 +69,7 @@ site_colors:
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
 buttons:
-  button_radius_number: 10
+  button_radius_number: 25
   button_padding_number: 15
   button_border_color: '#ffffff'
   button_background_color: '#ffffff'
