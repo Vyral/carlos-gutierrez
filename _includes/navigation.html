@@ -21,35 +21,35 @@
       		<li><a href="{{ item.url}}">{{ item.title}}</a></li>
     		{% endfor %}
 			{% endif %}
-			{% if site.data.settings.client.first_CTA_URL != '#contact' and site.data.settings.client.second_CTA_URL != '#contact' %}
+			{% if site.data.settings.CTAs.first_CTA_URL != '#contact' and site.data.settings.CTAs.second_CTA_URL != '#contact' %}
 		<li><a href="#contact" id="contact">Contact</a></li>
 		{% endif %}
 
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-			{% if site.data.settings.client.first_CTA_text and site.data.settings.client.first_CTA_URL != null %}
+			{% if site.data.settings.CTAs.first_CTA_text and site.data.settings.CTAs.first_CTA_URL != null %}
 			<li>
-				{% if site.data.settings.client.first_CTA_URL == '/homevalue/' %}
-				<a class="cta" href="{{site.data.settings.client.first_CTA_URL}}">
-					{% elsif site.data.settings.client.first_CTA_URL == '#contact' %}
+				{% if site.data.settings.CTAs.first_CTA_URL == '/homevalue/' %}
+				<a class="cta" href="{{site.data.settings.CTAs.first_CTA_URL}}">
+					{% elsif site.data.settings.CTAs.first_CTA_URL == '#contact' %}
 					<a class="cta" id="contact" href="#contact">
 					{% else %}
-					<a class="cta" href="{{site.data.settings.client.first_CTA_URL}}" target="_blank">
+					<a class="cta" href="{{site.data.settings.CTAs.first_CTA_URL}}" target="_blank">
 					{% endif %}
-					{{site.data.settings.client.first_CTA_text}}
+					{{site.data.settings.CTAs.first_CTA_text}}
 				</a>
 			</li>
 			{% endif %}
-			{% if site.data.settings.client.second_CTA_text and site.data.settings.client.second_CTA_URL != null %}
+			{% if site.data.settings.CTAs.second_CTA_text and site.data.settings.CTAs.second_CTA_URL != null %}
 			<li>
-				{% if site.data.settings.client.second_CTA_URL == '/homesearch/' %}
-				<a class="cta2" href="{{site.data.settings.client.second_CTA_URL}}">
-					{% elsif site.data.settings.client.second_CTA_URL == '#contact' %}
+				{% if site.data.settings.CTAs.second_CTA_URL == '/homesearch/' %}
+				<a class="cta2" href="{{site.data.settings.CTAs.second_CTA_URL}}">
+					{% elsif site.data.settings.CTAs.second_CTA_URL == '#contact' %}
 					<a class="cta2" id="contact" href="#contact">
 					{% else %}
-				<a class="cta2" href="{{site.data.settings.client.second_CTA_URL}}" target="_blank">
+				<a class="cta2" href="{{site.data.settings.CTAs.second_CTA_URL}}" target="_blank">
 				{% endif %}
-					{{site.data.settings.client.second_CTA_text}}
+					{{site.data.settings.CTAs.second_CTA_text}}
 				</a>
 			</li>
 			{% endif %}

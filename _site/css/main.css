@@ -1191,7 +1191,8 @@ html[xmlns] .flexslider .slides {
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
   max-height: 0px;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 18px; }
 
 .welcome-box-seen-before {
   max-height: 500px;
@@ -1352,51 +1353,6 @@ html[xmlns] .flexslider .slides {
   width: 100%;
   overflow: hidden;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
-  .navbar-andross .cta {
-    background: #094264;
-    color: white;
-    padding: 1.3rem 2rem;
-    text-transform: capitalize;
-    font-size: 2rem;
-    font-weight: 300;
-    border: 2px solid #094264;
-    -webkit-transition: 0.3s;
-    transition: 0.3s; }
-    .navbar-andross .cta:hover {
-      background: transparent;
-      color: #1180c2;
-      box-shadow: 4px 4px 0 #1180c2;
-      border: 2px solid #1180c2;
-      -webkit-transform: scale(1.05);
-      transform: scale(1.05);
-      -webkit-transform: translateY(-0.2rem);
-      transform: translateY(-0.2rem); }
-    .navbar-andross .cta:active {
-      box-shadow: 0 0 0 #1180c2;
-      -webkit-transform: translateY(0rem);
-      transform: translateY(0rem); }
-  .navbar-andross .cta2 {
-    color: #094264;
-    padding: 1.3rem 2rem;
-    text-transform: capitalize;
-    font-size: 2rem;
-    font-weight: 300;
-    border: 2px solid #094264;
-    -webkit-transition: 0.3s;
-    transition: 0.3s; }
-    .navbar-andross .cta2:hover {
-      background: transparent;
-      color: #1180c2;
-      box-shadow: 4px 4px 0 #1180c2;
-      border: 2px solid #1180c2;
-      -webkit-transform: scale(1.05);
-      transform: scale(1.05);
-      -webkit-transform: translateY(-0.2rem);
-      transform: translateY(-0.2rem); }
-    .navbar-andross .cta2:active {
-      box-shadow: 0 0 0 #1180c2;
-      -webkit-transform: translateY(0rem);
-      transform: translateY(0rem); }
 
 .navbar-andross .navbar-brand {
   color: #094264;
@@ -1408,14 +1364,6 @@ html[xmlns] .flexslider .slides {
 
 .navbar-nav > li {
   margin-right: 10px;
-  -webkit-transition: all 0.15s ease-out 0s;
-  transition: all 0.15s ease-out 0s; }
-
-.navbar-nav > li > a {
-  font-size: 20px;
-  margin-top: 12px;
-  padding: 10px 10px;
-  border-radius: 5px;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 
@@ -2685,6 +2633,61 @@ form select {
   .newsletter_optin input[type="submit"], .newsletter_optin input[type="email"] {
     margin: 10px auto;
     width: 90%; } }
+.cta {
+  background: #fff;
+  color: #123456;
+  padding: 1.3rem 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 300;
+  border: 2px solid #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .cta:hover {
+    background: transparent;
+    color: #1180c2;
+    box-shadow: 4px 4px 0 #1180c2;
+    border: 2px solid #fff;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform: translateY(-0.2rem);
+    transform: translateY(-0.2rem); }
+  .cta:active {
+    box-shadow: 0 0 0 #1180c2;
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+
+.cta2 {
+  color: #fff;
+  padding: 1.3rem 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 300;
+  border: 2px solid #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .cta2:hover {
+    background: transparent;
+    color: #123456;
+    box-shadow: 4px 4px 0 #1180c2;
+    border: 2px solid #fff;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform: translateY(-0.2rem);
+    transform: translateY(-0.2rem); }
+  .cta2:active {
+    box-shadow: 0 0 0 #1180c2;
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+
+.navbar-nav > li > a {
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 15px;
+  border-radius: 0px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s; }
+
 .footer {
   color: #fff; }
   .footer .attribution svg {
@@ -2698,15 +2701,6 @@ form select {
   background: #083956; }
 
 .navbar-left li a {
-  color: #fff; }
-
-.navbar-right li .cta {
-  background: #fff;
-  border-color: #fff;
-  color: #094264; }
-.navbar-right li .cta2 {
-  background: #094264;
-  border-color: #fff;
   color: #fff; }
 
 .fa-bars {

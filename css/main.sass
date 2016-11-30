@@ -12,15 +12,25 @@ $headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
 
 //colors
 // If this is a really light color, you're going to have to mess around with some other settings.
-$brand: {{site.data.settings.brand_color}}
+$brand: {{site.data.settings.site_colors.brand_color}}
 $brand-light: lighten($brand, 20%)
 $brand-dark: darken($brand, 10%)
-$theme: {{site.data.settings.theme_color}}
-$theme-text: {{ site.data.settings.theme_text_color }}
-$theme-body-text: {{site.data.settings.main_body_text_color}}
-$theme-body-color: {{site.data.settings.main_body_color}}
+$theme: {{site.data.settings.site_colors.theme_color}}
+$theme-text: {{ site.data.settings.site_colors.theme_text_color }}
+$theme-body-text: {{site.data.settings.site_colors.main_body_text_color}}
+$theme-body-color: {{site.data.settings.site_colors.main_body_color}}
 // $bodycolor: {{site.data.settings.fontcolor_hex}}
 $transparent-black: rgba(0,0,0,0.5)
+
+// button settings
+$button-radius: {{site.data.settings.buttons.button_radius_number}}px
+$button-padding: {{site.data.settings.buttons.button_padding_number}}px
+$button-border: {{site.data.settings.buttons.button_border_color}}
+$button-background: {{site.data.settings.buttons.button_background_color}}
+$button-text: {{site.data.settings.buttons.button_text_color}}
+$secondary-button-border: {{site.data.settings.buttons.secondary_button_border_color}}
+$secondary-button-background: {{site.data.settings.buttons.secondary_button_background_color}}
+$secondary-button-text: {{site.data.settings.buttons.secondary_button_text_color}}
 $logo-width: {{site.data.settings.images.logo_width_number}}rem
 // All the white text and fills, just incase you want to change it up. This effects almost everything though.
 $light-text: white
@@ -81,5 +91,6 @@ $icon-fill: $light-text
 @import "modal"
 @import "forms"
 @import "newsletter"
+@import "buttons"
 
 @import "custom"
