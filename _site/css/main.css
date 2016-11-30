@@ -1804,7 +1804,7 @@ table tr, table td {
   background: #094264;
   color: white;
   border: 1px solid #094264;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px 20px;
   margin-top: 20px;
   text-decoration: none;
@@ -2127,6 +2127,7 @@ table tr, table td {
     padding: 20px 10px;
     font-size: 18px;
     border: 1px solid #c7c7c7;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     color: #094264;
     font-size: 2rem;
@@ -2154,7 +2155,7 @@ table tr, table td {
     padding: 0.9rem 2rem;
     text-transform: capitalize;
     font-size: 2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 300;
     border: 2px solid #094264;
     -webkit-transition: 0.3s;
@@ -2573,6 +2574,7 @@ form select {
   .newsletter_optin input {
     vertical-align: middle; }
   .newsletter_optin input[type='email'] {
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
     border: 1px solid white;
     color: #094264;
@@ -2610,7 +2612,7 @@ form select {
     padding: 1.3rem 2rem;
     text-transform: capitalize;
     font-size: 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 300;
     border: 1px solid white;
     -webkit-transition: 0.3s;
@@ -2634,20 +2636,20 @@ form select {
     margin: 10px auto;
     width: 90%; } }
 .cta {
-  background: #fff;
+  background: #ffffff;
   color: #123456;
   padding: 1.3rem 2rem;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 300;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .cta:hover {
     background: transparent;
     color: #1180c2;
     box-shadow: 4px 4px 0 #1180c2;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     -webkit-transform: translateY(-0.2rem);
@@ -2658,19 +2660,19 @@ form select {
     transform: translateY(0rem); }
 
 .cta2 {
-  color: #fff;
+  color: #ffffff;
   padding: 1.3rem 2rem;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 300;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .cta2:hover {
     background: transparent;
     color: #123456;
     box-shadow: 4px 4px 0 #1180c2;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     -webkit-transform: translateY(-0.2rem);
@@ -2684,7 +2686,7 @@ form select {
   font-size: 20px;
   margin-top: 12px;
   padding: 15px;
-  border-radius: 0px;
+  border-radius: 10px;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 
