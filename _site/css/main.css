@@ -1186,7 +1186,8 @@ html[xmlns] .flexslider .slides {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: hidden; }
   .cta-sidebar-container h5 {
     padding-left: 10px; }
   .cta-sidebar-container p {
