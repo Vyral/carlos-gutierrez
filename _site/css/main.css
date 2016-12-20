@@ -2276,8 +2276,9 @@ table tr, table td {
   width: 200px;
   height: 200px;
   border: 3px solid #094264;
-  margin: 10px auto 0 6rem;
-  overflow: hidden; }
+  overflow: hidden;
+  display: inline-block;
+  margin: auto; }
 
 .client-image {
   max-width: 200px; }
@@ -2286,17 +2287,28 @@ table tr, table td {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 0px 10px 40px;
   font-size: 18px; }
-  .about-container p {
-    max-width: 350px; }
+  .about-container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.about-text p {
+  vertical-align: middle;
+  margin: auto 0; }
+
+.gray {
+  background: #ededed; }
+  .gray div div h5 {
+    text-align: center;
+    padding-top: 20px; }
+
+.contact-text {
+  margin: auto; }
 
 .footer {
   background: #094163;
@@ -2610,7 +2622,6 @@ form select {
   background: #094264;
   color: white;
   text-align: center;
-  margin-top: 20px;
   padding: 1rem; }
   .newsletter p {
     margin-bottom: 1.5rem; }

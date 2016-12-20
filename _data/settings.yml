@@ -9,7 +9,8 @@ custom_links:
 client:
   name:
   license_number:
-  about_markdown:
+  about_markdown: |
+
   market:
   brand:
   brokerage:
@@ -33,7 +34,7 @@ sidebar_CTA:
   CTA_image_path: http://fillmurray.com/350/200
   CTA_title: Looking to Sell a Home?
   CTA_text: Let's talk about how Keller Williams can take your business to new heights.
-  CTA_link_text: 
+  CTA_link_text:
   CTA_url:
 
 welcome_box:

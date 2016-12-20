@@ -1,27 +1,42 @@
+<div class="container-fluid gray">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
 
-<div class="about-container">
-	<h5>About {{site.data.settings.client.name}}</h5>
-	<div class="client-image-container">
-	<img src="{{site.data.settings.images.client_headshot_path }}" alt="{{site.data.settings.client.company}}" class="client-image" />
-	</div><br />
-	{{site.data.settings.client.about_markdown | markdownify }}
-	<p>
-		<b>{{ site.data.settings.client.name }}</b><br />
-		{% if site.data.settings.client.license_number != null %}
-		#{{ site.data.settings.client.license_number }}</br>
-		{% endif %}
-		{{ site.data.settings.client.brand }}<br />
-		{% if site.data.settings.client.brokerage != null %}
-		{{ site.data.settings.client.brokerage }}<br />
-		{% endif %}
-		{{ site.data.settings.client.address }}<br />
-		{% if site.data.settings.client.phone2 != null %}
-		{{ site.data.settings.client.phone_type }}: {{ site.data.settings.client.phone }}<br />
-		{{ site.data.settings.client.phone2_type }}: {{ site.data.settings.client.phone2 }}<br />
-		{% else %}
-		{{ site.data.settings.client.phone }}<br />
-		{% endif %}
-		<a href="mailto:{{ site.data.settings.client.email }}" target="_blank">{{ site.data.settings.client.email }}</a><br />
-		<a href="http://{{ site.data.settings.client.url }}" target="_blank">{{ site.data.settings.client.url }}</a><br />
-	</p>
+				<h5>About {{site.data.settings.client.name}}</h5>
+			</div>
+		</div>
+	<div class="row">
+		<div class="about-container">
+		<div class="col-lg-3 col-md-4 hidden-sm hidden-xs">
+
+				<div class="client-image-container">
+					<img src="{{site.data.settings.images.client_headshot_path }}" alt="{{site.data.settings.client.company}}" class="client-image" />
+				</div><br />
+			</div>
+		<div class="col-lg-6 col-md-8 hidden-sm hidden-xs about-text">
+			{{site.data.settings.client.about_markdown | markdownify }}
+		</div>
+		<div class="col-lg-3">
+			<p class="contact-text">
+				<b>{{ site.data.settings.client.name }}</b><br />
+				{% if site.data.settings.client.license_number != null %}
+				#{{ site.data.settings.client.license_number }}</br>
+				{% endif %}
+				{{ site.data.settings.client.brand }}<br />
+				{% if site.data.settings.client.brokerage != null %}
+				{{ site.data.settings.client.brokerage }}<br />
+				{% endif %}
+				{{ site.data.settings.client.address }}<br />
+				{% if site.data.settings.client.phone2 != null %}
+				{{ site.data.settings.client.phone_type }}: {{ site.data.settings.client.phone }}<br />
+				{{ site.data.settings.client.phone2_type }}: {{ site.data.settings.client.phone2 }}<br />
+				{% else %}
+				{{ site.data.settings.client.phone }}<br />
+				{% endif %}
+				<a href="mailto:{{ site.data.settings.client.email }}" target="_blank">{{ site.data.settings.client.email }}</a><br />
+				<a href="http://{{ site.data.settings.client.url }}" target="_blank">{{ site.data.settings.client.url }}</a><br />
+			</p>
+		</div>
+	</div>
+</div>
 </div>
