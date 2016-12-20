@@ -1180,33 +1180,37 @@ html[xmlns] .flexslider .slides {
 .cta-sidebar-container {
   width: 350px;
   border: 1px solid #cfcfcf;
-  border-radius: 8px; }
-  .cta-sidebar-container .cta-img-container {
-    position: relative;
-    left: 0;
-    z-index: -1; }
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   .cta-sidebar-container h5 {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
     padding-left: 10px; }
   .cta-sidebar-container p {
     font-size: 18px;
     padding: 10px;
     color: #555; }
 
+.ctacontainer {
+  margin: 20px auto; }
+
 .ctalink {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #094264;
-  color: white;
   border: 1px solid #094264;
   border-radius: 0px;
   padding: 10px 20px;
-  margin-top: 20px;
   text-decoration: none;
   font-size: 18px;
+  color: white;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
+  .ctalink a {
+    text-align: center; }
   .ctalink:hover {
     background: transparent;
     color: #1180c2;

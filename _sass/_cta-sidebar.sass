@@ -2,30 +2,38 @@
 	width: 350px
 	border: 1px solid #cfcfcf
 	border-radius: 8px
-	.cta-img-container
-		position: relative
-		left: 0
-		z-index: -1
+	display: flex
+	flex-wrap: wrap
+	// .cta-img-container
+	// 	position: relative
+	// 	left: 0
+	// 	z-index: -1
 	h5
-		position: relative
-		top: 0
-		left: 0
-		z-index: 1
+		// position: relative
+		// top: 0
+		// left: 0
+		// z-index: 1
 		padding-left: 10px
 	p
 		font-size: 18px
 		padding: 10px
 		color: #555
+.ctacontainer
+	// padding: 20px
+	margin: 20px auto
+
 .ctalink
+	justify-content: center
 	background: $brand
-	color: $light-text
 	border: 1px solid $brand
 	border-radius: $button-radius
 	padding: 10px 20px
-	margin-top: 20px
 	text-decoration: none
 	font-size: 18px
+	color: $light-text
 	+transition
+	a
+		text-align: center
 	&:hover
 		background: transparent
 		color: $brand-light
