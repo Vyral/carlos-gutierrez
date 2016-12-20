@@ -1177,6 +1177,50 @@ html[xmlns] .flexslider .slides {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
+.cta-sidebar-container {
+  width: 350px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px; }
+  .cta-sidebar-container .cta-img-container {
+    position: relative;
+    left: 0;
+    z-index: -1; }
+  .cta-sidebar-container h5 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 10px; }
+  .cta-sidebar-container p {
+    font-size: 18px;
+    padding: 10px;
+    color: #555; }
+
+.ctalink {
+  background: #094264;
+  color: white;
+  border: 1px solid #094264;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s; }
+  .ctalink:hover {
+    background: transparent;
+    color: #1180c2;
+    box-shadow: 4px 4px 0 #1180c2;
+    border: 1px solid #1180c2;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform: translateY(-0.2rem);
+    transform: translateY(-0.2rem); }
+  .ctalink:active {
+    box-shadow: 0 0 0 #1180c2;
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+
 #welcome-box form {
   padding-left: 30px; }
 
@@ -1452,12 +1496,12 @@ label.tree-toggle {
 .site-logo {
   width: 90%;
   max-width: 40rem;
-  -webkit-filter: drop-shadow(0 2px 7px black);
-  filter: drop-shadow(0 2px 7px black); }
+  -webkit-filter: drop-shadow(0px 2px 7px #000);
+  filter: drop-shadow(0px 2px 7px #000); }
 
 .site-title {
   color: white;
-  text-shadow: 0 2px 7px black;
+  text-shadow: 0px 2px 7px #000;
   text-transform: uppercase;
   font-size: 6.5rem;
   padding-bottom: 4rem;
@@ -1804,7 +1848,7 @@ table tr, table td {
   background: #094264;
   color: white;
   border: 1px solid #094264;
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 10px 20px;
   margin-top: 20px;
   text-decoration: none;
@@ -1886,7 +1930,7 @@ table tr, table td {
   margin: 2rem 0;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0 2px 7px black; }
+  text-shadow: 0px 2px 7px #000; }
 .post .headshot {
   width: 100%;
   max-width: 15rem;
@@ -1901,7 +1945,7 @@ table tr, table td {
 
 .tag-container {
   color: white;
-  text-shadow: 0 2px 7px black;
+  text-shadow: 0px 2px 7px #000;
   margin-bottom: 1rem; }
 
 .tag {
@@ -1912,7 +1956,7 @@ table tr, table td {
 .author-attribution {
   color: white;
   font-weight: 300;
-  text-shadow: 0 2px 7px black;
+  text-shadow: 0px 2px 7px #000;
   margin-bottom: 2rem;
   font-style: italic; }
   .author-attribution a {
@@ -2122,12 +2166,12 @@ table tr, table td {
 
 .search-box {
   margin: 10px 0;
-  max-width: 400px; }
+  max-width: 350px; }
   .search-box .search-input {
     padding: 20px 10px;
     font-size: 18px;
     border: 1px solid #c7c7c7;
-    border-radius: 10px;
+    border-radius: 0px;
     background: rgba(255, 255, 255, 0.1);
     color: #094264;
     font-size: 2rem;
@@ -2155,7 +2199,7 @@ table tr, table td {
     padding: 0.9rem 2rem;
     text-transform: capitalize;
     font-size: 2rem;
-    border-radius: 10px;
+    border-radius: 0px;
     font-weight: 300;
     border: 2px solid #094264;
     -webkit-transition: 0.3s;
@@ -2574,7 +2618,7 @@ form select {
   .newsletter_optin input {
     vertical-align: middle; }
   .newsletter_optin input[type='email'] {
-    border-radius: 10px;
+    border-radius: 0px;
     background: rgba(255, 255, 255, 0.3);
     border: 1px solid white;
     color: #094264;
@@ -2612,7 +2656,7 @@ form select {
     padding: 1.3rem 2rem;
     text-transform: capitalize;
     font-size: 2rem;
-    border-radius: 10px;
+    border-radius: 0px;
     font-weight: 300;
     border: 1px solid white;
     -webkit-transition: 0.3s;
@@ -2685,8 +2729,8 @@ form select {
 .navbar-nav > li > a {
   font-size: 20px;
   margin-top: 12px;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 15px 10px;
+  border-radius: 0px;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 

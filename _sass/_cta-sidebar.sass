@@ -1,0 +1,38 @@
+.cta-sidebar-container
+	width: 350px
+	border: 1px solid #cfcfcf
+	border-radius: 8px
+	.cta-img-container
+		position: relative
+		left: 0
+		z-index: -1
+	h5
+		position: relative
+		top: 0
+		left: 0
+		z-index: 1
+		padding-left: 10px
+	p
+		font-size: 18px
+		padding: 10px
+		color: #555
+.ctalink
+	background: $brand
+	color: $light-text
+	border: 1px solid $brand
+	border-radius: $button-radius
+	padding: 10px 20px
+	margin-top: 20px
+	text-decoration: none
+	font-size: 18px
+	+transition
+	&:hover
+		background: transparent
+		color: $brand-light
+		box-shadow: 4px 4px 0 $brand-light
+		border: 1px solid $brand-light
+		@include transform(scale(1.05))
+		@include transform(translateY(-0.2rem))
+	&:active
+		box-shadow: 0 0 0 $brand-light
+		@include transform(translateY(0rem))

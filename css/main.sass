@@ -23,22 +23,23 @@ $theme-body-color: {{site.data.settings.site_colors.main_body_color}}
 $transparent-black: rgba(0,0,0,0.5)
 
 // button settings
-$button-radius: {{site.data.settings.buttons.button_radius_number}}px
-$button-padding: {{site.data.settings.buttons.button_padding_number}}px
+$button-radius: {{site.data.settings.buttons.button_radius_number}}
+$button-padding-width: {{site.data.settings.buttons.button_padding_width_number}}
+$button-padding-height: {{site.data.settings.buttons.button_padding_height_number}}
 $button-border: {{site.data.settings.buttons.button_border_color}}
 $button-background: {{site.data.settings.buttons.button_background_color}}
 $button-text: {{site.data.settings.buttons.button_text_color}}
 $secondary-button-border: {{site.data.settings.buttons.secondary_button_border_color}}
 $secondary-button-background: {{site.data.settings.buttons.secondary_button_background_color}}
 $secondary-button-text: {{site.data.settings.buttons.secondary_button_text_color}}
-$logo-width: {{site.data.settings.images.logo_width_number}}rem
+$logo-width: {{site.data.settings.images.logo_width_number}}
 // All the white text and fills, just incase you want to change it up. This effects almost everything though.
 $light-text: white
 
 $nav-background: transparentize(black, 0.2)
 $header-font-color: $light-text
 $footer-font-color: #353535
-$header-shadow: 0 2px 7px black
+$header-shadow: {{site.data.settings.header_shadow.h_shadow}} {{site.data.settings.header_shadow.w_shadow}} {{site.data.settings.header_shadow.shadow_spread}} {{site.data.settings.header_shadow.shadow_color}}
 $post-wrapper-border: #D8D8D8
 $footer-background: darken(#f3f3f3, 10%)
 $readmore-border-color: $footer-background
@@ -73,6 +74,7 @@ $icon-fill: $light-text
 @import "vendor/bourbon/bourbon"
 @import "vendor/owl.carousel"
 
+@import "cta-sidebar"
 @import "welcome-box"
 @import "media-player"
 @import "navigation"
