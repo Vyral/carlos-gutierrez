@@ -2089,7 +2089,10 @@ table tr, table td {
     font-size: 2.5rem;
     margin: 1.5rem; }
   .post .headshot {
-    display: none; } }
+    display: none; }
+
+  .pullquote {
+    max-width: 100%; } }
 @media (max-width: 992px) {
   .post-container {
     padding-right: 0px; } }
