@@ -3,7 +3,7 @@ title: "Andross"
 baseurl: ""
 # the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
 # Change for production:
-url: "localhost:5000"
+url: "localhost:4000"
 
 # Build settings
 markdown: kramdown
@@ -43,3 +43,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+tags:
+  - Market Update
+  - Real Estate
+  - Home Buyer Tips
+  - Home Seller Tips
