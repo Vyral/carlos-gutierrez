@@ -6,6 +6,11 @@ tags:
   - Real Estate
   - Buyer Tips
   - Home Seller Tips
+options:
+  Market Update: Market Update
+  Real Estate: Real Estate
+  Home Buyer Tips: Home Buyer Tips
+  Home Seller Tips: Home Seller Tips 
 excerpt:
 enclosure:
 pullquote: Andross, the Final Boss
