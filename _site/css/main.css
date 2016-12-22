@@ -1452,9 +1452,9 @@ html[xmlns] .flexslider .slides {
     opacity: 0; } }
 .scroll-nav-color {
   background: #005473;
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   -webkit-animation: 0.5s fadeNavigation ease-in-out;
-          animation: 0.5s fadeNavigation ease-in-out; }
+          animation: 0.5s fadeNavigation ease-in-out;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
 
 @-webkit-keyframes fadeNavigation {
   0% {
@@ -1484,7 +1484,7 @@ html[xmlns] .flexslider .slides {
           animation: 0.3s fadein ease-in-out; }
 
 .navbar-andross-bottom {
-  background: #C14547;
+  background: #005473;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -1616,6 +1616,10 @@ html {
           animation: 1s ease-in-out slideup; }
 
 nav {
+  -webkit-animation: 1s ease-in-out slidedown;
+          animation: 1s ease-in-out slidedown; }
+
+.nav-start {
   -webkit-animation: 1s ease-in-out slidedown;
           animation: 1s ease-in-out slidedown; }
 
