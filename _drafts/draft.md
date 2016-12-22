@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Draft
-categories:
+collections:
   - Market Update
   - Real Estate
   - Home Buyer Tips
