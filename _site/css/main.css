@@ -1478,6 +1478,12 @@ html[xmlns] .flexslider .slides {
 @media (max-width: 767px) {
   .footer {
     margin-bottom: 60px; } }
+.library-container {
+  border: 1px solid #cfcfcf;
+  border-radius: 0px;
+  max-width: 350px;
+  padding: 10px; }
+
 .catbloc li {
   font-size: 20px;
   color: #094264;
@@ -2669,7 +2675,7 @@ form select {
       .newsletter_optin input[type='email']:focus:-ms-input-placeholder {
         color: transparent; }
   .newsletter_optin input[type="submit"] {
-    background: #094264;
+    background: transparent;
     color: white;
     padding: 1.3rem 2rem;
     text-transform: capitalize;
@@ -2681,7 +2687,7 @@ form select {
     transition: 0.3s; }
     .newsletter_optin input[type="submit"]:hover {
       background: transparent;
-      color: #1180c2;
+      color: white;
       box-shadow: 4px 4px 0 #1180c2;
       border: 1px solid #1180c2;
       -webkit-transform: scale(1.05);
