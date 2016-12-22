@@ -1,11 +1,7 @@
 ---
 layout: post
 title: Draft
-collections:
-  - Market Update
-  - Real Estate
-  - Home Buyer Tips
-  - Home Seller Tips
+tags:
 excerpt:
 enclosure:
 pullquote:
