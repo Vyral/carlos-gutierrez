@@ -1513,7 +1513,7 @@ html[xmlns] .flexslider .slides {
             position: absolute;
             font-size: 30px; }
 
-.navbar-andross-bottom .container-fluid .nav {
+.navbar-andross-bottom .container-fluid {
   margin: 0; }
 
 @media (max-width: 767px) {
@@ -1615,10 +1615,6 @@ html {
   -webkit-animation: 1s ease-in-out slideup;
           animation: 1s ease-in-out slideup; }
 
-nav {
-  -webkit-animation: 1s ease-in-out slidedown;
-          animation: 1s ease-in-out slidedown; }
-
 .nav-start {
   -webkit-animation: 1s ease-in-out slidedown;
           animation: 1s ease-in-out slidedown; }
@@ -1627,7 +1623,11 @@ nav {
   -webkit-animation: 1s ease-in-out slideup;
           animation: 1s ease-in-out slideup; }
 
-nav.socials {
+.navbar-andross-bottom {
+  -webkit-animation: 1s ease-in-out fadein;
+          animation: 1s ease-in-out fadein; }
+
+.socials {
   -webkit-animation: 1s ease-in-out slideup;
           animation: 1s ease-in-out slideup; }
 
