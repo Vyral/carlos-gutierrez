@@ -23,7 +23,7 @@ client:
   url:
 
 CTAs:
-  first_CTA_text: Home Evaluation
+  first_CTA_text: Home Valuation
   first_CTA_URL: /homevalue/
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
@@ -32,10 +32,10 @@ CTAs:
 
 sidebar_CTA:
   CTA_image_path: /img/cta-images/004.jpg
-  CTA_title: Looking to Sell a Home?
-  CTA_text: Let's talk about how Keller Williams can take your business to new heights.
-  CTA_link_text:
-  CTA_url:
+  CTA_title: Looking to Buy a Home?
+  CTA_text: Search the entire MLS for homes located in the -- MARKET --.
+  CTA_link_text: Home Search Tool
+  CTA_url: /homesearch/
 
 welcome_box:
   welcome_headline: Join Our -- MARKET -- VIP List

@@ -10,7 +10,7 @@
 	</div>
 	<h5>{{site.data.settings.sidebar_CTA.CTA_title}}</h5>
 	<p>
-		{{site.data.settings.sidebar_CTA.CTA_text}}
+		{{site.data.settings.sidebar_CTA.CTA_text | replace: '-- MARKET --', site.data.settings.client.market}}
 	</p>
 	<div class="ctacontainer">
 		{% if site.data.settings.sidebar_CTA.CTA_link_text == null or site.data.settings.sidebar_CTA.CTA_url == null%}

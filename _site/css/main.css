@@ -1180,7 +1180,7 @@ html[xmlns] .flexslider .slides {
 .cta-sidebar-container {
   width: 350px;
   border: 1px solid #cfcfcf;
-  border-radius: 8px;
+  border-radius: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1245,7 +1245,7 @@ html[xmlns] .flexslider .slides {
   font-size: 18px; }
 
 .welcome-box-seen-before {
-  max-height: 500px;
+  max-height: 1000px;
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -1278,7 +1278,7 @@ html[xmlns] .flexslider .slides {
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    max-height: 500px; } }
+    max-height: 1000px; } }
 
 @keyframes drop-down {
   0% {
@@ -1288,12 +1288,12 @@ html[xmlns] .flexslider .slides {
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    max-height: 500px; } }
+    max-height: 1000px; } }
 @-webkit-keyframes pull-up {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    max-height: 500px; }
+    max-height: 1000px; }
   100% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
@@ -1302,7 +1302,7 @@ html[xmlns] .flexslider .slides {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    max-height: 500px; }
+    max-height: 1000px; }
   100% {
     -webkit-transform: translateY(-1000px);
             transform: translateY(-1000px);
@@ -2246,9 +2246,10 @@ table tr, table td {
   display: inline-block;
   max-width: 350px;
   width: 100%;
-  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   font-size: 2rem;
-  border-radius: 5px;
+  border-radius: 0px;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .review.button svg, .review.button-ghost svg {
