@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Top 10 Star Fox Bosses
+title:
 tags:
 excerpt:
 enclosure:
-pullquote: Andross, the Final Boss
+pullquote:
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: false
+use_youtube_image: true
 youtube_alternate_image:
-youtube_code: uieM18rZdHY
+youtube_code:
 ---
 {% include youtube.html %}
 
