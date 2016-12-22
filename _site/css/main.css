@@ -1500,14 +1500,14 @@ html[xmlns] .flexslider .slides {
         width: 24%;
         text-align: center;
         margin: 0;
-        padding-top: 5px;
-        padding-bottom: 5px; }
+        padding-top: 2px;
+        padding-bottom: 2px; }
         .navbar-andross-bottom .container-fluid .nav li a, .navbar-andross-bottom .container-fluid .navbar-nav li a {
           color: #fff;
           margin: 0;
           line-height: 0; }
           .navbar-andross-bottom .container-fluid .nav li a img, .navbar-andross-bottom .container-fluid .navbar-nav li a img {
-            height: 30px; }
+            height: 20px; }
           .navbar-andross-bottom .container-fluid .nav li a i, .navbar-andross-bottom .container-fluid .navbar-nav li a i {
             margin-bottom: -20px;
             position: absolute;
