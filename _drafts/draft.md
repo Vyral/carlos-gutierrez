@@ -1,16 +1,11 @@
 ---
 layout: post
 title: Draft
-tags:
+categories:
   - Market Update
   - Real Estate
   - Home Buyer Tips
   - Home Seller Tips
-options:
-  Market Update: Market Update
-  Real Estate: Real Estate
-  Home Buyer Tips: Home Buyer Tips
-  Home Seller Tips: Home Seller Tips
 excerpt:
 enclosure:
 pullquote:
