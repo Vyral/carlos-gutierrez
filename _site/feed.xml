@@ -5,8 +5,8 @@
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Dec 2016 16:41:36 -0600</pubDate>
-    <lastBuildDate>Thu, 22 Dec 2016 16:41:36 -0600</lastBuildDate>
+    <pubDate>Thu, 22 Dec 2016 16:50:24 -0600</pubDate>
+    <lastBuildDate>Thu, 22 Dec 2016 16:50:24 -0600</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
