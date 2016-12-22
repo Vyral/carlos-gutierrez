@@ -3,8 +3,6 @@ layout: default
 ---
 <!-- blog feed -->
       {% for post in paginator.posts %}
-			<div class="row">
-			</div>
 			<div class="row content-container">
 				<div class="col-sm-12">
 					<h2 class="post-overview-title"><a class="post-link" href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h2>

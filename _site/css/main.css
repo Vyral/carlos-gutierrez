@@ -1178,7 +1178,7 @@ html[xmlns] .flexslider .slides {
   -ms-transform: translate3d(0, 0, 0); }
 
 .cta-sidebar-container {
-  width: 350px;
+  width: 100%;
   border: 1px solid #cfcfcf;
   border-radius: 0px;
   display: -webkit-box;
@@ -1188,6 +1188,8 @@ html[xmlns] .flexslider .slides {
       flex-wrap: wrap;
   margin-bottom: 20px;
   overflow: hidden; }
+  .cta-sidebar-container .cta-img-container a img {
+    max-width: 100%; }
   .cta-sidebar-container h5 {
     padding-left: 10px; }
   .cta-sidebar-container p {
@@ -1481,7 +1483,7 @@ html[xmlns] .flexslider .slides {
 .library-container {
   border: 1px solid #cfcfcf;
   border-radius: 0px;
-  max-width: 350px;
+  width: 100%;
   padding: 10px; }
 
 .catbloc li {
@@ -1815,7 +1817,8 @@ table tr, table td {
   position: relative;
   bottom: 5.5rem;
   border-radius: 9px 9px 0 0;
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+  margin-left: 100px; }
 
 .post-container {
   padding-right: 20px; }
@@ -2178,7 +2181,7 @@ table tr, table td {
 
 .search-box {
   margin: 10px 0;
-  max-width: 350px; }
+  width: 100%; }
   .search-box .search-input {
     padding: 20px 10px;
     font-size: 18px;
