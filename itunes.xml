@@ -9,17 +9,17 @@ layout: null
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{site.url}}"/>
     <description>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</description>
     <language>en</language>
-    <managingEditor>{{site.data.settings.podcast.author}}</managingEditor>
+    <managingEditor>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</managingEditor>
     <lastBuildDate>{{site.time}}</lastBuildDate>
-    <media:copyright>{{site.data.settings.podcast.author}}</media:copyright>
+    <media:copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</media:copyright>
     <media:thumbnail url="{{site.data.settings.podcast.image | prepend: site.url}}"/>
     <media:keywords>{{site.data.settings.podcast.keywords}}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
     <itunes:owner>
       <itunes:email>{{site.data.settings.client.email}}</itunes:email>
-      <itunes:name>{{site.data.settings.podcast.author}}</itunes:name>
+      <itunes:name>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:name>
     </itunes:owner>
-    <itunes:author>{{site.data.settings.podcast.author}}</itunes:author>
+    <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{site.data.settings.podcast.image | prepend: site.url}}"/>
     <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
@@ -33,7 +33,7 @@ layout: null
         {% for tag in post.tags %}
           <category>{{tag}}</category>
         {% endfor %}
-        <author>{{site.data.settings.podcast.author}}</author>
+        <author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</author>
         <pubDate>{{post.date}}</pubDate>
         <guid>{{post.enclosure}}</guid>
         <description>{{post.content | strip_html}}</description>
@@ -42,13 +42,13 @@ layout: null
         <media:content url="{{post.enclosure}}" type="{{post.enclosure_type}}"/>
         <itunes:explicit>no</itunes:explicit>
         <itunes:subtitle>{{site.data.settings.podcast.subtitle}}</itunes:subtitle>
-        <itunes:author>{{site.data.settings.podcast.author}}</itunes:author>
+        <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
         <itunes:summary>{{ post.excerpt | strip_html }}</itunes:summary>
         <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
       </item>
       {% endfor %}
-    <copyright>{{site.data.settings.podcast.author}}</copyright>
-    <media:credit role="author">{{site.data.settings.podcast.author}}</media:credit>
+    <copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</copyright>
+    <media:credit role="author">{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</media:description>
   </channel>
