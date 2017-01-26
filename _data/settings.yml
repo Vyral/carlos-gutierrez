@@ -27,7 +27,6 @@ CTAs:
   first_CTA_URL: /homevalue/
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
-  phone_CTA: true
   VR_form:
 
 sidebar_CTA:
