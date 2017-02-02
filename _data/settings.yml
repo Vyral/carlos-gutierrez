@@ -71,7 +71,7 @@ podcast:
 images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
-  logo_width_number: 40rem
+  logo_width_number: 40
   hero_text: Real Estate Video Blog
   hero_background_hex: '#094264'
   hero_image_path: /img/background.jpg
@@ -90,9 +90,9 @@ header_shadow:
   shadow_color: "#000"
 
 buttons:
-  button_radius_number: 0px
-  button_padding_width_number: 10px
-  button_padding_height_number: 15px
+  button_radius_number: 0
+  button_padding_width_number: 10
+  button_padding_height_number: 15
   button_border_color: '#ffffff'
   button_background_color: '#ffffff'
   button_text_color: '#123456'
