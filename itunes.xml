@@ -13,7 +13,7 @@ layout: null
     <lastBuildDate>{{site.time}}</lastBuildDate>
     <media:copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</media:copyright>
     <media:thumbnail url="{{site.data.settings.podcast.image | prepend: site.url}}"/>
-    <media:keywords>{{site.data.settings.podcast.keywords}}</media:keywords>
+    <media:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
     <itunes:owner>
       <itunes:email>{{site.data.settings.client.email}}</itunes:email>
@@ -22,8 +22,8 @@ layout: null
     <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="{{site.data.settings.podcast.image | prepend: site.url}}"/>
-    <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
-    <itunes:subtitle>{{site.data.settings.podcast.subtitle}}</itunes:subtitle>
+    <itunes:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:keywords>
+    <itunes:subtitle>{{site.data.settings.podcast.subtitle | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:subtitle>
     <itunes:summary>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</itunes:summary>
       <itunes:category text="News &amp; Politics"/>
     {% for post in site.posts %}
@@ -41,10 +41,10 @@ layout: null
         <media:thumbnail url="{{post.image | prepend: site.url}}" height="72" width="72"/>
         <media:content url="{{post.enclosure}}" type="{{post.enclosure_type}}"/>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:subtitle>{{site.data.settings.podcast.subtitle}}</itunes:subtitle>
+        <itunes:subtitle>{{site.data.settings.podcast.subtitle | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:subtitle>
         <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
         <itunes:summary>{{ post.excerpt | strip_html }}</itunes:summary>
-        <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
+        <itunes:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:keywords>
       </item>
       {% endfor %}
     <copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</copyright>
