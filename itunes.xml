@@ -41,9 +41,9 @@ layout: null
         <media:thumbnail url="{{post.image | prepend: site.url}}" height="72" width="72"/>
         <media:content url="{{post.enclosure}}" type="{{post.enclosure_type}}"/>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:subtitle>{{ post.excerpt | strip_html }}</itunes:subtitle>
+        <itunes:subtitle>{{post.excerpt | strip_html}}</itunes:subtitle>
         <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
-        <itunes:summary>{{ post.excerpt | strip_html }}</itunes:summary>
+        <itunes:summary>{{post.excerpt | strip_html}}</itunes:summary>
         <itunes:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:keywords>
       </item>
       {% endfor %}
