@@ -6,21 +6,21 @@
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="localhost:4000"/>
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <language>en</language>
-    <managingEditor>-- CLIENT NAME --</managingEditor>
-    <lastBuildDate>2017-01-03 10:58:56 -0600</lastBuildDate>
-    <media:copyright>-- CLIENT NAME --</media:copyright>
+    <managingEditor></managingEditor>
+    <lastBuildDate>2017-02-14 15:27:18 -0600</lastBuildDate>
+    <media:copyright></media:copyright>
     <media:thumbnail url="localhost:4000"/>
-    <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
+    <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
     <itunes:owner>
       <itunes:email></itunes:email>
-      <itunes:name>-- CLIENT NAME --</itunes:name>
+      <itunes:name></itunes:name>
     </itunes:owner>
-    <itunes:author>-- CLIENT NAME --</itunes:author>
+    <itunes:author></itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="localhost:4000"/>
-    <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
-    <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market</itunes:subtitle>
+    <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
+    <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the  Area Real Estate Market</itunes:subtitle>
     <itunes:summary>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</itunes:summary>
       <itunes:category text="News &amp; Politics"/>
     
@@ -36,7 +36,7 @@
         
           <category>Home Seller Tips</category>
         
-        <author>-- CLIENT NAME --</author>
+        <author></author>
         <pubDate>2016-10-04 00:00:00 -0500</pubDate>
         <guid></guid>
         <description>
@@ -57,10 +57,10 @@ Oh. You need a little dummy text for your mockup? How quaint.I bet you’re stil
         <media:thumbnail url="localhost:4000" height="72" width="72"/>
         <media:content url="" type="video/mp4"/>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market</itunes:subtitle>
-        <itunes:author>-- CLIENT NAME --</itunes:author>
+        <itunes:subtitle>Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid.</itunes:subtitle>
+        <itunes:author></itunes:author>
         <itunes:summary>Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid.</itunes:summary>
-        <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
+        <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
       </item>
       
       <item>
@@ -75,7 +75,7 @@ Oh. You need a little dummy text for your mockup? How quaint.I bet you’re stil
         
           <category>Home Seller Tips</category>
         
-        <author>-- CLIENT NAME --</author>
+        <author></author>
         <pubDate>2016-09-28 00:00:00 -0500</pubDate>
         <guid></guid>
         <description>
@@ -112,14 +112,14 @@ Oh. You need a little dummy text for your mockup? How quaint.I bet you’re stil
         <media:thumbnail url="localhost:4000" height="72" width="72"/>
         <media:content url="" type="video/mp4"/>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market</itunes:subtitle>
-        <itunes:author>-- CLIENT NAME --</itunes:author>
+        <itunes:subtitle>Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid.</itunes:subtitle>
+        <itunes:author></itunes:author>
         <itunes:summary>Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid.</itunes:summary>
-        <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
+        <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
       </item>
       
-    <copyright>-- CLIENT NAME --</copyright>
-    <media:credit role="author">-- CLIENT NAME --</media:credit>
+    <copyright></copyright>
+    <media:credit role="author"></media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</media:description>
   </channel>

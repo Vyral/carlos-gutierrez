@@ -1180,6 +1180,46 @@ html[xmlns] .flexslider .slides {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
+.lender {
+  border: 1px solid #cfcfcf;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .lender h5 {
+    margin-left: 10px; }
+  .lender hr {
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .lender .lender-headshot img {
+    width: 100%; }
+  .lender .lender-logo img {
+    width: 100%; }
+  .lender .lender-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .lender .lender-info img {
+      margin: 5px;
+      border-radius: 50%;
+      overflow: hidden;
+      max-width: 200px;
+      border: 3px solid #C14547; }
+    .lender .lender-info p {
+      margin-bottom: 0;
+      vertical-align: middle;
+      margin-left: 10px; }
+
 .cta-sidebar-container {
   width: 100%;
   border: 1px solid #cfcfcf;
@@ -1190,6 +1230,7 @@ html[xmlns] .flexslider .slides {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 20px;
+  margin-top: 20px;
   overflow: hidden; }
   .cta-sidebar-container .cta-img-container a img {
     max-width: 100%; }
@@ -1526,7 +1567,13 @@ html[xmlns] .flexslider .slides {
   border: 1px solid #cfcfcf;
   border-radius: 0px;
   width: 100%;
-  padding: 10px; }
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .library-container h5 {
+    margin-left: 10px; }
+  .library-container hr {
+    margin-top: 0;
+    margin-bottom: 10px; }
 
 .catbloc li {
   font-size: 20px;
@@ -2239,7 +2286,7 @@ table tr, table td {
     background: rgba(255, 255, 255, 0.1);
     color: #C14547;
     font-size: 2rem;
-    padding: 2.3rem;
+    padding: 2.4rem;
     display: inline-block;
     margin-right: 1rem;
     -webkit-transition: 0.3s;
@@ -2302,7 +2349,6 @@ table tr, table td {
 .review.button, .review.button-ghost {
   text-align: center;
   display: inline-block;
-  max-width: 350px;
   width: 100%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

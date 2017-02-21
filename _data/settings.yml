@@ -36,6 +36,18 @@ sidebar_CTA:
   CTA_link_text: Home Search Tool
   CTA_url: /homesearch/
 
+lender:
+  show_section: true
+  header_text: Preferred Lender
+  headshot_path: http://fillmurray.com/200/200
+  logo_path: /img/logo.png
+  logo_path_2:
+  name: Bill Murray
+  brand: Lender Co.
+  phone: 555-555-5555
+  email: bill@murray.com
+  url: http://eyegoop.com
+
 welcome_box:
   welcome_headline: Join Our -- MARKET -- VIP List
   welcome_text_markdown: >
