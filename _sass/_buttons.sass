@@ -17,6 +17,11 @@
 	&:active
 		box-shadow: 0 0 0 $brand-light
 		@include transform(translateY(0rem))
+		text-decoration: none
+		color: #fff
+	&:focus
+		text-decoration: none
+		color: #fff
 
 .cta2
 	// background: $light-text
@@ -37,10 +42,18 @@
 	&:active
 		box-shadow: 0 0 0 $brand-light
 		@include transform(translateY(0rem))
-
+	&:focus
+		text-decoration: none
+		color: #fff
 .navbar-nav>li>a
 	font-size: 20px
 	margin-top: 12px
 	padding: $button-padding-height $button-padding-width
 	border-radius: $button-radius
 	@include transition
+	&:active
+		text-decoration: none
+		color: #fff
+	&:focus
+		text-decoration: none
+		color: #fff

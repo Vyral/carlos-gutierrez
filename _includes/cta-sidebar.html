@@ -1,26 +1,28 @@
+{% for cta in site.data.settings.sidebar_CTA %}
 <div class="cta-sidebar-container">
 	<div class="cta-img-container">
-		{% if site.data.settings.sidebar_CTA.CTA_link_text == null or site.data.settings.sidebar_CTA.CTA_url == null%}
-	<a href="{{site.data.settings.CTAs.first_CTA_URL}}" target="_blank">
+		{% if cta.CTA_link_text == null or cta.CTA_url == null%}
+	<a href="{{cta.first_CTA_URL}}" target="_blank">
 		{% else %}
-		<a href="{{site.data.settings.sidebar_CTA.CTA_url}}" target="_blank">
+		<a href="{{cta.CTA_url}}" target="_blank">
 		{%endif%}
-		<img src="{{site.data.settings.sidebar_CTA.CTA_image_path}}" alt="" />
+		<img src="{{cta.CTA_image_path}}" alt="" />
 	</a>
 	</div>
-	<h5>{{site.data.settings.sidebar_CTA.CTA_title}}</h5>
+	<h5>{{cta.CTA_title}}</h5>
 	<p>
-		{{site.data.settings.sidebar_CTA.CTA_text | replace: '-- MARKET --', site.data.settings.client.market}}
+		{{cta.CTA_text | replace: '-- MARKET --', site.data.settings.client.market}}
 	</p>
 	<div class="ctacontainer">
-		{% if site.data.settings.sidebar_CTA.CTA_link_text == null or site.data.settings.sidebar_CTA.CTA_url == null%}
+		{% if cta.CTA_link_text == null or cta.CTA_url == null%}
 		<a class="ctalink" href="{{site.data.settings.CTAs.first_CTA_URL}}" target="_blank">
 			{{site.data.settings.CTAs.first_CTA_text}}
 		</a>
 		{% else %}
-		<a class="ctalink" href="{{site.data.settings.sidebar_CTA.CTA_url}}" target="_blank">
-			{{site.data.settings.sidebar_CTA.CTA_link_text}}
+		<a class="ctalink" href="{{cta.CTA_url}}" target="_blank">
+			{{cta.CTA_link_text}}
 		</a>
 		{% endif %}
 	</div>
 </div>
+{% endfor %}

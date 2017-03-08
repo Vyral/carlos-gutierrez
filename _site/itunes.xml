@@ -7,7 +7,7 @@
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <language>en</language>
     <managingEditor></managingEditor>
-    <lastBuildDate>2017-02-14 15:27:18 -0600</lastBuildDate>
+    <lastBuildDate>2017-03-01 14:01:30 -0600</lastBuildDate>
     <media:copyright></media:copyright>
     <media:thumbnail url="localhost:4000"/>
     <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
@@ -26,13 +26,11 @@
     
       <item>
         <title>this is a test post</title>
-        <link>localhost:4000/this-is-a-test.html</link>
+        <link>localhost:4000/this-is-a-test-post.html</link>
         
           <category>Market Update</category>
         
           <category>Real Estate</category>
-        
-          <category>Buyer Tips</category>
         
           <category>Home Seller Tips</category>
         
@@ -64,14 +62,12 @@ Oh. You need a little dummy text for your mockup? How quaint.I bet you’re stil
       </item>
       
       <item>
-        <title>this is a test</title>
+        <title>A Fox in Space</title>
         <link>localhost:4000/a-fox-in-space.html</link>
         
           <category>Market Update</category>
         
           <category>Real Estate</category>
-        
-          <category>Buyer Tips</category>
         
           <category>Home Seller Tips</category>
         
