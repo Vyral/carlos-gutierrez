@@ -100,3 +100,26 @@
 		.socials
 			svg
 				@include size(1.8rem)
+.feedbox
+	position: relative
+	z-index: 5
+	padding: 10px
+	background: rgba(255,255,255,.9)
+	color: #353535
+	border: 1px solid #cfcfcf
+	opacity: 0
+	// animation: feedfade 3s ease-in-out
+.feedshow
+	animation: feedfade 2s ease-in-out
+.feedlink
+	cursor: pointer
+
+@keyframes feedfade
+	0%
+		opacity: 0
+	15%
+		opacity: 1
+	85%
+		opacity: 1
+	100%
+		opacity: 0

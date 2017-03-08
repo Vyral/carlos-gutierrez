@@ -2272,6 +2272,41 @@ table tr, table td {
   .footer-socials .socials svg {
     height: 1.8rem;
     width: 1.8rem; } }
+.feedbox {
+  position: relative;
+  z-index: 5;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #353535;
+  border: 1px solid #cfcfcf;
+  opacity: 0; }
+
+.feedshow {
+  -webkit-animation: feedfade 2s ease-in-out;
+          animation: feedfade 2s ease-in-out; }
+
+.feedlink {
+  cursor: pointer; }
+
+@-webkit-keyframes feedfade {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes feedfade {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 #search-results {
   list-style: none; }
 
@@ -2823,7 +2858,12 @@ form select {
   .cta:active {
     box-shadow: 0 0 0 #db9293;
     -webkit-transform: translateY(0rem);
-    transform: translateY(0rem); }
+    transform: translateY(0rem);
+    text-decoration: none;
+    color: #fff; }
+  .cta:focus {
+    text-decoration: none;
+    color: #fff; }
 
 .cta2 {
   color: #ffffff;
@@ -2847,6 +2887,9 @@ form select {
     box-shadow: 0 0 0 #db9293;
     -webkit-transform: translateY(0rem);
     transform: translateY(0rem); }
+  .cta2:focus {
+    text-decoration: none;
+    color: #fff; }
 
 .navbar-nav > li > a {
   font-size: 20px;
@@ -2855,6 +2898,12 @@ form select {
   border-radius: 0px;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
+  .navbar-nav > li > a:active {
+    text-decoration: none;
+    color: #fff; }
+  .navbar-nav > li > a:focus {
+    text-decoration: none;
+    color: #fff; }
 
 .footer {
   color: #fff; }

@@ -193,3 +193,11 @@ $('.navbar')
      $('.navbar').removeClass('brand-color')
 });
 });
+new Clipboard('.feedlink');
+
+$('.feedlink').click(function(){
+	$('.feedbox').addClass('feedshow').delay(2000).queue(
+		function(){
+		$('.feedbox').removeClass('feedshow')
+	});
+});
