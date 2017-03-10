@@ -19,7 +19,11 @@ layout: default
 	            {% if post.use_youtube_image == true %}
 	            <img src="http://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
 	            {% else %}
-	            <img src="{{post.youtube_alternate_image}}" alt="{{site.title}}" class="post-image"/>
+								{% if post.youtube_alternate_image != null %}
+	            		<img src="{{post.youtube_alternate_image}}" alt="{{post.title}}" class="post-image"/>
+								{% else %}
+									<img src="{{ site.data.settings.images.post_cover }}" alt="{{post.title}}" class="post-image"/>
+								{% endif %}
 	            {% endif %}
 	          </a>
           </div>
