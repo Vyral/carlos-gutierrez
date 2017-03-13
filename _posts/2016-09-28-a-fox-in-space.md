@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Fox in Space
+date:
 tags:
   - Market Update
   - Real Estate
