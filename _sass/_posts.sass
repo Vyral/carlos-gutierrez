@@ -7,6 +7,7 @@
 
 .post-container
   padding-right: 20px
+
 .pad
   padding: 0 2rem
 
@@ -17,7 +18,7 @@
 .post-overview-title
   font-size: 3rem
   text-align: left
-
+  padding-left: 10px
 .post-title
   font-size: 5rem
   text-align: left
@@ -27,11 +28,12 @@
 
 .post-image
   width: 100%
-  margin-bottom: 20px
-  @include shadow
 
+.post-image-container
+  padding: 0
 .excerpt
   font-size: 18px
+  padding: 10px
   padding-bottom: 20px
 
 .post-list
@@ -40,8 +42,12 @@
   li
     display: inline
 
-// .content-container
-// 	padding: 10px 5px 30px 5px
+.content-container
+  border: 1px solid #cfcfcf
+  margin: 20px auto
+  hr
+    margin-top: 0
+    margin-bottom: 0
 .center-image
   margin: 0 auto
   display: block
@@ -249,7 +255,7 @@
     .headshot
       display: none
   .pullquote
-    max-width: 100%			
+    max-width: 100%
 @media (max-width: 992px)
   .post-container
     padding-right: 0px

@@ -7,9 +7,9 @@
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
     <language>en</language>
     <managingEditor></managingEditor>
-    <lastBuildDate>2017-03-09 13:53:40 -0600</lastBuildDate>
+    <lastBuildDate>2017-03-16 10:46:04 -0500</lastBuildDate>
     <media:copyright></media:copyright>
-    <media:thumbnail url="localhost:4000"/>
+    <media:thumbnail url="localhost:4000/img/podcast.jpg"/>
     <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
     <itunes:owner>
@@ -18,7 +18,7 @@
     </itunes:owner>
     <itunes:author></itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="localhost:4000"/>
+    <itunes:image href="localhost:4000/img/podcast.jpg"/>
     <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in , home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
     <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the  Area Real Estate Market</itunes:subtitle>
     <itunes:summary>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</itunes:summary>
