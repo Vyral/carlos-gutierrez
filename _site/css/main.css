@@ -2751,14 +2751,8 @@ form select {
     border: 1px solid gray;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
-    .contact-form input:focus::-webkit-input-placeholder, .contact-form textarea:focus::-webkit-input-placeholder {
-      color: transparent; }
-    .contact-form input:focus::-moz-placeholder, .contact-form textarea:focus::-moz-placeholder {
-      color: transparent; }
-    .contact-form input:focus:-moz-placeholder, .contact-form textarea:focus:-moz-placeholder {
-      color: transparent; }
-    .contact-form input:focus:-ms-input-placeholder, .contact-form textarea:focus:-ms-input-placeholder {
-      color: transparent; }
+  .contact-form:focus {
+    color: transparent; }
   .contact-form textarea {
     height: 15rem; }
   .contact-form input[type="submit"] {
