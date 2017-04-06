@@ -10,7 +10,7 @@ for postfile in dirs:
 		post = '_posts/' + postfile
 		file = open(post, 'r+', encoding='utf-8', errors='ignore')
 		yt = file.read()
-		ytcode = yt.partition('www.youtube.com/embed/')[2].partition('"')[0]
+		ytcode = yt.partition('https://img.youtube.com/vi/')[2].partition('"')[0]
 		ytcode = ytcode[:11]
 		newline = yt.replace('---', '---\nyoutube_code: '+ ytcode + '\nexcerpt:\nenclosure:\npullquote:\nenclosure_type: video/mp4\nenclosure_time:\nuse_youtube_image: true\nyoutube_alternate_image: /img/cover.jpg', 1)
 		file = open(post, 'w')
