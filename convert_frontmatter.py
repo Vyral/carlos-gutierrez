@@ -9,8 +9,11 @@ for postfile in dirs:
 		post = '_posts/' + postfile
 		file = open(post, 'r+')
 		yt = file.read()
+		# file.close()
 		ytcode = yt.partition('www.youtube.com/embed/')[2].partition('"')[0]
+		ytcode = ytcode[:11]
 		newline = yt.replace('---', '---\nyoutube_code: '+ ytcode + '\nexcerpt:\nenclosure:\npullquote:\nenclosure_type: video/mp4\nenclosure_time:\nuse_youtube_image: true\nyoutube_alternate_image: /img/cover.jpg', 1)
+		# file = open(post, 'w')
 		file.seek(0)
 		file.write(newline)
 		file.close()
@@ -19,10 +22,12 @@ for postfile in dirs:
 		post = '_posts/' + postfile
 		file = open(post, 'r+')
 		yt = file.read()
+		# file.close()
 		frontmatter = yt.rpartition('---')[0]
 		post = yt.partition('</iframe>')[2]
 		ytpost = "---\n{% include youtube.html %}\n" + post
 		fullpost = (frontmatter + ytpost)
+		# file = open(post, 'w')
 		file.seek(0)
 		file.write(fullpost)
 		file.close()
