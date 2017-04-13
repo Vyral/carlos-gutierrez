@@ -12,20 +12,20 @@ layout: null
     <managingEditor>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</managingEditor>
     <lastBuildDate>{{site.time}}</lastBuildDate>
     <media:copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</media:copyright>
-    <media:thumbnail url="{{site.data.settings.podcast.image | prepend: site.url}}"/>
+    <media:thumbnail url="{{site.data.settings.podcast.image}}"/>
     <media:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</media:keywords>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.data.settings.podcast.categories}}</media:category>
     <itunes:owner>
       <itunes:email>{{site.data.settings.client.email}}</itunes:email>
       <itunes:name>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:name>
     </itunes:owner>
     <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{site.data.settings.podcast.image | prepend: site.url}}"/>
+    <itunes:image href="{{site.data.settings.podcast.image}}"/>
     <itunes:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:keywords>
     <itunes:subtitle>{{site.data.settings.podcast.subtitle | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:subtitle>
     <itunes:summary>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</itunes:summary>
-      <itunes:category text="News &amp; Politics"/>
+      <itunes:category text="{{site.data.settings.podcast.categories}}"/>
     {% for post in site.posts %}
       <item>
         <title>{{post.title}}</title>
