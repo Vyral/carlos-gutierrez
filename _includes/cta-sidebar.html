@@ -26,3 +26,31 @@
 	</div>
 </div>
 {% endfor %}
+{% for cta in site.data.settings.second_sidebar_CTA %}
+<div class="cta-sidebar-container">
+	<div class="cta-img-container">
+		{% if cta.CTA_link_text2 == null or cta.CTA_url2 == null%}
+	<a href="{{cta.second_CTA_URL}}" target="_blank">
+		{% else %}
+		<a href="{{cta.CTA_url2}}" target="_blank">
+		{%endif%}
+		<img src="{{cta.CTA_image_path2}}" alt="" />
+	</a>
+	</div>
+	<h5>{{cta.CTA_title2}}</h5>
+	<p>
+		{{cta.CTA_text2}}
+	</p>
+	<div class="ctacontainer">
+		{% if cta.CTA_link_text2 == null or cta.CTA_url2 == null%}
+		<a class="ctalink" href="{{site.data.settings.CTAs.second_CTA_URL}}" target="_blank">
+			{{site.data.settings.CTAs.second_CTA_text}}
+		</a>
+		{% else %}
+		<a class="ctalink" href="{{cta.CTA_url2}}" target="_blank">
+			{{cta.CTA_link_text2}}
+		</a>
+		{% endif %}
+	</div>
+</div>
+{% endfor %}

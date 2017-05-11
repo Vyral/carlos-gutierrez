@@ -36,6 +36,13 @@ sidebar_CTA:
     CTA_link_text: Home Search Tool
     CTA_url: /homesearch/
 
+second_sidebar_CTA:
+  - CTA_image_path2: /img/cta-images/005.jpg
+    CTA_title2: What's Your Home Worth?
+    CTA_text2: Thinking of selling or interested in learning about a neighbor's house? We can help you see what it's worth.
+    CTA_link_text2: Free Home Value Report
+    CTA_url2: /homevalue/
+
 lender:
   show_section: false
   header_text: Preferred Lender
