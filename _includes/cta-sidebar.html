@@ -9,9 +9,9 @@
 		<img src="{{cta.CTA_image_path}}" alt="" />
 	</a>
 	</div>
-	<h5>{{cta.CTA_title}}</h5>
+	<h5>{{cta.CTA_title | replace: '-- MARKET --', site.data.settings.client.market}}</h5>
 	<p>
-		{{cta.CTA_text | replace: '-- MARKET --', site.data.settings.client.market}}
+		{{cta.CTA_text}}
 	</p>
 	<div class="ctacontainer">
 		{% if cta.CTA_link_text == null or cta.CTA_url == null%}
@@ -20,7 +20,7 @@
 		</a>
 		{% else %}
 		<a class="ctalink" href="{{cta.CTA_url}}" target="_blank">
-			{{cta.CTA_link_text}}
+			{{cta.CTA_link_text | replace: '-- MARKET --', site.data.settings.client.market}}
 		</a>
 		{% endif %}
 	</div>
@@ -37,9 +37,9 @@
 		<img src="{{cta.CTA_image_path2}}" alt="" />
 	</a>
 	</div>
-	<h5>{{cta.CTA_title2}}</h5>
+	<h5>{{cta.CTA_title2 | replace: '-- MARKET --', site.data.settings.client.market}}</h5>
 	<p>
-		{{cta.CTA_text2}}
+		{{cta.CTA_text2 | replace: '-- MARKET --', site.data.settings.client.market}}
 	</p>
 	<div class="ctacontainer">
 		{% if cta.CTA_link_text2 == null or cta.CTA_url2 == null%}
@@ -48,7 +48,7 @@
 		</a>
 		{% else %}
 		<a class="ctalink" href="{{cta.CTA_url2}}" target="_blank">
-			{{cta.CTA_link_text2}}
+			{{cta.CTA_link_text2 | replace: '-- MARKET --', site.data.settings.client.market}}
 		</a>
 		{% endif %}
 	</div>
