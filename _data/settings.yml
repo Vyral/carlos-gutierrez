@@ -91,14 +91,14 @@ images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
   logo_width_number: 40
-  hero_text: Real Estate Video Blog
+  hero_text: -- MARKET -- Real Estate Video Blog
   hero_background_hex: '#094264'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
 site_colors:
-  brand_color: '#C14547'
-  theme_color: '#005473'
-  theme_text_color: '#353535'
+  brand_color: '#976caf'
+  theme_color: '#67c4a9'
+  theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
 
