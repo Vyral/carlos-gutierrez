@@ -70,3 +70,8 @@
 
 .welcome-hidden-margin
 	margin-bottom: 20px
+
+#welcome::before
+	display: table
+	@-moz-document url-prefix()
+		display: inline-block

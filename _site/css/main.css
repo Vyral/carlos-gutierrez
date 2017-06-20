@@ -1371,6 +1371,11 @@ html[xmlns] .flexslider .slides {
 .welcome-hidden-margin {
   margin-bottom: 20px; }
 
+#welcome::before {
+  display: table; }
+@-moz-document url-prefix() {
+  #welcome::before {
+    display: inline-block; } }
 .jp-audio {
   border: 0;
   color: #976caf;
@@ -1600,12 +1605,12 @@ label.tree-toggle {
 .site-logo {
   width: 90%;
   max-width: 40rem;
-  -webkit-filter: drop-shadow(0px 2px 7px #000);
-  filter: drop-shadow(0px 2px 7px #000); }
+  -webkit-filter: drop-shadow(0px 2px 7px transparent);
+  filter: drop-shadow(0px 2px 7px transparent); }
 
 .site-title {
   color: white;
-  text-shadow: 0px 2px 7px #000;
+  text-shadow: 0px 2px 7px transparent;
   text-transform: uppercase;
   font-size: 6.5rem;
   padding-bottom: 4rem;
@@ -2051,7 +2056,7 @@ table tr, table td {
   margin: 2rem 0;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px 2px 7px #000; }
+  text-shadow: 0px 2px 7px transparent; }
 .post .headshot {
   width: 100%;
   max-width: 15rem;
@@ -2066,7 +2071,7 @@ table tr, table td {
 
 .tag-container {
   color: white;
-  text-shadow: 0px 2px 7px #000;
+  text-shadow: 0px 2px 7px transparent;
   margin-bottom: 1rem; }
 
 .tag {
@@ -2077,7 +2082,7 @@ table tr, table td {
 .author-attribution {
   color: white;
   font-weight: 300;
-  text-shadow: 0px 2px 7px #000;
+  text-shadow: 0px 2px 7px transparent;
   margin-bottom: 2rem;
   font-style: italic; }
   .author-attribution a {
@@ -2797,7 +2802,8 @@ form select {
     border: 1px solid white;
     color: #976caf;
     font-size: 2rem;
-    padding: 2.4rem;
+    padding: 1.3rem;
+    height: auto;
     width: 70%;
     display: inline-block;
     margin-right: 1rem;
