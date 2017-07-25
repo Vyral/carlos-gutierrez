@@ -2,6 +2,7 @@
 	background: $button-background
 	color: $button-text
 	padding: 1.3rem 2rem
+	margin-top: 12px
 	text-transform: capitalize
 	font-size: 2rem
 	font-weight: 300
@@ -18,22 +19,23 @@
 		box-shadow: 0 0 0 $brand-light
 		@include transform(translateY(0rem))
 		text-decoration: none
-		color: #fff
+		color: $brand
 	&:focus
 		text-decoration: none
-		color: #fff
+		color: $brand
 
 .cta2
-	// background: $light-text
+	background: $brand
 	color: $secondary-button-text
 	padding: 1.3rem 2rem
+	margin-top: 12px
 	text-transform: capitalize
 	font-size: 2rem
 	font-weight: 300
-	border: 2px solid $secondary-button-border
+	border: 2px solid $brand
 	@include transition(0.3s)
 	&:hover
-		background: transparent
+		background: #eee
 		color: $button-text
 		box-shadow: 4px 4px 0 $brand-light
 		border: 2px solid $secondary-button-border
@@ -42,18 +44,6 @@
 	&:active
 		box-shadow: 0 0 0 $brand-light
 		@include transform(translateY(0rem))
-	&:focus
-		text-decoration: none
-		color: #fff
-.navbar-nav>li>a
-	font-size: 20px
-	margin-top: 12px
-	padding: $button-padding-height $button-padding-width
-	border-radius: $button-radius
-	@include transition
-	&:active
-		text-decoration: none
-		color: #fff
 	&:focus
 		text-decoration: none
 		color: #fff

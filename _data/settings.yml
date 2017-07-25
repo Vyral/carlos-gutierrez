@@ -79,7 +79,7 @@ socials:
   podcast_url:
 
 podcast:
-  title:
+  title: '-- MARKET -- Real Estate Podcast with -- CLIENT NAME --'
   categories: Education
   image: /img/podcast.jpg
   subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market'
@@ -92,12 +92,12 @@ images:
   hero_logo_path: /img/logo.png
   logo_width_number: 40
   hero_text: -- MARKET -- Real Estate Video Blog
-  hero_background_hex: '#094264'
+  hero_background_hex: '#999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
 site_colors:
-  brand_color: '#976caf'
-  theme_color: '#67c4a9'
+  brand_color: '#b40101'
+  theme_color: '#999'
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'

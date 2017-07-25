@@ -19,13 +19,28 @@
 	@include transition
 
 .navbar-left>li>a
-	border: 0
-	background: transparent
-	color: $brand
-	margin-top: 15px
+	background: $brand
+	color: $secondary-button-text
+	padding: 1.3rem 2rem
+	text-transform: capitalize
+	font-size: 2rem
+	margin-top: 12px
+	font-weight: 300
+	border: 2px solid $brand
+	@include transition(0.3s)
 	&:hover
-		background: transparent
-		color: $brand-light
+		background: #eee
+		color: $button-text
+		box-shadow: 4px 4px 0 $brand-light
+		border: 2px solid $secondary-button-border
+		@include transform(scale(1.05))
+		@include transform(translateY(-0.2rem))
+	&:active
+		box-shadow: 0 0 0 $brand-light
+		@include transform(translateY(0rem))
+	&:focus
+		text-decoration: none
+		color: #fff
 
 .fa-bars
 	color: $brand

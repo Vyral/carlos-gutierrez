@@ -4,7 +4,7 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
   <channel>
-    <title>{{site.data.settings.podcast.title}}</title>
+    <title>{{site.data.settings.podcast.title | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</title>
     <link>{{site.url}}</link>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{site.url}}"/>
     <description>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</description>
@@ -12,7 +12,7 @@ layout: null
     <managingEditor>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</managingEditor>
     <lastBuildDate>{{site.time}}</lastBuildDate>
     <media:copyright>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</media:copyright>
-    <media:thumbnail url="{{site.data.settings.podcast.image}}"/>
+    <media:thumbnail url="{{site.data.settings.podcast.image | prepend: site.url}}"/>
     <media:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.data.settings.podcast.categories}}</media:category>
     <itunes:owner>
@@ -21,7 +21,7 @@ layout: null
     </itunes:owner>
     <itunes:author>{{site.data.settings.podcast.author | replace: '-- CLIENT NAME --', site.data.settings.client.name}}</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="{{site.data.settings.podcast.image}}"/>
+    <itunes:image href="{{site.data.settings.podcast.image | prepend: site.url}}"/>
     <itunes:keywords>{{site.data.settings.podcast.keywords | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:keywords>
     <itunes:subtitle>{{site.data.settings.podcast.subtitle | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand}}</itunes:subtitle>
     <itunes:summary>{{site.data.settings.podcast.description | replace: '-- MARKET --', site.data.settings.client.market | replace: '-- CLIENT BRAND --', site.data.settings.client.brand }}</itunes:summary>

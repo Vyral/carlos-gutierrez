@@ -43,11 +43,11 @@
 			{% if site.data.settings.CTAs.second_CTA_text and site.data.settings.CTAs.second_CTA_URL != null %}
 			<li>
 				{% if site.data.settings.CTAs.second_CTA_URL == '/homesearch/' %}
-				<a class="cta2" href="{{site.data.settings.CTAs.second_CTA_URL}}">
+				<a class="cta" href="{{site.data.settings.CTAs.second_CTA_URL}}">
 					{% elsif site.data.settings.CTAs.second_CTA_URL == '#contact' %}
-					<a class="cta2" id="contact" href="#contact">
+					<a class="cta" id="contact" href="#contact">
 					{% else %}
-				<a class="cta2" href="{{site.data.settings.CTAs.second_CTA_URL}}" target="_blank">
+				<a class="cta" href="{{site.data.settings.CTAs.second_CTA_URL}}" target="_blank">
 				{% endif %}
 					{{site.data.settings.CTAs.second_CTA_text}}
 				</a>
