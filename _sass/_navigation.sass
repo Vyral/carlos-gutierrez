@@ -1,52 +1,53 @@
 .navbar-andross
-	border: none
+	border-bottom: 2px solid $theme
 	border-radius: 0
-	min-height: 65px
-	background: transparent
+	min-height: 52px
+	background: #ffffff
 	width: 100%
 	overflow: hidden
 
 .navbar-andross .navbar-brand
 	color: $brand
-	padding-top: 20px
-	padding-bottom: 33px
+	// padding-top: 20px
+	// padding-bottom: 33px
 	font-size: 20px
 	text-transform: uppercase
 	max-width: 65%
 
 .navbar-nav>li
 	margin-right: 10px
-	@include transition
+	margin-bottom: 0px
+	// @include transition
 
 .navbar-left>li>a
-	background: $brand
-	color: $secondary-button-text
-	padding: 1.3rem 2rem
+	background: $button-background
+	color: black
+	// padding: 1.3rem 2rem
 	text-transform: capitalize
 	font-size: 2rem
-	margin-top: 12px
 	font-weight: 300
-	border: 2px solid $brand
-	@include transition(0.3s)
+	// border: 2px solid $button-border
+	// @include transition(0.3s)
 	&:hover
-		background: #eee
-		color: $button-text
-		box-shadow: 4px 4px 0 $brand-light
-		border: 2px solid $secondary-button-border
-		@include transform(scale(1.05))
-		@include transform(translateY(-0.2rem))
+		background: #eeeeee
+		color: $brand-dark
+		border-bottom: 4px solid $brand
+		// @include transform(scale(1.05))
+		// @include transform(translateY(-0.2rem))
 	&:active
-		box-shadow: 0 0 0 $brand-light
-		@include transform(translateY(0rem))
+		// box-shadow: 0 0 0 $brand-dark
+		// @include transform(translateY(0rem))
+		text-decoration: none
+		color: $brand
 	&:focus
 		text-decoration: none
-		color: #fff
+		color: $brand
 
 .fa-bars
 	color: $brand
 
 .navbar-toggle
-	margin-top: 20px
+	// margin-top: 20px
 
 .phone, .fa-phone
 	color: #fff
@@ -54,6 +55,7 @@
 .navbar
 	padding-right: 15px
 	padding-left: 15px
+	height: 52px
 
 
 @media(max-width: 347px)
@@ -66,24 +68,24 @@
 			overflow: hidden
 			display: none
 			opacity: 0
-.scroll-nav-color
-	background: transparentize($theme, 0)
-	animation: .5s fadeNavigation ease-in-out
-	+shadow
-@keyframes fadeNavigation
-	0%
-		transform: translateY(0)
-		background: transparentize($theme, 1)
-	// 50%
-	// 	transform: translateY(-100px)
-	// 	background: transparent
-	// 51%
-	// 	background: $brand
-	100%
-		background: transparentize($theme, 0)
-		transform: translateY(0)
-		+shadow
-		// background: $theme
+// .scroll-nav-color
+// 	background: transparentize($theme, 0)
+// 	animation: .5s fadeNavigation ease-in-out
+// 	+shadow
+// @keyframes fadeNavigation
+// 	0%
+// 		transform: translateY(0)
+// 		background: transparentize($theme, 1)
+// 	// 50%
+// 	// 	transform: translateY(-100px)
+// 	// 	background: transparent
+// 	// 51%
+// 	// 	background: $brand
+// 	100%
+// 		background: transparentize($theme, 0)
+// 		transform: translateY(0)
+// 		+shadow
+// 		// background: $theme
 .brand-color
 	+shadow
 	background: $theme
