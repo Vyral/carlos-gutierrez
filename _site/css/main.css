@@ -2852,72 +2852,6 @@ form select {
     text-decoration: none;
     color: #b40101; }
 
-.cta3 {
-  background: #ffffff;
-  color: #123456;
-  padding: 1.3rem 2rem;
-  text-transform: capitalize;
-  font-size: 2rem;
-  font-weight: 300;
-  border: 2px solid #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
-  .cta3:hover {
-    background: transparent;
-    color: #810101;
-    box-shadow: 4px 4px 0 #810101;
-    border: 2px solid #ffffff;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-transform: translateY(-0.2rem);
-    transform: translateY(-0.2rem); }
-  .cta3:active {
-    box-shadow: 0 0 0 #810101;
-    -webkit-transform: translateY(0rem);
-    transform: translateY(0rem);
-    text-decoration: none;
-    color: #b40101; }
-  .cta3:focus {
-    text-decoration: none;
-    color: #b40101; }
-
-.cta2 {
-  background: #999;
-  color: #ffffff;
-  padding: 1.3rem 2rem;
-  text-transform: capitalize;
-  font-size: 2rem;
-  font-weight: 300;
-  border: 2px solid #999;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
-  .cta2:hover {
-    background: transparent;
-    color: #123456;
-    box-shadow: 4px 4px 0 #810101;
-    border: 2px solid #ffffff;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-transform: translateY(-0.2rem);
-    transform: translateY(-0.2rem); }
-  .cta2:active {
-    box-shadow: 0 0 0 #810101;
-    -webkit-transform: translateY(0rem);
-    transform: translateY(0rem); }
-  .cta2:focus {
-    text-decoration: none;
-    color: #fff; }
-
-.navbar-nav > li > a {
-  font-size: 20px;
-  border-radius: 0px; }
-  .navbar-nav > li > a:active {
-    text-decoration: none;
-    color: #fff; }
-  .navbar-nav > li > a:focus {
-    text-decoration: none;
-    color: #fff; }
-
 .footer {
   color: #fff; }
   .footer .attribution svg {
@@ -2939,3 +2873,13 @@ form select {
 #side-logo {
   width: 90%;
   margin: 0 auto; }
+
+.client-testimonial {
+  margin-top: 10px; }
+
+.testimonial-text {
+  font-style: italic; }
+
+.testimonial-author {
+  color: #b40101;
+  margin-top: -20px; }

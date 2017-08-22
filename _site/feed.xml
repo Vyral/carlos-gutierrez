@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>-- CLIENT BRAND --</title>
-    <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from  - your professional  Real Estate Agents.</description>
+    <description>Our mission at  is to be your best resource for  real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The , your professional  Real Estate Agents.</description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Aug 2017 13:32:22 -0500</pubDate>
-    <lastBuildDate>Thu, 17 Aug 2017 13:32:22 -0500</lastBuildDate>
+    <pubDate>Tue, 22 Aug 2017 13:25:58 -0500</pubDate>
+    <lastBuildDate>Tue, 22 Aug 2017 13:25:58 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
