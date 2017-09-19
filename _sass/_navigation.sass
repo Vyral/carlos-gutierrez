@@ -8,8 +8,8 @@
 
 .navbar-andross .navbar-brand
 	color: $brand
-	// padding-top: 20px
-	// padding-bottom: 33px
+	padding-top: 20px
+	padding-bottom: 33px
 	font-size: 20px
 	text-transform: uppercase
 	max-width: 65%
@@ -17,7 +17,7 @@
 .navbar-nav>li
 	margin-right: 10px
 	margin-bottom: 0px
-	// @include transition
+	@include transition
 
 .navbar-left>li>a
 	background: $button-background
@@ -36,7 +36,7 @@
 		// @include transform(translateY(-0.2rem))
 	&:active
 		// box-shadow: 0 0 0 $brand-dark
-		// @include transform(translateY(0rem))
+		@include transform(translateY(0rem))
 		text-decoration: none
 		color: $brand
 	&:focus
@@ -55,7 +55,7 @@
 .navbar
 	padding-right: 15px
 	padding-left: 15px
-	height: 52px
+	// height: 52px
 
 
 @media(max-width: 347px)

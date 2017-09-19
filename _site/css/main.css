@@ -1457,13 +1457,17 @@ html[xmlns] .flexslider .slides {
 
 .navbar-andross .navbar-brand {
   color: #b40101;
+  padding-top: 20px;
+  padding-bottom: 33px;
   font-size: 20px;
   text-transform: uppercase;
   max-width: 65%; }
 
 .navbar-nav > li {
   margin-right: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s; }
 
 .navbar-left > li > a {
   background: #ffffff;
@@ -1476,6 +1480,8 @@ html[xmlns] .flexslider .slides {
     color: #810101;
     border-bottom: 4px solid #b40101; }
   .navbar-left > li > a:active {
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem);
     text-decoration: none;
     color: #b40101; }
   .navbar-left > li > a:focus {
@@ -1490,8 +1496,7 @@ html[xmlns] .flexslider .slides {
 
 .navbar {
   padding-right: 15px;
-  padding-left: 15px;
-  height: 52px; }
+  padding-left: 15px; }
 
 @media(max-width: 347px) {
   .navbar {
