@@ -1477,8 +1477,7 @@ html[xmlns] .flexslider .slides {
   font-weight: 300; }
   .navbar-left > li > a:hover {
     background: #eeeeee;
-    color: #810101;
-    border-bottom: 4px solid #b40101; }
+    color: #810101; }
   .navbar-left > li > a:active {
     -webkit-transform: translateY(0rem);
     transform: translateY(0rem);
@@ -2848,8 +2847,7 @@ form select {
   font-weight: 300; }
   .cta:hover {
     background: #eeeeee;
-    color: #810101;
-    border-bottom: 2px solid #b40101; }
+    color: #810101; }
   .cta:active {
     text-decoration: none;
     color: #b40101; }
@@ -2868,12 +2866,6 @@ form select {
 
 .newsletter {
   background: #919191; }
-
-.fa-bars {
-  color: #fff; }
-
-.navbar-andross .navbar-brand {
-  color: #fff; }
 
 #side-logo {
   width: 90%;
