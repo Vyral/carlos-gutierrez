@@ -17,7 +17,7 @@ kramdown:
   input: GFM
 highlighter: rouge
 
-paginate: 5
+paginate: 6
 permalink: none
 
 gems:
