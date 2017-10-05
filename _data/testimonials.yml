@@ -1,5 +1,5 @@
-show_testimonials_section: false
+show_testimonials_section: true
 testimonial:
-  - quote:
-    name:
-    audio:
+  - quote: Vyral is Cool
+    name: Emma
+    audio: /_uploads/audio/emma.mp3
