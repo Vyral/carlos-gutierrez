@@ -1961,7 +1961,7 @@ table tr, table td {
     color: #b40101;
     border: 1px solid #b40101; }
   .readlink > a:active {
-    box-shadow: 0 0 0 #fe1d1d;
+    box-shadow: 0 0 0 #b40101;
     -webkit-transform: translateY(0rem);
     transform: translateY(0rem); }
 
@@ -2728,14 +2728,9 @@ form select {
     border: 3px solid #b40101;
     border-radius: 5px; }
     .contact-form input[type="submit"]:hover {
-      background: white;
-      color: #fe1d1d;
-      box-shadow: 4px 4px 0 #fe1d1d;
-      border: 2px solid #fe1d1d;
-      -webkit-transform: scale(1.05);
-      transform: scale(1.05);
-      -webkit-transform: translateY(-0.2rem);
-      transform: translateY(-0.2rem); }
+      background: #fff;
+      color: #b40101;
+      border: 1px solid #b40101; }
     .contact-form input[type="submit"]:active {
       box-shadow: 0 0 0 #b40101;
       -webkit-transform: translateY(0rem);
