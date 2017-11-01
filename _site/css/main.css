@@ -2711,8 +2711,8 @@ form select {
       border: 3px solid #fe1d1d; }
 
 .contact-form {
-  width: 100%;
-  margin-bottom: 0; }
+  width: 75%;
+  margin-left: 13%; }
   .contact-form input, .contact-form textarea {
     width: 100%;
     border: 1px solid gray;
@@ -2728,13 +2728,24 @@ form select {
     border: 3px solid #b40101;
     border-radius: 5px; }
     .contact-form input[type="submit"]:hover {
-      background: #fff;
-      color: #b40101;
-      border: 1px solid #b40101; }
+      background: white;
+      color: #fe1d1d;
+      box-shadow: 4px 4px 0 #fe1d1d;
+      border: 2px solid #fe1d1d;
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transform: translateY(-0.2rem);
+      transform: translateY(-0.2rem); }
     .contact-form input[type="submit"]:active {
       box-shadow: 0 0 0 #b40101;
       -webkit-transform: translateY(0rem);
       transform: translateY(0rem); }
+
+.contact {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 13%;
+  margin-top: 20px; }
 
 .newsletter {
   background: #b40101;

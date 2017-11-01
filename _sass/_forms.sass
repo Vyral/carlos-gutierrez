@@ -28,8 +28,8 @@ form
 			border: 3px solid $brand-light
 
 .contact-form
-	width: 100%
-	margin-bottom: 0
+	width: 75%
+	margin-left: 13%
 	input, textarea
 		width: 100%
 		border: 1px solid $form-border-color
@@ -45,9 +45,18 @@ form
 		border: 3px solid $brand
 		border-radius: 5px
 		&:hover
-			background: #fff
-			color: $brand
-			border: 1px solid $brand
+			background: $light-text
+			color: $brand-light
+			box-shadow: 4px 4px 0 $brand-light
+			border: 2px solid $brand-light
+			@include transform(scale(1.05))
+			@include transform(translateY(-0.2rem))
 		&:active
 			box-shadow: 0 0 0 $brand
 			@include transform(translateY(0rem))
+
+.contact
+	font-size: 24px
+	margin-bottom: 20px
+	margin-left: 13%
+	margin-top: 20px
