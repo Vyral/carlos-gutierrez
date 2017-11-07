@@ -46,12 +46,13 @@ second_sidebar_CTA:
 lender:
   show_section: false
   header_text: Preferred Lender
-  headshot_path: http://fillmurray.com/200/200
-  logo_path: /img/logo.png
-  logo_path_2:
-  name: Bill Murray
+  headshot_path: /img/lender-headshot.jpg
+  logo_path: /img/lender-logo.png
+  name:
+  license_number:
   brand: Lender Co.
-  phone: 555-555-5555
+  license_number2:
+  phone:
   email: bill@murray.com
   url: http://eyegoop.com
 
