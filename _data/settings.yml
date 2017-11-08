@@ -46,13 +46,12 @@ second_sidebar_CTA:
 lender:
   show_section: false
   header_text: Preferred Lender
-  headshot_path: /img/lender-headshot.jpg
-  logo_path: /img/lender-logo.png
-  name:
-  license_number:
+  headshot_path: http://fillmurray.com/200/200
+  logo_path: /img/logo.png
+  logo_path_2:
+  name: Bill Murray
   brand: Lender Co.
-  license_number2:
-  phone:
+  phone: 555-555-5555
   email: bill@murray.com
   url: http://eyegoop.com
 
@@ -114,7 +113,7 @@ buttons:
   button_padding_width_number: 10
   button_padding_height_number: 15
   button_border_color: '#ffffff'
-  button_background_color: '#ffffff'
+  button_background_color: transparent
   button_text_color: '#123456'
   secondary_button_border_color: '#ffffff'
   secondary_button_background_color: 'rgba(0, 0, 0, 0)'
