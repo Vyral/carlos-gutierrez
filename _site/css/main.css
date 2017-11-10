@@ -1465,7 +1465,7 @@ html[xmlns] .flexslider .slides {
   transition: all 0.15s ease-out 0s; }
 
 .navbar-left > li > a {
-  background: #ffffff;
+  background: transparent;
   color: black;
   text-transform: capitalize;
   font-size: 2rem;
@@ -2713,7 +2713,7 @@ form select {
     margin: 10px auto;
     width: 90%; } }
 .cta {
-  background: #ffffff;
+  background: transparent;
   color: #123456;
   text-transform: capitalize;
   font-size: 2rem;
