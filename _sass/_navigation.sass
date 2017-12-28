@@ -20,7 +20,7 @@
 	@include transition
 
 .navbar-left>li>a
-	background: $button-background
+	background: transparent
 	color: black
 	// padding: 1.3rem 2rem
 	text-transform: capitalize
@@ -37,6 +37,23 @@
 	&:active
 		// box-shadow: 0 0 0 $brand-dark
 		@include transform(translateY(0rem))
+		text-decoration: none
+		color: $brand
+	&:focus
+		text-decoration: none
+		color: $brand
+
+.cta
+	background: transparent
+	color: $button-text
+	// padding: 1.3rem 2rem
+	text-transform: capitalize
+	font-size: 2rem
+	font-weight: 300
+	&:hover
+		background: #eeeeee
+		color: $brand-dark
+	&:active
 		text-decoration: none
 		color: $brand
 	&:focus

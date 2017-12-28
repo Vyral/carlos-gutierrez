@@ -1482,6 +1482,22 @@ html[xmlns] .flexslider .slides {
     text-decoration: none;
     color: #b40101; }
 
+.cta {
+  background: transparent;
+  color: #123456;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 300; }
+  .cta:hover {
+    background: #eeeeee;
+    color: #810101; }
+  .cta:active {
+    text-decoration: none;
+    color: #b40101; }
+  .cta:focus {
+    text-decoration: none;
+    color: #b40101; }
+
 .fa-bars {
   color: #b40101; }
 

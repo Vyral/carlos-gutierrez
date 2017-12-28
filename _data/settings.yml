@@ -6,6 +6,8 @@ custom_links:
   - title:
     url:
 
+emma_form:
+
 client:
   name:
   license_number:
@@ -27,7 +29,6 @@ CTAs:
   first_CTA_URL: /homevalue/
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
-  VR_form:
 
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/004.jpg
@@ -101,6 +102,9 @@ site_colors:
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
+
+navbar_colors:
+  border_bottom:
 
 header_shadow:
   h_shadow: 0px
