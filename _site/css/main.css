@@ -1603,8 +1603,10 @@ label.tree-toggle {
   color: white;
   text-shadow: 0px 2px 7px transparent;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 5rem;
+  font-weight: bold;
   padding-bottom: 4rem;
+  padding-top: 1rem;
   margin-bottom: 0; }
 
 @media (max-width: 1100px) {
@@ -2748,6 +2750,64 @@ form select {
   .cta:focus {
     text-decoration: none;
     color: #b40101; }
+
+.recruiting {
+  text-align: center; }
+
+#recruit {
+  width: 75%;
+  margin-left: 13%;
+  margin-top: 2rem;
+  font-size: 18px; }
+
+.recruiting-photo {
+  float: right;
+  margin: 20px; }
+
+#page-bkg {
+  height: 430px; }
+
+.caption {
+  font-size: 16px;
+  font-style: oblique;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.letterhead {
+  text-align: center; }
+
+#letterhead {
+  font-family: "Source Sans Pro", helvetica, arial, sans-serif;
+  font-weight: 400;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  text-transform: uppercase; }
+
+#letterhead-title {
+  font-family: "Source Sans Pro", helvetica, arial, sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3.5rem; }
+
+#letterhead-subtitle {
+  margin-bottom: 0;
+  margin-top: 1.5rem; }
+
+.recruiting-page {
+  Font-size: 18px; }
+
+.page-logo {
+  width: 90%;
+  max-width: 40rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-filter: drop-shadow(0px 2px 7px transparent);
+  filter: drop-shadow(0px 2px 7px transparent); }
+
+.page-hero-img {
+  background-position: center;
+  background-size: cover; }
 
 .footer {
   color: #fff; }
