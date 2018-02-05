@@ -2179,6 +2179,11 @@ table tr, table td {
   100% {
     -webkit-transform: rotate(0deg) scale(1) translate(-209px, -148px);
     transform: rotate(0deg) scale(1) translate(-209px, -148px); } }
+.post-cta {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 2rem; }
+
 .socials {
   padding: 0.7rem;
   margin-bottom: 0.7rem; }

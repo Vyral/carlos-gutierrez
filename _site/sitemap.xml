@@ -33,6 +33,9 @@
 <loc>localhost:4000/search.html</loc>
 </url>
 <url>
+<loc>localhost:4000/sign-up/</loc>
+</url>
+<url>
 <loc>localhost:4000/thankyou/</loc>
 </url>
 </urlset>
