@@ -30,7 +30,13 @@
 <loc>localhost:4000/</loc>
 </url>
 <url>
+<loc>localhost:4000/join-our-team/</loc>
+</url>
+<url>
 <loc>localhost:4000/search.html</loc>
+</url>
+<url>
+<loc>localhost:4000/subscribe/</loc>
 </url>
 <url>
 <loc>localhost:4000/thankyou/</loc>
