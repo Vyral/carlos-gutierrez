@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>-- MARKET -- Real Estate Careers and Training Video Blog with -- CLIENT NAME --</title>
-    <description>A Video Blog about  Real Estate; its industry, and the people working in it. Whether you're just starting out, aspiring to begin, or been working in the field for a few years, tune in to get updates, tips, tricks and more!</description>
+    <title>-- MARKET -- Real Estate Video Blog with -- CLIENT NAME --</title>
+    <description>Our mission at  is to be your best resource for  real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The , your professional  Real Estate Agents.</description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Fri, 02 Feb 2018 15:03:14 -0600</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2018 15:03:14 -0600</lastBuildDate>
-=======
-    <pubDate>Mon, 05 Feb 2018 14:53:07 -0600</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2018 14:53:07 -0600</lastBuildDate>
->>>>>>> bc3a9643e4908846109ca71ae29943768f458efb
+    <pubDate>Tue, 06 Feb 2018 10:14:01 -0600</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2018 10:14:01 -0600</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>

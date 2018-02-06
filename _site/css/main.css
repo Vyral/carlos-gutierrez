@@ -2751,6 +2751,32 @@ form select {
     text-decoration: none;
     color: #b40101; }
 
+.footer {
+  color: #fff; }
+  .footer .attribution svg {
+    fill: #fff; }
+  .footer .socials svg {
+    fill: #fff; }
+  .footer a {
+    color: #fff; }
+
+.newsletter {
+  background: #919191; }
+
+#side-logo {
+  width: 90%;
+  margin: 0 auto; }
+
+.client-testimonial {
+  margin-top: 10px; }
+
+.testimonial-text {
+  font-style: italic; }
+
+.testimonial-author {
+  color: #b40101;
+  margin-top: -20px; }
+
 .recruiting {
   text-align: center; }
 
@@ -2808,29 +2834,3 @@ form select {
 .page-hero-img {
   background-position: center;
   background-size: cover; }
-
-.footer {
-  color: #fff; }
-  .footer .attribution svg {
-    fill: #fff; }
-  .footer .socials svg {
-    fill: #fff; }
-  .footer a {
-    color: #fff; }
-
-.newsletter {
-  background: #919191; }
-
-#side-logo {
-  width: 90%;
-  margin: 0 auto; }
-
-.client-testimonial {
-  margin-top: 10px; }
-
-.testimonial-text {
-  font-style: italic; }
-
-.testimonial-author {
-  color: #b40101;
-  margin-top: -20px; }

@@ -6,10 +6,13 @@ custom_links:
   - title:
     url:
 
-emma_form:
+emma:
+  lightbox:
+  form:
 
 client:
   name:
+  title:
   license_number:
   about_markdown: |
 
