@@ -1,5 +1,5 @@
 ---
-youtube_code: 
+youtube_code:
 excerpt:
 enclosure:
 pullquote:
@@ -24,7 +24,6 @@ youtube_alternate_image:
 youtube_code: SFFy_drFrZs
 ---
 {% include youtube.html %}
-}
 
 Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid. Echo park fingerstache man bun, humblebrag direct trade lyft hot chicken tofu green juice tacos shabby chic deep v. Gentrify meh narwhal woke post-ironic, yr intelligentsia keytar franzen af. Poke vape skateboard, la croix beard pok pok mlkshk scenester ramps **[gastropub](http://google.com){: target="_blank"} marfa r**etro roof party kinfolk unicorn. Lomo keffiyeh gochujang slow-carb kitsch celiac. Succulents asymmetrical franzen intelligentsia tofu.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Client Testimonials
-permalink: /client-testimonials/
+title: Testimonials
+permalink: /testimonials/
 ---
 
 <h1>Client Audio Testimonials</h1>
