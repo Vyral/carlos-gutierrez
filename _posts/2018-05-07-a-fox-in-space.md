@@ -9,7 +9,7 @@ use_youtube_image: true
 youtube_alternate_image: /img/cover.jpg
 layout: post
 title: A Fox in Space
-date: 2016-09-28
+date: 2018-05-07
 tags:
   - Market Update
   - Real Estate

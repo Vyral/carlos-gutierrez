@@ -14,3 +14,26 @@
 	&:focus
 		text-decoration: none
 		color: $brand
+
+#myBtn
+	display: none
+	position: fixed
+	bottom: 20px
+	right: 30px
+	z-index: 99
+	font-size: 18px
+	border: 2px solid $brand
+	outline: none
+	background-color: $brand
+	color: #fff
+	cursor: pointer
+	padding: 1rem 1.5rem
+	// border-radius: 4px
+	&:hover
+		background-color: #fff
+		border: 2px solid $brand
+		color: $brand
+
+@media(max-width: 750)
+	#myBtn
+		bottom: 40px

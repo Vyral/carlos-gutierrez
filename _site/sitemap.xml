@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>localhost:4000/this-is-a-test-post-copy-2.html</loc>
-<lastmod>2016-10-04T00:00:00-05:00</lastmod>
+<lastmod>2018-05-10T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>localhost:4000/a-fox-in-space.html</loc>
-<lastmod>2016-09-28T00:00:00-05:00</lastmod>
+<lastmod>2018-05-07T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>localhost:4000/404.html</loc>
