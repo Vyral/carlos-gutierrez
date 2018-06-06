@@ -1,4 +1,4 @@
-<form method="post" class="home-value cta-forms" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
+<form method="post" class="home-value cta-forms" action="http://formspree.io/{{site.data.settings.client.email}}" onsubmit="return setReturn()">
     <fieldset>
         <p id="thanks"></p>
         <!--1-->
@@ -146,7 +146,7 @@
     <!-- Cloud cannon settings field -->
     <div class="hidden">
       <input type="hidden" name="_to" value="{{site.data.settings.client.email}}">
-      <input type="hidden" name="_subject" value="Seller Request Message From Your {{site.data.settings.title}}">
+      <input type="hidden" name="_subject" value="Seller Request Message From Your Vyral Video Blog">
       <input type="text" name="_gotcha">
     </div>
 </form>
