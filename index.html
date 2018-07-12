@@ -20,7 +20,7 @@ layout: default
 
 						<a href="{{post.url}}">
 	            {% if post.use_youtube_image == true %}
-	            <img src="http://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
+	            <img src="https://img.youtube.com/vi/{{post.youtube_code | remove: 'https://youtu.be/' | remove: 'https://www.youtube.com/watch?v='}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
 	            {% else %}
 								{% if post.youtube_alternate_image != null %}
 	            		<img src="{{post.youtube_alternate_image}}" alt="{{post.title}}" class="post-image"/>
