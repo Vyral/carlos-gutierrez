@@ -12,9 +12,9 @@ client:
   license_number:
   about_markdown: |
 
-  market:
   brand:
   brokerage:
+  market:
   address:
   phone:
   phone_type:
@@ -30,14 +30,14 @@ CTAs:
   second_CTA_URL: /homesearch/
 
 sidebar_CTA:
-  - CTA_image_path: /img/cta-images/004.jpg
+  - CTA_image_path: /img/cta-images/001.jpg
     CTA_title: "What’s Your -- MARKET -- Home Worth?"
     CTA_text: "Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you."
     CTA_link_text: "Free Home Value Report"
     CTA_url: /homevalue/
 
 second_sidebar_CTA:
-  - CTA_image_path2: /img/cta-images/005.jpg
+  - CTA_image_path2: /img/cta-images/002.jpg
     CTA_title2: "Looking for a -- MARKET -- Home?"
     CTA_text2: "Search the entire MLS for your -- MARKET -- home."
     CTA_link_text2: "Search the MLS"
@@ -46,20 +46,20 @@ second_sidebar_CTA:
 lender:
   show_section: false
   header_text: Preferred Lender
-  headshot_path: http://fillmurray.com/200/200
-  logo_path: /img/logo.png
-  logo_path_2:
-  name: Bill Murray
-  brand: Lender Co.
-  phone: 555-555-5555
-  email: bill@murray.com
-  url: http://eyegoop.com
+  headshot_path: /img/lender-headshot.jpg
+  logo_path: /img/lender-logo.png
+  name:
+  license_number:
+  company:
+  company_license_number:
+  phone:
+  email:
+  url:
 
 socials:
   review_sm_icons: false
   facebook_url:
   linkedin_url:
-  gplus_url:
   youtube_url:
   twitter_url:
   instagram_url:
@@ -92,9 +92,6 @@ site_colors:
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
-
-navbar_colors:
-  border_bottom:
 
 header_shadow:
   h_shadow: 0px

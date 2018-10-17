@@ -11,12 +11,24 @@
 		{% endif %}
 		<p>
 		{{site.data.settings.lender.name}}<br>
+		{% if site.data.settings.lender.license_number != null %}
 		{{site.data.settings.lender.license_number}}<br>
-		{{site.data.settings.lender.brand}}<br>
-		{{site.data.settings.lender.license_number2}}<br>
-		{{site.data.settings.lender.phone}}<br>
-		{{site.data.settings.lender.email}}<br>
-		{{site.data.settings.lender.url | remove: 'http://'}}
+		{% endif %}
+		{% if site.data.settings.lender.company != null %}
+		{{site.data.settings.lender.company}}<br>
+		{% endif %}
+		{% if site.data.settings.lender.company_license_number != null %}
+		{{site.data.settings.lender.company_license_number}}<br>
+		{% endif %}
+		{% if site.data.settings.lender.phone != null %}
+		<a href="tel:1-{{site.data.settings.lender.phone}}">{{site.data.settings.lender.phone}}</a><br>
+		{% endif %}
+		{% if site.data.settings.lender.email != null %}
+		<a href="mailto:{{site.data.settings.lender.email}}">{{site.data.settings.lender.email}}</a><br>
+		{% endif %}
+		{% if site.data.settings.lender.url != null %}
+		<a href="{{site.data.settings.lender.url}}">{{site.data.settings.lender.url | remove: 'http://' | remove: 'https://'}}</a>
+		{% endif %}
 	</p>
 	</div>
 	<div class="lender-logo">
