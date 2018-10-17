@@ -5,6 +5,10 @@ show_custom_links: false
 custom_links:
   - title:
     url:
+show_custom_links_new_tab: false
+custom_links_new_tab:
+  - title:
+    url:
 
 client:
   name:

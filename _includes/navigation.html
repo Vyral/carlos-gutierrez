@@ -21,8 +21,13 @@
       		<li><a href="{{ item.url}}">{{ item.title}}</a></li>
     		{% endfor %}
 			{% endif %}
+			{% if site.data.settings.show_custom_links_new_tab == true %}
+				{% for item in site.data.settings.custom_links_new_tab %}
+					<li><a href="{{ item.url}}" target="_blank">{{ item.title}}</a></li>
+				{% endfor %}
+			{% endif %}
 			{% if site.data.settings.CTAs.first_CTA_URL != 'contact' and site.data.settings.CTAs.second_CTA_URL != 'contact' %}
-		<li><a href="contact" id="contact">Contact</a></li>
+		<li><a href="/contact" id="contact">Contact</a></li>
 		{% endif %}
 
 		</ul>
