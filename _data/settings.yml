@@ -1,6 +1,6 @@
 audit_header: false
-title: -- MARKET -- Real Estate Video Blog with -- CLIENT NAME --
-description: Our mission at -- CLIENT BRAND -- is to be your best resource for -- MARKET -- real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The -- CLIENT BRAND --, your professional -- MARKET -- Real Estate Agents.
+title: San Diego Real Estate Video Blog with Carlos Gutierrez
+description: Our mission at Coldwell Banker is to be your best resource for San Diego real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Coldwell Banker, your professional San Diego Real Estate Agents.
 show_custom_links: false
 custom_links:
   - title:
@@ -11,41 +11,43 @@ custom_links_new_tab:
     url:
 
 client:
-  name:
+  name: Carlos Gutierrez
   title:
   license_number:
   about_markdown: |
+    As a native of San Diego and a resident of Mission Beach, I first became famous for my role as the San Diego State University mascot, Monte Montezuma, for over 13 years. In 2005, I began my career as a real estate consultant. I have worked with clients all over the San Diego area and know how to manage all kinds of properties and people.
 
-  brand:
+    My skills and work ethic allow me to work with a wide range of clients that include first time home buyers and multi million dollar investors. With an extensive background in marketing and real estate, I continue to deliver an unmatched level of experience, enthusiasm and loyalty to each and every client.
+  brand: Coldwell Banker
   brokerage:
-  market:
-  address:
-  phone:
+  market: San Diego
+  address: 930 Prospect St<br>La Jolla CA 92037
+  phone: 858-864-8741
   phone_type:
   phone2:
   phone2_type:
-  email:
-  url:
+  email: Carlos@CarlosGSellSSanDiego.com
+  url: http://CarlosGSellSSanDiego.com
 
 CTAs:
   first_CTA_text: Home Valuation
-  first_CTA_URL: /homevalue/
+  first_CTA_URL: http://carlosgutierrez.localrealestatereports.com/
   second_CTA_text: Home Search
-  second_CTA_URL: /homesearch/
+  second_CTA_URL: http://carlosgsellssandiego.com/
 
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/001.jpg
-    CTA_title: "What’s Your -- MARKET -- Home Worth?"
+    CTA_title: "What’s Your San Diego Home Worth?"
     CTA_text: "Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you."
     CTA_link_text: "Free Home Value Report"
-    CTA_url: /homevalue/
+    CTA_url: http://carlosgutierrez.localrealestatereports.com/
 
 second_sidebar_CTA:
   - CTA_image_path2: /img/cta-images/002.jpg
-    CTA_title2: "Looking for a -- MARKET -- Home?"
-    CTA_text2: "Search the entire MLS for your -- MARKET -- home."
+    CTA_title2: "Looking for a San Diego Home?"
+    CTA_text2: "Search the entire MLS for your San Diego home."
     CTA_link_text2: "Search the MLS"
-    CTA_url2: /homesearch/
+    CTA_url2: http://carlosgsellssandiego.com/
 
 lender:
   show_section: false
@@ -62,10 +64,10 @@ lender:
 
 socials:
   review_sm_icons: false
-  facebook_url:
-  linkedin_url:
+  facebook_url: https://www.facebook.com/CarlosGsellssandiego
+  linkedin_url: https://www.linkedin.com/in/carlosguitierrez
   youtube_url:
-  twitter_url:
+  twitter_url: https://twitter.com/carlosgnonstop
   instagram_url:
   pinterest_url:
   zillow_url:
@@ -74,25 +76,25 @@ socials:
   podcast_url:
 
 podcast:
-  title: '-- MARKET -- Real Estate Podcast with -- CLIENT NAME --'
+  title: 'San Diego Real Estate Podcast with Carlos Gutierrez'
   categories: Education
   image: /img/podcast.jpg
-  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market'
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- CLIENT BRAND -- - your professional -- MARKET -- Real Estate Agents.'
-  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
-  author: '-- CLIENT NAME --'
+  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the San Diego Area Real Estate Market'
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Coldwell Banker - your professional San Diego Real Estate Agents.'
+  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Diego, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+  author: 'Carlos Gutierrez'
 
 images:
-  client_headshot_path: /img/headshot.jpg
+  client_headshot_path: /img/headshot.png
   hero_logo_path: /img/logo.png
   logo_width_number: 40
-  hero_text: -- MARKET -- Real Estate Video Blog
+  hero_text: San Diego Real Estate Video Blog
   hero_background_hex: '#999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
 site_colors:
-  brand_color: '#b40101'
-  theme_color: '#999'
+  brand_color: '#89b9d7'
+  theme_color: '#2b6cab'
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
@@ -101,7 +103,7 @@ header_shadow:
   h_shadow: 0px
   w_shadow: 2px
   shadow_spread: 7px
-  shadow_color: transparent
+  shadow_color: rgba(27,73,117,.75)
 
 buttons:
   button_radius_number: 0

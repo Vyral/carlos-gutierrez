@@ -15,16 +15,16 @@
 		border-radius: 50%
 		@include transition
 		&:hover
-			fill: $brand-light
+			fill: $theme
 			background: transparent
-			color: $brand-light
+			color: $theme
 			+shadow
-			// box-shadow: 4px 4px 0 $brand-light
-			// border: 2px solid $brand-light
+			// box-shadow: 4px 4px 0 $theme
+			// border: 2px solid $theme
 			@include transform(scale(1.05))
 			@include transform(translateY(-0.2rem))
 		&:active
-			box-shadow: 0 0 0 $brand-light
+			box-shadow: 0 0 0 $theme
 			@include transform(translateY(0rem))
 
 //For about page
@@ -36,7 +36,7 @@
 		@include size(5rem)
 		fill: $brand
 		&:hover
-			fill: $brand-light
+			fill: $theme
 
 .footer-socials
 	.socials
@@ -53,7 +53,7 @@
 			-webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
 			transition: .3s cubic-bezier(0.4, 0, 0.2, 1)
 			&:hover
-				fill: $brand-light
+				fill: $theme
 				background: transparent
 
 

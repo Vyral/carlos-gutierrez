@@ -1,5 +1,29 @@
-show_testimonials_section: false
+show_testimonials_section: true
 testimonial:
-  - quote:
-    name:
-    audio:
+  - quote: Carlos did a good job for us. He came through, put our house on the market, and told me he’d have an offer within a couple weeks. Sure enough, we had an offer! He jumped right on the ball and his enthusiasm was really awesome.
+    name: Devon
+    audio: /uploads/audio/devon.mp3
+
+  - quote: Carlos worked very hard to identify properties that were about to go on the market and could be acquired. He found the perfect property for us and helped us move quickly with it. It was an extraordinary efficient process and he really knows what he’s doing!
+    name: Richard
+    audio: /uploads/audio/richard.mp3
+
+  - quote: I’m actually one of Carlos’ preferred vendors so I work with him a lot when he’s getting a home ready to sell. I’ve had a lot of experience working with him side-by-side and we’ve built up a good reputation. We work with about 3 professionals and we all refer each other for different services from handyman work, landscaping, and photography. We all get the house ready to sell and work on the curb appeal which really helps Carlos out. He’s a go-getter, hustler, and really gets on top of getting his homes ready to sell. He really keeps things moving forward for everybody.
+    name: Sean
+    audio: /uploads/audio/sean.mp3
+
+  # - quote: He was excellent! He sold my home within 21 days, and we got an offer within the first two hours of it being listed! He is always available whenever I have questions, which made everything less stressful.
+  #   name:
+  #   audio: /uploads/audio/.mp
+  #
+  # - quote:
+  #   name:
+  #   audio: /uploads/audio/.mp
+  #
+  # - quote:
+  #   name:
+  #   audio: /uploads/audio/.mp
+  #
+  # - quote:
+  #   name:
+  #   audio: /uploads/audio/.mp

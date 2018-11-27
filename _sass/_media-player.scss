@@ -1,6 +1,6 @@
-$color-highlight: $brand-light;
+$color-highlight: $theme;
 $color-background: rgba(0,0,0,0);
-$color-progress: $brand-light;
+$color-progress: $theme;
 $color-text: $brand;
 $color-text-muted: $brand;
 
@@ -13,7 +13,7 @@ $color-text-muted: $brand;
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-tap-highlight-color: $brand-light;
+  -webkit-tap-highlight-color: $theme;
   text-align: left;
   -webkit-touch-callout: none;
   user-select: none;
