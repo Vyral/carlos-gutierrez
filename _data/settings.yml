@@ -1,10 +1,10 @@
 audit_header: false
 title: San Diego Real Estate Video Blog with Carlos Gutierrez
 description: Our mission at Coldwell Banker is to be your best resource for San Diego real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Coldwell Banker, your professional San Diego Real Estate Agents.
-show_custom_links: false
+show_custom_links: true
 custom_links:
-  - title:
-    url:
+  - title: testimonials
+    url: /testimonials
 show_custom_links_new_tab: false
 custom_links_new_tab:
   - title:
