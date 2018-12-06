@@ -5,8 +5,6 @@ show_custom_links: true
 custom_links:
   - title: testimonials
     url: /testimonials
-show_custom_links_new_tab: true
-custom_links_new_tab:
   - title: about 
     url: /about
   - title: Home Valuation 
