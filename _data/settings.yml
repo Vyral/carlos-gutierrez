@@ -5,10 +5,10 @@ show_custom_links: true
 custom_links:
   - title: testimonials
     url: /testimonials
-show_custom_links_new_tab: false
+show_custom_links_new_tab: true
 custom_links_new_tab:
-  - title:
-    url:
+  - title: about 
+    url: /about
 
 client:
   name: Carlos Gutierrez
