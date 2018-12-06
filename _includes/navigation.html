@@ -1,18 +1,14 @@
 <nav role="navigation" class="navbar navbar-fixed-top navbar-andross">
 	<div class="navbar-header">
 		<a href="/" class="navbar-brand visible-xs" data-target="#navbarCollapse"	data-toggle="collapse">
-		{{ site.data.settings.client.brand }}</a>
+			<img src="/img/nav-logo.png" class="nav-logo-small"></a>
 		<button type="button" data-target="#navbarCollapse"	data-toggle="collapse" class="navbar-toggle">
 			<span class="sr-only">Toggle navigation</span>
 			<i class="fa fa-bars fa-2x"></i>
 		</button>
-		<!-- {% if site.data.settings.client.phone_CTA == true %}
-			<button type="button" class="navbar-toggle phone">
-				<a href="tel:{{site.data.settings.client.phone}}"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
-			</button>
-		{% endif %} -->
 	</div>
 
+	<a href="/"><img src="/img/nav-logo.png" class="nav-logo"></a>
  	<div id="navbarCollapse" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav navbar-left">
 			<li><a href="/">Home</a></li>
@@ -21,43 +17,17 @@
       		<li><a href="{{ item.url}}">{{ item.title}}</a></li>
     		{% endfor %}
 			{% endif %}
-			{% if site.data.settings.show_custom_links_new_tab == true %}
-				{% for item in site.data.settings.custom_links_new_tab %}
-					<li><a href="{{ item.url}}" target="_blank">{{ item.title}}</a></li>
-				{% endfor %}
-			{% endif %}
-			{% if site.data.settings.CTAs.first_CTA_URL != 'contact' and site.data.settings.CTAs.second_CTA_URL != 'contact' %}
-		<li><a href="/contact" id="contact">Contact</a></li>
+			{% if site.data.settings.CTAs.first_CTA_URL != '#contact' and site.data.settings.CTAs.second_CTA_URL != '#contact' %}
+		<li><a href="contact" id="contact">Contact</a></li>
 		{% endif %}
 
 		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			{% if site.data.settings.CTAs.first_CTA_text and site.data.settings.CTAs.first_CTA_URL != null %}
-			<li>
-				{% if site.data.settings.CTAs.first_CTA_URL == '/homevalue/' %}
-				<a class="cta" href="{{site.data.settings.CTAs.first_CTA_URL}}">
-					{% elsif site.data.settings.CTAs.first_CTA_URL == 'contact' %}
-					<a class="cta" id="contact" href="contact">
-					{% else %}
-					<a class="cta" href="{{site.data.settings.CTAs.first_CTA_URL}}" target="_blank">
-					{% endif %}
-					{{site.data.settings.CTAs.first_CTA_text}}
-				</a>
-			</li>
-			{% endif %}
-			{% if site.data.settings.CTAs.second_CTA_text and site.data.settings.CTAs.second_CTA_URL != null %}
-			<li>
-				{% if site.data.settings.CTAs.second_CTA_URL == '/homesearch/' %}
-				<a class="cta" href="{{site.data.settings.CTAs.second_CTA_URL}}">
-					{% elsif site.data.settings.CTAs.second_CTA_URL == 'contact' %}
-					<a class="cta" id="contact" href="contact">
-					{% else %}
-				<a class="cta" href="{{site.data.settings.CTAs.second_CTA_URL}}" target="_blank">
-				{% endif %}
-					{{site.data.settings.CTAs.second_CTA_text}}
-				</a>
-			</li>
-			{% endif %}
 
+<ul class="nav navbar-nav navbar-right">
+			<li>
+				<a class="cta" href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a></li>
 		</ul>
+
+</div>
 </nav>
+
