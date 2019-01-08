@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 Trends You Can Expect to See in Our Market This Year
-date: 2019-01-08 19:49:07
+date: 2019-01-08 19:49:00
 tags:
 excerpt: >-
   The new year has arrived, and with it, comes a shifting market. If you’re
@@ -9,7 +9,9 @@ excerpt: >-
   trends.
 enclosure: >-
   https://s3.amazonaws.com/vyralmarketing/Carlos+Gutierrez/San+Diego+Real+Estate+Agent-+4+Trends+You+Can+Expect+to+See+in+Our+Market+This+Year.mp4
-pullquote:
+pullquote: >-
+  Breaking into the market still poses a challenge with mortgage rates
+  increasing and income growth leveling off.
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: true
@@ -29,6 +31,6 @@ As we head into 2019, here are four real estate trends that you can expect to se
 
 **4. The new tax law still brings uncertainty.** With the introduction of the revised tax bill in 2018, questions about how it would affect homeowners were swirling. Unfortunately, we still don’t really know, and it’ll stay that way until owners start filing for their taxes in April. This is all the more reason to hire a savvy accountant so you can potentially receive a bigger return this tax season.&nbsp;
 
-For a personal consultation on the changes in store for our market in 2019 or help with any of your real estate needs, please call me at 858-864-8741. I’d love to assist you in any way I can!&nbsp;<br>&nbsp;
-
 {% include pullquote.html %}
+
+For a personal consultation on the changes in store for our market in 2019 or help with any of your real estate needs, please call me at 858-864-8741. I’d love to assist you in any way I can!&nbsp;<br>&nbsp;
