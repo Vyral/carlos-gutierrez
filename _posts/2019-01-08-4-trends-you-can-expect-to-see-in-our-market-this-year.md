@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 Trends You Can Expect to See in Our Market This Year
-date:
+date: 2019-01-08 19:49:07
 tags:
 excerpt: >-
   The new year has arrived, and with it, comes a shifting market. If you’re
