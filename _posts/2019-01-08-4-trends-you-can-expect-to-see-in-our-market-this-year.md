@@ -21,7 +21,7 @@ youtube_code: ZJNtUDpLBdw
 
 {% include youtube.html %}
 
-As we head into 2019, here are four real estate trends that you can expect to see this year:
+As we head into 2019, there are four real estate trends that you can expect to see this year:
 
 **1. More homes will be available, especially on the luxury side.** If you were watching my videos in 2018, you know that inventory bottomed out, reaching its lowest levels in recorded history. This made for a market where sellers were in control. This year, we expect a stark contrast; inventory is expected to slowly grow throughout the year, particularly in the luxury market, so sellers will now be forced to price appropriately at the outset.&nbsp;
 
