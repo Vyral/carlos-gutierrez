@@ -29,6 +29,6 @@ The new year brings new goals and dreams, such as buying a home. If you’re new
 
 **3. Forgetting about closing costs.** Everyone knows that you need a down payment of 10% to 20% when you shop for a home, but so many first-time buyers forget that extra 3% to 4% you need for closing costs.&nbsp;
 
-**4. Underestimating the power of negotiation.** When you’re pre-approved by a lender, this is big. This is the difference between being pre-qualified so you make sure you understand the difference.
+**4. Underestimating the power of negotiation.** When you're pre-approved by a lender, this gives you more leverage during negotiations. The difference between being pre-approved and just being pre-qualified is huge, so make sure you understand it and proceed accordingly.
 
 I love working with and helping homebuyers, so if you or anyone you know needs help buying a home in the near future, don’t hesitate to reach out and give me a call or send me an email. I look forward to hearing from you soon.<br>&nbsp;
