@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 Home Buying Mistakes to Avoid
-date:
+date: 2019-01-17 21:40:45
 tags:
   - Home Buyer Tips
 excerpt: >-
