@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Be Sure You’re Working With a Professional Realtor
-date:
+date: 2019-02-04 16:16:44
 tags:
   - Real Estate
 excerpt: >-
