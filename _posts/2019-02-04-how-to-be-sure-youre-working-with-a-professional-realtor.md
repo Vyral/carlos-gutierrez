@@ -31,4 +31,4 @@ It can be hard to find a professional you can trust. When the market is really h
 
 {% include pullquote.html %}
 
-I love to help my buyers and sellers navigate through this challenging market. If you’re thinking of buying or selling a home, reach out to me. I want to help you and be your guide for anything real estate-related.
+I love to help my buyers and sellers navigate through this challenging market. If you’re thinking of buying or selling a home, reach out to me. I want to help you and be your guide for anything real estate.
