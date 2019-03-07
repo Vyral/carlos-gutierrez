@@ -17,8 +17,6 @@ youtube_code: Ny0JzC4fv2Q
 
 {% include youtube.html %}
 
-&nbsp;
-
 There are a few things that make an agent stand out among the rest—one is their ability to spread the word about your home listing.
 
 As soon as I list a client’s home, **I begin to place calls to everyone in their neighborhood.** A new listing is great news for area residents—they can invite friends and family to become homeowners in the neighborhood they love.
@@ -26,8 +24,6 @@ As soon as I list a client’s home, **I begin to place calls to everyone in the
 I make the same call when a home goes into escrow, and another one when we’ve sold the property.
 
 {% include pullquote.html %}
-
-&nbsp;
 
 When I was making my calls recently, I spoke to a neighborhood resident who was already working with another agent. She did, however, need a referral for a great property manager. I gave her my suggestions and it worked out well.
 
