@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Sets an Agent Apart?
-date:
+date: 2019-03-07 21:41:50
 tags:
   - Real Estate
 excerpt: Here’s what I do to build interest in your home.
