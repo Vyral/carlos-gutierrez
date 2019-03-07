@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Avoid These Disastrous Home Buying Mistakes
-date:
+date: 2019-03-07 17:38:49
 tags:
   - Market Update
 excerpt: >-
