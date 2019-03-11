@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Sets an Agent Apart?
-date: 2019-03-07 21:41:50
+date: 2019-03-07 21:41:00
 tags:
   - Real Estate
 excerpt: Here’s what I do to build interest in your home.
@@ -12,7 +12,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: true
 youtube_alternate_image: /uploads/3-7-agent-np.jpg
-youtube_code: Ny0JzC4fv2Q
+youtube_code: 4gpQKR5zDD0
 ---
 
 {% include youtube.html %}
