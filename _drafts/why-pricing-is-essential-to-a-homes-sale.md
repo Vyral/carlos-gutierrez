@@ -19,6 +19,6 @@ youtube_code: pJFLtmXHY94
 
 {% include youtube.html %}
 
-Pricing is one of the most important aspects of selling a home. Here are a few reasons why.
+<center>Pricing is one of the most important aspects of selling a home. Here are a few reasons why.</center>
 
 When selling a home, it's all about price and condition. If sellers overprice their properties, what they’re really saying is “Please get me an offer.” Buyers who are looking at these properties are interpreting that as a fear of rejection of lowball offers. Nobody wants to be rejected and nobody wants to offend the seller. If you have any questions regarding pricing, call me, because it’s the first thing we need to look at in this market to get you the most for your home. If you need anything, from selling advice to a second opinion, give me a call or send me an email.
