@@ -21,7 +21,9 @@ youtube_code: M63anrbMyhE
 
 {% include youtube.html %}
 
-<center>Why should you work with a real estate professional instead of listing your home on your own? Today I’ll share a couple stories that demonstrate why.</center>
+<center><em>Why should you work with a real estate professional instead of listing your home on your own? Today I&rsquo;ll share a couple stories that demonstrate why.</em></center>
+
+&nbsp;
 
 Pricing, condition, and marketing strategies have a lot to do with whether a home sells. However, **FSBO (For Sale by Owner) sellers are the ones who think they can do it all on their own**. Let me ask you this: Have you ever seen anyone do their own dentistry work? Have you ever seen a lawyer practice law without an actual degree?
 
