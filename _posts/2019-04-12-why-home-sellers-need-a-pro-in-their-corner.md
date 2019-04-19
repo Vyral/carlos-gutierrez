@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   Why should you work with a real estate professional instead of listing your
   home on your own?
-enclosure:
+enclosure: >-
+  https://s3.amazonaws.com/vyralmarketing/Carlos+Gutierrez/San+Diego+Real+Estate+Agent+-+Why+Home+Sellers+Need+a+Pro+in+Their+Corner.mp4
 pullquote: >-
   FSBO sellers think that they can do the same things that real estate experts
   spend years perfecting.
