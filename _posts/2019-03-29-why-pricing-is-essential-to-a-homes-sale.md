@@ -13,7 +13,7 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /uploads/3-29-pricing-p.jpg
+youtube_alternate_image: /uploads/3-29-pricing-np.jpg
 youtube_code: pJFLtmXHY94
 ---
 
@@ -21,6 +21,6 @@ youtube_code: pJFLtmXHY94
 
 <center><em>Pricing is one of the most important aspects of selling a home. Here are a few reasons why.</em></center>
 
-&nbsp;
+ 
 
 When selling a home, it's all about price and condition. If sellers overprice their properties, what they’re really saying is “Please get me an offer.” Buyers who are looking at these properties are interpreting that as a fear of rejection of lowball offers. Nobody wants to be rejected and nobody wants to offend the seller. If you have any questions regarding pricing, call me, because it’s the first thing we need to look at in this market to get you the most for your home. If you need anything, from selling advice to a second opinion, give me a call or send me an email.
