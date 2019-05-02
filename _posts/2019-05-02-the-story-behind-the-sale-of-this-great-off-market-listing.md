@@ -20,7 +20,9 @@ youtube_code: DsSNvBrTdOY
 
 {% include youtube.html %}
 
-<center>How do we handle off-market listings? This is the approach we take.</center>
+<center><em>How do we handle off-market listings? This is the approach we take.</em></center>
+
+&nbsp;
 
 I’m coming to you today from the site of another off-market listing that I double-ended and got sold.
 
