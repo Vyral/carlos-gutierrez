@@ -9,7 +9,7 @@ description: >-
   San Diego Real Estate Agents.
 show_custom_links: true
 custom_links:
-  - title: testimonials
+  - title: Testimonials
     url: /testimonials
   - title: About
     url: /about
