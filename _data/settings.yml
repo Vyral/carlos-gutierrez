@@ -21,7 +21,7 @@ client:
   name: Carlos Gutierrez
   title:
   license_number: BRE 01507102
-  about_markdown: >
+  about_markdown: >-
     As a native of San Diego and a resident of Mission Beach, Carlos first
     became known for his role as the San Diego State University mascot, Monty
     Montezuma, for over 13 years. In 2005, he began his career as a real estate
@@ -31,22 +31,22 @@ client:
 
 
     His skills and work ethic allow him to work with a wide range of clients in
-    a broad range of areas including  first time home buyers, luxury properties
-    and people interested in investment properties.  He also specializes in
-    helping sellers through the 1031 exchange process. 
+    a broad range of areas including first time home buyers, luxury properties
+    and people interested in investment properties. He also specializes in
+    helping sellers through the 1031 exchange process.
 
 
     Carlos honed his sales and marketing skills working with some of the most
     renowned marketing companies including Anheuser Busch and Clear Channel
-    Media.  With this extensive background in marketing and real estate, he
+    Media. With this extensive background in marketing and real estate, he
     continues to deliver an unmatched level of experience, enthusiasm and
-    loyalty to each and every client in the San Diego area.  
+    loyalty to each and every client in the San Diego area.
 
 
     Carlos is repeatedly recognized by NRT, the parent company of Coldwell
-    Banker Global Luxury, for being in the top 2% of agents nationwide.   He has
+    Banker Global Luxury, for being in the top 2% of agents nationwide. He has
     been named a Gold Circle of Excellence winner by SDAR 2 years running and
-    has been recognized Top Latino Agent by NAHREP.  He achieves these accolades
+    has been recognized Top Latino Agent by NAHREP. He achieves these accolades
     by delivering an unmatched level of experience, enthusiasm and loyalty to
     each and every client.
 
@@ -57,8 +57,8 @@ client:
     of the community, Carlos has created an impressive professional and personal
     network that is among the largest in the Southern California real estate
     industry.
-  brand: Coldwell Banker
-  brokerage:
+  brand:
+  brokerage: Pacific Sotheby's International Realty
   market: San Diego
   address: 930 Prospect St<br>La Jolla CA 92037
   phone: 858-864-8741
