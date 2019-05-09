@@ -22,6 +22,8 @@ youtube_code: pLHq0QAgzqI
 
 <center><em>How do we handle off-market listings? This is the approach we take.</em></center>
 
+&nbsp;
+
 I’m coming to you today from the site of another off-market listing that I double-ended and got sold.
 
 Before filling you in on this recently sold property, **I’d like to talk about my surefire approach to these types of listings**\: I pick up a listing and I call the surrounding neighbors to let them know about this brand-new listing as well and to inquire if they know anyone who might be getting into the market soon.
