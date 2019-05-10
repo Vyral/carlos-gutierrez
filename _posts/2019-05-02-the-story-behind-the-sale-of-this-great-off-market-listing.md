@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Seller Tips
 excerpt: How do we handle off-market listings? This is the approach we take.
-enclosure:
+enclosure: >-
+  https://s3.amazonaws.com/vyralmarketing/Carlos+Gutierrez/San+Diego+Real+Estate+Agent+-+The+Story+Behind+the+Sale+of+This+Great+Off-Market+Listing.mp4
 pullquote: >-
   I’ll make one last call to the property’s neighbors to share the news that the
   home sold and to let them know the handsome price we were able to capture for
