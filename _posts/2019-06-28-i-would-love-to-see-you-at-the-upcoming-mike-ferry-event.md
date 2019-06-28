@@ -18,7 +18,9 @@ youtube_code: yTR1teOagcQ
 
 {% include youtube.html %}
 
-<center>I’m going to the Mike Ferry event in Vegas next month and I would love to connect with all of you other Mike Ferry agents out there.</center>
+<center><em>I&rsquo;m going to the Mike Ferry event in Vegas next month and I would love to connect with all of you other Mike Ferry agents out there.</em></center>
+
+&nbsp;
 
 Hello to all of my Mike Ferry friends out there. Throughout my career, Mike has helped me not only gain the knowledge, but the professionalism and ability to list a $7.5 million home here on the oceanfront. If you're going to be at the Mike Ferry event in July at the Venetian, let’s connect. I’ve been blessed to connect with MFO agents and was able to refer eight clients. I’m looking to send more and get more referrals, have more accountability, and build more relationships.
 
