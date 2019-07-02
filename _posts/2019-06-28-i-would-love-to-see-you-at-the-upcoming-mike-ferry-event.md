@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   I’m going to the Mike Ferry event in Vegas next month and I would love to
   connect with all of you other Mike Ferry agents out there.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/I+Would+Love+to+See+You+at+the+Upcoming+Mike+Ferry+Event.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
