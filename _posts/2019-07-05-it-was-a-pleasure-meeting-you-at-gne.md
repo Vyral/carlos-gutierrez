@@ -5,7 +5,8 @@ date: 2019-07-05 00:00:00
 tags:
   - Real Estate
 excerpt: 'As a followup to GNE in May, I’d like to connect with you!'
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/It+Was+a+Pleasure+Meeting+You+at+GNE.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
