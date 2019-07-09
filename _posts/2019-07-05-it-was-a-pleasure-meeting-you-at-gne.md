@@ -20,6 +20,6 @@ youtube_code: 3wJcPTwYMkI
 
 &nbsp;
 
-It was a pleasure meeting you at GNE in Vancouver last May. It was my first time attending, and I thought it was amazing. I’m sure it was amazing for you too, and my message for you today is simple: **Let’s stay connected**. I prospect every day, at least five days a week, so I’m always on the lookout for great buyers and sellers anywhere in the world.
+It was a pleasure meeting you at GNE in Vancouver last May. Though it was my first time attending, I thought it was amazing, and I’m sure it was amazing for you, too. In light of our experiences there, my message for you today is simple: **Let’s stay connected**. I prospect at least five days a week, so I’m always on the lookout for great buyers and sellers anywhere in the world.
 
 If anyone you know is thinking of moving to San Diego, don’t hesitate to reach out to me. I would love to make referrals to you as well. If you’re ever thinking of moving to San Diego yourself, I would love to host you too. You’re already in my database, so let’s connect on social media. I look forward to hearing from you\!
