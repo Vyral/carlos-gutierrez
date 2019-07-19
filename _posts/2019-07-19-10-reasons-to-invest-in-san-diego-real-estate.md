@@ -18,7 +18,7 @@ youtube_code: Qzk29dqh86E
 
 {% include youtube.html %}
 
-<center>San Diego is an incredible place to invest in real estate, and today I&rsquo;d like to share 10 reasons why.</center>
+<center><em>San Diego is an incredible place to invest in real estate, and today I&rsquo;d like to share 10 reasons why.</em></center>
 
 &nbsp;
 
