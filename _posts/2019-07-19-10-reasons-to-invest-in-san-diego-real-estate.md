@@ -18,11 +18,13 @@ youtube_code: Qzk29dqh86E
 
 {% include youtube.html %}
 
-<center>San Diego is an incredible place to invest in real estate, and today I’d like to share 10 reasons why.</center>
+<center>San Diego is an incredible place to invest in real estate, and today I&rsquo;d like to share 10 reasons why.</center>
+
+&nbsp;
 
 Recently, I had the privilege of appearing on “Good Morning San Diego” to discuss something that’s garnered a lot of buzz recently: real estate investing.
 
-There’s no time like the present to get started in real estate investing, and San Diego is a fantastic place to do so. You can learn more about why this is the case by checking out my recent appearance on “Good Morning San Diego” above, but, for now, here is a quick list of the top 10 reasons why:
+There’s no time like the present to get started in real estate investing, and San Diego is a fantastic place to do so. You can learn more about why this is the case by checking out my recent appearance on “Good Morning San Diego” above, but, for now, **here is a quick list of the top 10 reasons why:**
 
 1. Investment properties in San Diego are a bargain compared to elsewhere in the U.S.
 2. Home prices haven’t been this great in years.
