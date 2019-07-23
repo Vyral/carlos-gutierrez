@@ -34,13 +34,13 @@ There’s no time like the present to get started in real estate investing, and 
 
 **4\.** Rental rates in San Diego are amazing.&nbsp;
 
-**5\.** Because there is no rent control, San Diego is more “landlord-friendly” than most cities.
+**5\.** Because there is no rent control, San Diego is more landlord-friendly than most cities.
 
 **6\.** The rental population is massive in San Diego.
 
 **7\.** Given its popularity among tourists, San Diego is a great place for short-term rentals.
 
-**8\.** The large military in population creates a strong demand for rentals.
+**8\.** Our large military population creates a strong demand for rentals.
 
 **9\.** The large population of students creates a strong demand for rentals.
 
