@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   San Diego is an incredible place to invest in real estate, and today I’d like
   to share 10 reasons why.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/10+Reasons+to+Invest+in+San+Diego+Real+Estate.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
