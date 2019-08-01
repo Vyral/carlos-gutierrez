@@ -135,9 +135,12 @@ images:
   client_headshot_path: /img/headshot.png
   hero_logo_path: /img/logo.png
   logo_width_number: 40
-  hero_text:
+  hero_text: |-
+    REAL
+    RELIABLE
+    RESULTS
   hero_background_hex: '#999999'
-  hero_image_path: /uploads/mobile-header.png
+  hero_image_path: /uploads/mobile-header-2.png
   post_cover: /img/cover.jpg
 site_colors:
   brand_color: '#89b9d7'
