@@ -30,7 +30,7 @@ youtube_code: HHxZbLqVUOU
 
 Last year, Richard held and participated in a sponsored run from the Seattle Children’s Hospital to San Diego—that’s a total of 1,700 miles\! Along the way, they stopped at nine children’s hospitals to hand out Emilio’s Loving Tab Healing T-Shirts. These are custom-designed shirts with snaps on the shoulder and sleeve to facilitate access to chemotherapy for children with cancer. **These breathable shirts provide a sense of normalcy so children don’t have to take off or lift a shirt to receive treatment**.
 
-Beyond these, Richard hosts several fundraisers throughout the year. Coming up on September 22, 2019, you can **join him at the 16th Annual [“Harvest For Hope” event](https://www.classy.org/event/16th-annual-harvest-for-hope/e221563){: target="_blank"} at The Brick in Liberty Station**. From 2 p.m. to 5 p.m. you can enjoy food from the best chefs, great wine, and excellent silent auction packages, the **proceeds of which go toward helping low-income, underprivileged families whose children are battling cancer**.
+Beyond these, Richard hosts several fundraisers throughout the year. Coming up on September 22, 2019, you can **join him at the 16th Annual <u><a target="_blank" href="https://www.classy.org/event/16th-annual-harvest-for-hope/e221563">&ldquo;Harvest For Hope&rdquo; event</a></u> at The Brick in Liberty Station**. From 2 p.m. to 5 p.m. you can enjoy food from the best chefs, great wine, and excellent silent auction packages, the **proceeds of which go toward helping low-income, underprivileged families whose children are battling cancer**.
 
 {% include pullquote.html %}
 
@@ -38,6 +38,6 @@ After implementing the “Rides With Emilio” program in L.A., Richard plans to
 
 Ultimately, Richard has led his efforts in this foundation with thoughts of Emilio in mind. **He believes that Emilio would be very proud of the organization, and I absolutely agree**.
 
-If you’d like to learn more about the Emilio Nares Foundation or find out how you can make a contribution, visit [ENFHope.org](https://enfhope.org/){: target="_blank"}.
+If you’d like to learn more about the Emilio Nares Foundation or find out how you can make a contribution, visit <u><a target="_blank" href="https://enfhope.org/">ENFHope.org</a></u>.
 
 For any other questions you have, don’t hesitate to reach out to us. We’d be glad to hear from you.
