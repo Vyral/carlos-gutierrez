@@ -20,7 +20,7 @@ youtube_code: HHxZbLqVUOU
 
 {% include youtube.html %}
 
-Today I’m joined by my good friend Richard Nares, founder of the Emilio Nares Foundation, to learn a bit more about their organization.
+<center>Today I’m joined by my good friend Richard Nares, founder of the Emilio Nares Foundation, to learn a bit more about their organization.</center>
 
 **The Emilio Nares Foundation is a non-profit organization that has been around for 16 years. Richard was inspired to start the foundation by the loss of his son, Emilio, who passed away from leukemia in 2000**. The Foundation focuses on helping families navigate their child’s journey with cancer through a variety of programs.
 
