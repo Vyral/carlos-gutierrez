@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   Today I’m joined by my good friend Richard Nares, founder of the Emilio Nares
   Foundation, to learn a bit more about their organization.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/An+Excellent+Foundation+That+Helps+Children+With+Cancer.mp4
 pullquote: >-
   The Foundation focuses on helping families navigate their child’s journey with
   cancer through a variety of programs.
