@@ -19,7 +19,9 @@ youtube_code: 0EuqzymwhWk
 
 {% include youtube.html %}
 
-<center>What does it take to properly price a home? Let’s discuss.</center>
+<center>What does it take to properly price a home? Let&rsquo;s discuss.</center>
+
+&nbsp;
 
 If an agent has ever encouraged you to overprice your home, they probably only did so because they were desperate for your business. The truth is that listings tend to succeed far more often when they’re priced at—or even slightly below—their fair market value.
 
