@@ -35,6 +35,6 @@ Well, it all starts with your agent conducting a comparative market analysis (ot
 
 As I mentioned earlier, setting your price at or below fair market value is the key to selling quickly and for top dollar. A fair price will attract more buyers, and when multiple buyers are interested in your home, they may begin bidding against each other.
 
-Your chances will be even better if you make a few strategic upgrades and repairs before listing. **A successful home sale all comes down to taking the right approach with the right agent by your side**.
+Your chances will be even better if you make a few strategic upgrades and repairs before listing. **A successful home sale comes down to taking the right approach with the right agent by your side**.
 
 I would be happy to give you advice on this topic, as well as any other aspect of your real estate goals. So if you have any other questions or would like more information, feel free to give me a call or send me an email. I look forward to hearing from you soon.
