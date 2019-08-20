@@ -25,7 +25,7 @@ youtube_code: 0EuqzymwhWk
 
 If an agent has ever encouraged you to overprice your home, they probably only did so because they were desperate for your business. The truth is that listings tend to succeed far more often when they’re priced at—or even slightly below—their fair market value.
 
-So, with this in mind, **how should you and your agent go about determining the right price for your home?**
+With this in mind, **how should you and your agent go about determining the right price for your home?**
 
 Well, it all starts with your agent conducting a comparative market analysis (otherwise known as a CMA). This analysis involves your agent researching recently sold and currently listed properties in your area that are similar to your home in terms of size, condition, and amenities. After gathering pricing and sales data from these listings, your agent will be able to offer you a ballpark figure of what your own home might sell for.
 
