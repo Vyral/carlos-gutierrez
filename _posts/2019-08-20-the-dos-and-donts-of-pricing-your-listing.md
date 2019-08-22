@@ -19,7 +19,7 @@ youtube_code: 0EuqzymwhWk
 
 {% include youtube.html %}
 
-<center>What does it take to properly price a home? Let&rsquo;s discuss.</center>
+<center><em>What does it take to properly price a home? Let&rsquo;s discuss.</em></center>
 
 &nbsp;
 
