@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Seller Tips
 excerpt: What does it take to properly price a home? Let’s discuss.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/The+Dos+and+Donts+of+Pricing+Your+Listing.mp4
 pullquote: >-
   Even given today’s super-low interest rates, buyers aren’t willing to accept
   just any deal that comes along.
