@@ -6,8 +6,7 @@ tags:
   - Real Estate
 excerpt: >-
   Today world-class water-skier and wakeboarder Scott Leason shares his
-  awe-inspiring story and how the Challenged Athletes Foundation played a major
-  part in it.
+  awe-inspiring story.
 enclosure:
 pullquote:
 enclosure_type: video/mp4
