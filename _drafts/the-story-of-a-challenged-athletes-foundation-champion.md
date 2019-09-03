@@ -19,7 +19,7 @@ youtube_code: eDbz11CBpWA
 
 {% include youtube.html %}
 
-Today world-class water-skier and wakeboarder Scott Leason shares his awe-inspiring story and how the Challenged Athletes Foundation played a major part in it.
+<center>Today world-class water-skier and wakeboarder Scott Leason shares his awe-inspiring story and how the Challenged Athletes Foundation played a major part in it.</center>
 
 Today I’m standing alongside my good friend Scott Leason. As you can probably tell from the wetsuit he’s wearing, he’s a wakeboarder—not just any wakeboarder, though. Scott is world-renowned for his talent and he’s about ready to head out on one of his training rides. I caught him before he did to ask him about his unbelievable story.&nbsp;
 
