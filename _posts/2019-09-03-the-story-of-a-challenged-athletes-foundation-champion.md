@@ -42,4 +42,6 @@ Today I’m standing alongside my good friend Scott Leason. As you can probably 
 
 I thank Scott for taking a few minutes out of his day to inspire us through his story. If you’re interested, you can <u><a target="_blank" href="https://www.challengedathletes.org/about-us/">learn more about the Challenged Athletes Foundation here</a></u>, or <u><a target="_blank" href="https://support.challengedathletes.org/site/Donation2?idb=932502791&amp;3004.donation=form1&amp;DONATION_LEVEL_ID_SELECTED=1&amp;df_id=3004&amp;mfc_pref=T&amp;idb=[[S76:idb]]">donate here</a></u>. And don’t forget to check out Scott’s Facebook page, <u><a target="_blank" href="https://www.facebook.com/neverloosesight/">Never Lose Sight</a></u>, to track his competitions and accolades\!
 
+<u><a target="_blank" href="https://15thstreetmedia.wistia.com/medias/mz3jzvaznd">Learn more about how I support for CAF here</a></u>.
+
 If you have any questions for me, please don’t hesitate to reach out. I look forward to hearing from you soon.
