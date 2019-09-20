@@ -21,7 +21,7 @@ youtube_code: '-oUAfcX8XOQ'
 
 {% include youtube.html %}
 
-Although interest rates are about as low as they’ve ever been, the home buying market hasn’t been as active as we would have thought. Here’s why.
+<center>Although interest rates are about as low as they’ve ever been, the home buying market hasn’t been as active as we would have thought. Here’s why.</center>
 
 As summer draws to a close, multiple opposing factors and trends are competing to define the future of the real estate market. **After the Federal Reserve lowered its benchmark interest rate on July 31, the 30-year mortgage rates continued to decline and are approaching all-time lows last seen in 2016**.
 
