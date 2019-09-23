@@ -39,6 +39,6 @@ Most experts agree these reductions aren’t likely to bring sufficient relief, 
 
 **As many homeowners refinance their home to take advantage of the declining rates, consumer confidence in housing is still reported to be at historically high levels**. Even so, real estate professionals will need to be monitoring the market for signs of continued imbalances.
 
-Although the inventory of affordable homes at this point remains largely stable, it’s stable at historically low levels which may continue to push prices higher after potential buyers across the United States. We’re going to see what happens in the fourth quarter and, hopefully, better results will happen in 2020.
+Although the inventory of affordable homes at this point remains largely stable, it’s stable at historically low levels which may continue to push prices higher for potential buyers across the United States. We’re going to see what happens in the fourth quarter and, hopefully, better results will happen in 2020.
 
 If you have any questions for me in the meantime or want to learn more about what’s going on in the market, don’t hesitate to give me a call or send me an email. I look forward to hearing from you soon.
