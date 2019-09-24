@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   Although interest rates are about as low as they’ve ever been, the home buying
   market hasn’t been as active as we would have thought.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/An+End-of-Summer+Update+on+the+Real+Estate+Market.mp4
 pullquote: >-
   Most experts agree these reductions aren’t likely to bring sufficient relief,
   at least in the short term.
