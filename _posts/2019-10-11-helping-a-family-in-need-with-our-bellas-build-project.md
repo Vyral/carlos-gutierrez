@@ -18,7 +18,9 @@ youtube_code: R1GcG5nIJ8w
 
 {% include youtube.html %}
 
-<center>Giving back to the community is something my family and I have always been passionate about.</center>
+<center><em>Giving back to the community is something my family and I have always been passionate about.</em></center>
+
+&nbsp;
 
 I recently had the privilege of appearing on Good Morning San Diego with my daughter Bella to share some news about a very special project my team, my family, and I have been working on: Bella’s Build. After observing the efforts and work of Pacific Sotheby’s “Agents of Change”, we were inspired to raise money to build a home for a family in need in Tijuana, Mexico.
 
