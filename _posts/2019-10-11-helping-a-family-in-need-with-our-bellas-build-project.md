@@ -22,6 +22,6 @@ youtube_code: R1GcG5nIJ8w
 
 &nbsp;
 
-I recently had the privilege of appearing on Good Morning San Diego with my daughter Bella to share some news about a very special project my team, my family, and I have been working on: Bella’s Build. After observing the efforts and work of Pacific Sotheby’s “Agents of Change”, we were inspired to raise money to build a home for a family in need in Tijuana, Mexico.
+I recently had the privilege of appearing on "Good Morning San Diego" with my daughter Bella to share some news about a very special project my team, my family, and I have been working on: Bella’s Build. After observing the efforts and work of Pacific Sotheby’s “Agents of Change”, we were inspired to raise money to build a home for a family in need in Tijuana, Mexico. To learn more about this project, watch the video above to see my T.V. appearance in its entirety.
 
 If you have any other questions or would like more information, feel free to give me a call or send me an email. I look forward to hearing from you soon.
