@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   Giving back to the community is something my family and I have always been
   passionate about.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/Helping+a+Family+in+Need+With+Our+Bellas+Build+Project.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
