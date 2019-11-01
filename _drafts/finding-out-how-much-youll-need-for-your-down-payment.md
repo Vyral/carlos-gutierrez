@@ -17,7 +17,7 @@ youtube_code: R13pn7FSGnA
 
 {% include youtube.html %}
 
-How much you’ll need to for your down payment depends on a variety of factors.
+<center>How much you’ll need to for your down payment depends on a variety of factors.</center>
 
 How much do you need for your down payment when buying a home? For first-time homebuyers, affording the down payment is usually the biggest hurdle. Unfortunately, there’s no one-size-fits-all answer to this question. **You may have to pay anywhere from 0% down to the full 20%**. Where you fall in that range depends on a lot of factors, including your credit score, employment history, bank balances, etc.
 
