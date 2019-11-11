@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   How much you’ll need to save for your down payment depends on a variety of
   factors.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/How+to+Determine+What+Your+Down+Payment+Will+Be.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
