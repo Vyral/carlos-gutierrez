@@ -18,7 +18,7 @@ youtube_code: AqyYjOXwGsI
 
 {% include youtube.html %}
 
-<p style="text-align:center;"><em>I recently visited the Jackie Robinson Family YMCA and spoke with Executive Director Michael Brunker.</em></p>
+*I recently visited the Jackie Robinson Family YMCA and spoke with Executive Director Michael Brunker.*
 
 Today I’m joined by my good friend Michael Brunker at the Jackie Robinson Family YMCA in Southeast San Diego to talk about its history and its mission. Michael is the Executive Director of this establishment, and I’ve known him for a long time. It was my pleasure to be able to take a tour of the facility and learn all about how they help the families our community and what their future goals are to promote youth development, healthy living, and social responsibility county-wide.
 
