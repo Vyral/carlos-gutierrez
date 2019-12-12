@@ -21,7 +21,9 @@ youtube_code: HK-G0VCnEec
 
 {% include youtube.html %}
 
-Today’s question is: How long does it take to sell a home in San Diego?
+<center><em>The question I’ll answer today is: How long does it take to sell a home in San Diego?</em></center>
+
+<br>Today’s question is: How long does it take to sell a home in San Diego?
 
 That’s a tough one. While I can give you the current statistics and figures on overall market times and how fast homes sell in specific ZIP codes and areas, that doesn’t tell the whole story. It’s all about the questions you ask when it comes to how much time a home will spend on the market. **Some questions to ask would be: Was the home properly priced, prepared, marketed, and staged?**
 
