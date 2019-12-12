@@ -21,7 +21,7 @@ youtube_code: HK-G0VCnEec
 
 {% include youtube.html %}
 
-<center><em>The question I’ll answer today is: How long does it take to sell a home in San Diego?</em></center>
+<center><em>The question I&rsquo;ll answer today is: How long does it take to sell a home in San Diego?</em></center>
 
 <br>Today’s question is: How long does it take to sell a home in San Diego?
 
