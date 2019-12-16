@@ -31,4 +31,4 @@ That’s a tough one. While I can give you the current statistics and figures on
 
 Homes that have done all of this correctly will sell quickly. When homes don’t sell quickly, the market is telling you it’s overpriced. That’s why who you choose to sell your home really does matter.
 
-Any questions you have, if you’re considering taking advantage of the market, selling, need financing, please call or email me. I would be glad to help you.
+If you’re considering taking advantage of the market, selling, need of financing, or have any questions, please call or email me. I would be glad to help you.
