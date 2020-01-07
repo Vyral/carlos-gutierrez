@@ -18,7 +18,9 @@ youtube_code: Sqzar4e64UA
 
 {% include youtube.html %}
 
-In my latest video spotlighting some of the top movers and shakers in San Diego, I’m interviewing my good friend Tim Rice, the new senior associate athletic director for development at San Diego State University. As an SDSU alum, I can tell you that some exciting developments have taken place in the Aztec athletic department since Tim’s hire, including the continuing construction of the new football stadium and the expansion of the Mission Valley campus.
+<center><em>In today’s video, I’m joined by Tim Rice to talk about the latest news from the SDSU athletic department.</em></center>
+
+<br>In my latest video spotlighting some of the top movers and shakers in San Diego, I’m interviewing my good friend Tim Rice, the new senior associate athletic director for development at San Diego State University. As an SDSU alum, I can tell you that some exciting developments have taken place in the Aztec athletic department since Tim’s hire, including the continuing construction of the new football stadium and the expansion of the Mission Valley campus.
 
 **Cited below for your convenience are timestamps that will direct you to various points in the video. Feel free to watch the full message or use these timestamps to browse specific topics at your leisure:**
 
