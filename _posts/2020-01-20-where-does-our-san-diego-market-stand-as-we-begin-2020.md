@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where Does Our San Diego Market Stand as We Being 2020?
+title: Where Does Our San Diego Market Stand as We Begin 2020?
 date: 2020-01-20 00:00:00
 tags:
   - Real Estate
