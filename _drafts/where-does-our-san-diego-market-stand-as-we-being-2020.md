@@ -19,7 +19,9 @@ youtube_code: 8L-jUzzw78g
 
 {% include youtube.html %}
 
-I was recently a guest on “Good Morning San Diego” and had the opportunity to elaborate on the current state of our San Diego real estate market, make a few predictions for 2020, and shed some light on a couple of exciting home builder initiatives. In short, **I think we’re dealing with a great market**. Now that we’re entering a new decade, we’re in uncharted territory.
+<center><em>On my latest appearance on “Good Morning San Diego,” I provided the first market update for San Diego in 2020.</em></center>
+
+<br>I was recently a guest on “Good Morning San Diego” and had the opportunity to elaborate on the current state of our San Diego real estate market, make a few predictions for 2020, and shed some light on a couple of exciting home builder initiatives. In short, **I think we’re dealing with a great market**. Now that we’re entering a new decade, we’re in uncharted territory.
 
 Real estate moves in five-to-seven-year cycles, and we’re in year 11 of an upward trend. Interest rates are low, there is a shortage of inventory in most places around the country, baby boomers are aging, and many home builders aren’t building as many homes as they should.
 
