@@ -19,7 +19,7 @@ youtube_code: 8L-jUzzw78g
 
 {% include youtube.html %}
 
-<center><em>On my latest appearance on “Good Morning San Diego,” I provided the first market update for San Diego in 2020.</em></center>
+<center><em>On my latest appearance on &ldquo;Good Morning San Diego,&rdquo; I provided the first market update for San Diego in 2020.</em></center>
 
 <br>I was recently a guest on “Good Morning San Diego” and had the opportunity to elaborate on the current state of our San Diego real estate market, make a few predictions for 2020, and shed some light on a couple of exciting home builder initiatives. In short, **I think we’re dealing with a great market**. Now that we’re entering a new decade, we’re in uncharted territory.
 
