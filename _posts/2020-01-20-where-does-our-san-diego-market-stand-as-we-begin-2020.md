@@ -14,7 +14,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
 youtube_alternate_image: /uploads/1-20---carlos-gutierrez---yt.jpg
-youtube_code: 8L-jUzzw78g
+youtube_code: jt9kY4Ocdic
 ---
 
 {% include youtube.html %}
@@ -27,6 +27,6 @@ Real estate moves in five-to-seven-year cycles, and we’re in year 11 of an upw
 
 **Cited below for your convenience are timestamps that will direct you to various points in the video. Feel free to watch it in its entirety or use these timestamps to browse specific points at your leisure:**
 
-1:32 - Home builders are building more affordable homes instead of luxury ones<br>1:59 - Getting into the market/down payment options<br>3:21 - The impact of baby boomers moving out of California<br>4:26 - Agents of Change: Real estate agents who help struggling families<br>5:10 - Building digitized 3-D homes with New Story and World Housing
+1:32 - Home builders are building more affordable homes instead of luxury ones<br>1:59 - Getting into the market/down payment options<br>3:21 - The impact of baby boomers moving out of California<br>4:26 - Agents of Change: Real estate agents who help struggling families<br>5:10 - Building digitized 3D homes with New Story and World Housing
 
 If you have questions about any of the topics discussed in today’s video blog or you’re thinking of buying or selling a home soon, don’t hesitate to reach out to me. I’d love to help you.
