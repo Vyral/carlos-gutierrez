@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   On my latest appearance on “Good Morning San Diego,” I provided the first
   market update for San Diego in 2020.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/Where+Does+Our+San+Diego+Market+Stand+as+We+Begin+2020_.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
