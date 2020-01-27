@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exciting New Developments in the SDSU Athletic Department
-date: 2020-01-07 00:00:00
+date: 2020-01-24 00:00:00
 tags:
   - Real Estate
 excerpt: >-
