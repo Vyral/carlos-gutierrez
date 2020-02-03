@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   In today’s video, I’m joined by Tim Rice to talk about the latest news from
   the SDSU athletic department.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/Exciting+New+Developments+in+the+SDSU+Athletic+Department.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
