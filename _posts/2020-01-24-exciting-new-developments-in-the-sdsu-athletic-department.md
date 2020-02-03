@@ -9,7 +9,8 @@ excerpt: >-
   the SDSU athletic department.
 enclosure: >-
   https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/Exciting+New+Developments+in+the+SDSU+Athletic+Department.mp4
-pullquote:
+pullquote: >-
+  https://vyralmarketing.s3.amazonaws.com/Ron+Cedillo/Videos/You+Need+a+Financial+Check-Up.mp4
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
