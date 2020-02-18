@@ -19,7 +19,7 @@ youtube_code: NrfsV1jn4d4
 
 {% include youtube.html %}
 
-<center><em>Let’s take a quick glance at our San Diego County real estate market as we move further into 2020.</em></center>
+<center><em>Let&rsquo;s take a quick glance at our San Diego County real estate market as we move further into 2020.</em></center>
 
 <br>We’re more than a month into 2020, and our San Diego County real estate market is still very strong.
 
