@@ -6,8 +6,8 @@ tags:
   - Real Estate
   - Market Update
 excerpt: >-
-  Let’s take a quick glance at our San Diego County real estate market as we
-  move further into 2020.
+  Let’s take a glance at our San Diego County real estate market as we move
+  further into 2020.
 enclosure:
 pullquote: 'When it comes to real estate, who you work with matters 110%.'
 enclosure_type: video/mp4
