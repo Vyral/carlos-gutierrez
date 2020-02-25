@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   Let’s take a glance at our San Diego County real estate market as we move
   further into 2020.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/What+Do+the+Stats+Say+About+Our+Market_.mp4
 pullquote: 'When it comes to real estate, who you work with matters 110%.'
 enclosure_type: video/mp4
 enclosure_time:
