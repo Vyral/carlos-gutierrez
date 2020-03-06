@@ -4,6 +4,7 @@ title: How to Succeed in Investing by Avoiding Big Blunders
 date: 2020-03-06 00:00:00
 tags:
   - Real Estate
+  - Investing
 excerpt: >-
   Investing in real estate can be lucrative, but only if you do it the correct
   way.
