@@ -19,7 +19,9 @@ youtube_code: 9Bu1TtiojqY
 
 {% include youtube.html %}
 
-Real estate investing can be hard to navigate, especially if you don’t know where to get started. Property investing is a lot different than just buying a home. I like to invest here in San Diego, but I’ve had my fair share of challenges in the past. I want to help you avoid these same issues, especially if you’re a first-time investor. Here are the seven mistakes that could really ruin your investment:
+<center><em>Investing in real estate can be lucrative, but only if you do it the correct way. Here are seven key mistakes to avoid that could ruin your investment.</em></center>
+
+<br>Real estate investing can be hard to navigate, especially if you don’t know where to get started. Property investing is a lot different than just buying a home. I like to invest here in San Diego, but I’ve had my fair share of challenges in the past. I want to help you avoid these same issues, especially if you’re a first-time investor. Here are the seven mistakes that could really ruin your investment:
 
 **1\. Not planning**. You have to write out a plan. Having no plan is essentially a plan to fail. Real estate investing is expensive, and you may end up paying even more into money pitfalls if you don’t do proper research and planning beforehand. Think about maintenance, upkeep, and other hidden costs that come with purchasing a property.
 
