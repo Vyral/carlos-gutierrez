@@ -6,7 +6,7 @@ tags:
   - Real Estate
 excerpt: >-
   Investing in real estate can be lucrative, but only if you do it the correct
-  way. Here are seven key mistakes to avoid that could ruin your investment.
+  way.
 enclosure:
 pullquote: Jumping in without an expense plan could really cost you.
 enclosure_type: video/mp4
