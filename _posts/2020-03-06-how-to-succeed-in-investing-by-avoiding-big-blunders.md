@@ -4,7 +4,6 @@ title: How to Succeed in Investing by Avoiding Big Blunders
 date: 2020-03-06 00:00:00
 tags:
   - Real Estate
-  - Investing
 excerpt: >-
   Investing in real estate can be lucrative, but only if you do it the correct
   way.
@@ -25,7 +24,7 @@ youtube_code: 9Bu1TtiojqY
 
 **1\. Not planning**. You have to write out a plan. Having no plan is essentially a plan to fail. Real estate investing is expensive, and you may end up paying even more into money pitfalls if you don’t do proper research and planning beforehand. Think about maintenance, upkeep, and other hidden costs that come with purchasing a property.
 
-**2\. Not researching the market**. Each home and each area is different, and you need to know about details such as zoning laws, insurance requirements, etc. You need to know the market value of your particular investment, too.
+**2\. Not researching the market**. Each home and area is different, and you need to know about details such as zoning laws, insurance requirements, etc. You need to know the market value of your particular investment, too.
 
 **3\. Hiring the wrong people**.
 
