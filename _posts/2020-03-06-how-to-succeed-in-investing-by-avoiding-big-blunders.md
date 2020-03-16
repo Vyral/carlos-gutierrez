@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   Investing in real estate can be lucrative, but only if you do it the correct
   way.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/How+to+Succeed+in+Investing+by+Avoiding+Big+Blunders.mp4
 pullquote: Jumping in without an expense plan could really cost you.
 enclosure_type: video/mp4
 enclosure_time:
