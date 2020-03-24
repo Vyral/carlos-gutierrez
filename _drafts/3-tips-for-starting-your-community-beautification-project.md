@@ -20,7 +20,9 @@ youtube_code: Ua7YGAwwDyc
 
 {% include youtube.html %}
 
-We’re all connected to our community. When you buy a home, you invest in that community, and I believe that when we invest in our community, we all win.
+<center><em>I want to help you start your own community beautification project by sharing three key tips.</em></center>
+
+<br>We’re all connected to our community. When you buy a home, you invest in that community, and I believe that when we invest in our community, we all win.
 
 I love helping people write their real estate success stories, and I want to give you three tips on how to organize your own community beautification project.
 
