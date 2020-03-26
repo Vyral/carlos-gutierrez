@@ -10,7 +10,7 @@ excerpt: >-
 enclosure:
 pullquote: >-
   Not only is it nice to see a clean neighborhood, but it causes home values to
-  rise too.
+  rise.
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
@@ -34,6 +34,6 @@ I love helping people write their real estate success stories, and I want to giv
 
 {% include pullquote.html %}
 
-Everybody wins when you clean up the neighborhood. Not only is it nice to see a clean neighborhood, but it causes home values to rise too.
+Everybody wins when you clean up the neighborhood. Not only is it nice to see a clean neighborhood, but it also causes home values to rise.
 
 As always, if you have questions about this or any real estate topic, don’t hesitate to reach out to me. I’d love to help you beautify your neighborhood.
