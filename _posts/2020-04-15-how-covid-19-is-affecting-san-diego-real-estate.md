@@ -19,7 +19,7 @@ youtube_code: YpHKr4bRuX4
 
 {% include youtube.html %}
 
-<center><em>Even though we’re in the midst of a global pandemic, people are still buying and selling homes because we have some great market conditions.</em></center>
+<center><em>Even though we&rsquo;re in the midst of a global pandemic, people are still buying and selling homes because we have some great market conditions.</em></center>
 
 <br>Though our daily lives have changed immeasurably during this pandemic, I hope you and your family are managing to stay safe and healthy. Today I have a quick update for you about what’s been happening in the San Diego real estate market.
 
