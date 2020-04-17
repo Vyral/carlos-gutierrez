@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   Even though we’re in the midst of a global pandemic, people are still buying
   and selling homes because we have some great market conditions.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/How+COVID-19+Is+Affecting+San+Diego+Real+Estate.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
