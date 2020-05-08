@@ -17,7 +17,7 @@ youtube_code: 7Rrkn2CPBkE
 
 {% include youtube.html %}
 
-<center><em>I have some great news to share about the national real estate market.</em></center>
+<center><em>Here's what you need to know about the national real estate market.</em></center>
 
 <br>I have some wonderful news to share about the real estate market\!
 
