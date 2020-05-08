@@ -5,7 +5,7 @@ date: 2020-05-07 00:00:00
 tags:
   - Real Estate
   - Market Update
-excerpt: I have some great news to share about the national real estate market.
+excerpt: Here's what you need to know about the national real estate market.
 enclosure:
 pullquote:
 enclosure_type: video/mp4
