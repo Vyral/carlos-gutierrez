@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Market Update
 excerpt: Here's what you need to know about the national real estate market.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/Whats+Happening+in+Real+Estate_.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
