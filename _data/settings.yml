@@ -1,12 +1,11 @@
 audit_header: false
 title: San Diego Real Estate Video Blog with Carlos Gutierrez
 description: >-
-  Our mission at Coldwell Banker is to be your best resource for San Diego real
-  estate advice. Whether you are a buyer, seller, or investor, our team of
-  professionals can answer any questions you might have about real estate. If
-  you are looking to buy or sell a home, you can get all the information and the
-  latest updates, tips, and tricks from The Coldwell Banker, your professional
-  San Diego Real Estate Agents.
+  Our mission is to be your best resource for San Diego real estate advice.
+  Whether you are a buyer, seller, or investor, our team of professionals can
+  answer any questions you might have about real estate. If you are looking to
+  buy or sell a home, you can get all the information and the latest updates,
+  tips, and tricks here.
 show_custom_links: true
 custom_links:
   - title: Testimonials
@@ -20,7 +19,7 @@ custom_links:
 client:
   name: Carlos Gutierrez
   title:
-  license_number: BRE 01507102
+  license_number: 'BRE #01507102'
   about_markdown: >-
     As a native of San Diego and a resident of Mission Beach, Carlos first
     became known for his role as the San Diego State University mascot, Monty
@@ -57,7 +56,7 @@ client:
     of the community, Carlos has created an impressive professional and personal
     network that is among the largest in the Southern California real estate
     industry.
-  brand: Pacific Sotheby's International Realty
+  brand: eXp Realty
   brokerage:
   market: San Diego
   address: 1111 Prospect St.<br>La Jolla CA 92037
