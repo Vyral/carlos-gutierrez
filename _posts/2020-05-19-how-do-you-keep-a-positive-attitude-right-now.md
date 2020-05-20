@@ -12,8 +12,8 @@ pullquote:
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /uploads/05-19-gutierrez-youtube.jpg
-youtube_code: 3r3wRhUlXh8
+youtube_alternate_image: /uploads/05-19-gutierrez-youtube-1.jpg
+youtube_code: dI-L8WCZ-1c
 ---
 
 {% include youtube.html %}
