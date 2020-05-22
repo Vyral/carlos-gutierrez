@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   These are the keys to keeping a positive attitude during these difficult
   times.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/How+Do+You+Keep+a+Positive+Attitude+Right+Now_.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
