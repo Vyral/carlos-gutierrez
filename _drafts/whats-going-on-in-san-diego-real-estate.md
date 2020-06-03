@@ -17,6 +17,8 @@ youtube_code: O111bJrsQxQ
 
 {% include youtube.html %}
 
-Now that we’re in June, I want to give you a quick update on what’s going on in the real estate world.
+<center><em>Here’s the latest news for the San Diego real estate market.</em></center>
+
+<br>Now that we’re in June, I want to give you a quick update on what’s going on in the real estate world.
 
 **Numbers have been slowly coming back in San Diego County**. We were down nearly 30% in terms of listings and sales a few months back, but the last three weeks have shot us back up closer to where we should be. We’ve seen 428 closings over the last seven days, and nearly 800 pending sales each week. The biggest thing is that we need people to get back to work safely.
