@@ -17,7 +17,7 @@ youtube_code: O111bJrsQxQ
 
 {% include youtube.html %}
 
-<center><em>Here’s the latest news for the San Diego real estate market.</em></center>
+<center><em>Here&rsquo;s the latest news for the San Diego real estate market.</em></center>
 
 <br>Now that we’re in June, I want to give you a quick update on what’s going on in the real estate world.
 
