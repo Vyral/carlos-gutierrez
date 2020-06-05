@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Market Update
 excerpt: Here’s the latest news for the San Diego real estate market.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/Whats+Going+on+in+San+Diego+Real+Estate_.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
