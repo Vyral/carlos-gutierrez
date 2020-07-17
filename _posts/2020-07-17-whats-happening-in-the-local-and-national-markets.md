@@ -27,4 +27,4 @@ Here in San Diego, we’re seeing similar trends, with pending home sales up 21%
 
 If you’re planning to sell, do a deep cleaning and summer check-up to ensure everything is running smoothly. **A few critical items to check: water heater, smoke detectors, and carbon dioxide detectors**. Many things are happening in the San Diego market right now, which is exciting.
 
-If you have questions about preparing your home for sale or need anything real estate-related, give me a call or email me. I have a vetted vendor list, so if you need a painter, handyman, contractor, plumber, etc., these are vendors I trust and have used personally. I would love to help you in any way I can.
+If you have questions about preparing your home for sale or need anything real estate-related, give me a call or send an email. I have a vetted vendor list, so if you need a painter, handyman, contractor, plumber, etc., these are vendors I trust and have used personally. I would love to help you in any way I can.
