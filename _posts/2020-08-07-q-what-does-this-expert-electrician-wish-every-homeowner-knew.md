@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Q: What Does This Expert Electrician Wish Every Homeowner Knew?'
-date:
+date: 2020-08-07 13:07:01
 tags:
   - Real Estate
 excerpt: Here’s what a veteran electrician has to say to homeowners in our market.
