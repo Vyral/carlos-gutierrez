@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Q: What Does This Expert Electrician Wish Every Homeowner Knew?'
-date: 2020-08-07 13:07:01
+date: 2020-08-07 13:07:00
 tags:
   - Real Estate
 excerpt: Here’s what a veteran electrician has to say to homeowners in our market.
@@ -11,7 +11,7 @@ pullquote: >-
   testify to a company’s quality standard.
 enclosure_type: video/mp4
 enclosure_time:
-use_youtube_image: true
+use_youtube_image: false
 youtube_alternate_image: /uploads/gutierrez-ss-youtube.jpg
 youtube_code: 'https://youtu.be/2fgfgDOD_Ik'
 ---
