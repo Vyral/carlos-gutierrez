@@ -22,7 +22,7 @@ youtube_code: 'https://youtu.be/2fgfgDOD_Ik'
 
 <br>Today I’m joined by a longtime friend and skilled electrician, Aaron Ramos. In our current hot market, Aaron has been kept busy by a lot of remodels and solar panel installations. He’s helped homeowners and property management companies remain in compliance with California’s Title 24 code, which was designed to reduce wasteful energy consumption. As Aaron explained, solar panels are a great way to cut down your energy bill, even though their upfront costs can be steep. &nbsp;
 
-Electrical is a big deal when you’re buying or remodeling a home, and you want to **have an expert make sure everything is functioning and safe.** Aaron, for example, has over 25 years of experience in the field, and he’s headed his own company for 12 years now. He’s included on our vetted vendor list, which you can access here; it doesn’t take much research on your own to find out that he’s one of San Diego’s best.&nbsp;
+Electrical is a big deal when you’re buying or remodeling a home, and you want to **have an expert make sure everything is functioning and safe.** Aaron, for example, has over 25 years of experience in the field, and he’s headed his own company for 12 years now. He’s included on our vetted vendor list, which you can access <u><a target="_blank" rel="noopener" href="https://pdfhost.io/v/b1TNjBNDC_vendors.pdf">here</a></u>; it doesn’t take much research on your own to find out that he’s one of San Diego’s best.&nbsp;
 
 {% include pullquote.html %}
 
