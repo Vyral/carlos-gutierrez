@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Q: What Does This Expert Electrician Wish Every Homeowner Knew?'
+title: What Does This Expert Electrician Wish Every Homeowner Knew?
 date: 2020-08-07 13:07:00
 tags:
   - Real Estate
@@ -12,8 +12,8 @@ pullquote: >-
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
-youtube_alternate_image: /uploads/gutierrez-ss-youtube.jpg
-youtube_code: 'https://youtu.be/2fgfgDOD_Ik'
+youtube_alternate_image: /uploads/gutierrez-ss-youtube-1.jpg
+youtube_code: 2fgfgDOD_Ik
 ---
 
 {% include youtube.html %}
@@ -28,6 +28,6 @@ Electrical is a big deal when you’re buying or remodeling a home, and you want
 
 What does he have to say to anyone thinking about remodeling or building a new home? Make sure you hire a qualified electrician, whether it’s him or somebody else. “So many times, you'll go inside a house and \[the owner has\] a carpenter that does everything,” Aaron said. “They do plumbing, they do drywall, they do tile, they do electric… you can just tell when somebody doesn’t know what they’re doing, and that’s a fire hazard.”&nbsp;
 
-When looking for an electrician, Aaron recommends getting referrals from people you trust who can testify to a company’s quality standard. Check out the <u><a target="_blank" rel="noopener" href="https://www.cslb.ca.gov/">Contractors State License Board website</a> </u>and search a name or company to **verify that who you’re working with is licensed and bonded in the state of California.&nbsp;**
+When looking for an electrician, Aaron recommends getting referrals from people you trust who can testify to a company’s quality standard. Check out the <u><a target="_blank" rel="noopener" href="https://www.cslb.ca.gov/">Contractors State License Board </a>website</u>&nbsp;and search a name or company to **verify that who you’re working with is licensed and bonded in the state of California.&nbsp;**
 
-Again, if you’re looking for a well-qualified electrician who can get the job done properly, Aaron Ramos has my full confidence and stamp of approval. Reach out to him at [aramoselectic@gmail.com](mailto:aramoselectic@gmail.com) or 619-990-2002.&nbsp;
+Again, if you’re looking for a well-qualified electrician who can get the job done properly, Aaron Ramos has my full confidence and stamp of approval. Reach out to him at [aramoselectic@gmail.com](mailto:aramoselectic@gmail.com) or (619) 990-2002.&nbsp;
