@@ -30,4 +30,4 @@ What does he have to say to anyone thinking about remodeling or building a new h
 
 When looking for an electrician, Aaron recommends getting referrals from people you trust who can testify to a company’s quality standard. Check out the <u><a target="_blank" rel="noopener" href="https://www.cslb.ca.gov/">Contractors State License Board website</a></u> and search a name or company to **verify that who you’re working with is licensed and bonded in the state of California**.
 
-Again, if you’re looking for a well-qualified electrician who can get the job done properly, Aaron Ramos has my full confidence and stamp of approval. Reach out to him at [aramoselectic@gmail.com](mailto:aramoselectic@gmail.com) or (619) 990-2002.
+Again, if you’re looking for a well-qualified electrician who can get the job done properly, Aaron Ramos has my full confidence and stamp of approval. Reach out to him at <u><a href="mailto:aramoselectic@gmail.com">aramoselectic@gmail.com</a></u> or (619) 990-2002.
