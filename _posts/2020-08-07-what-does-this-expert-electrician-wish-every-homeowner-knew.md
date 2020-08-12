@@ -5,7 +5,8 @@ date: 2020-08-07 13:07:00
 tags:
   - Real Estate
 excerpt: Here’s what a veteran electrician has to say to homeowners in our market.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/What+Does+This+Expert+Electrician+Wish+Every+Homeowner+Knew_.mp4
 pullquote: >-
   When looking for an electrician, get referrals from people you trust who can
   testify to a company’s quality standard.
