@@ -33,3 +33,5 @@ youtube_code: 715WvBKQr8g
 Although unemployment has dropped down from their peak in March and April, more than 1 million new claims are being filed each week, and more than 31 million people were claiming benefits as of early July. **Despite the significant economic impact, homebuyers seem pretty resilient**. With mortgage rates near record lows, high buyer activity is expected to continue through the rest of this year.
 
 {% include pullquote.html %}
+
+What does all this mean for you? Let’s talk about it. Give me a call or send me an email today and we'll go over your situation. I look forward to hearing from you.
