@@ -30,7 +30,7 @@ youtube_code: 715WvBKQr8g
 * Days on market are down 3.4% for detached homes and 3.7% for attached homes.
 * Overall supply decreased 53.6% for detached homes and 32% for attached homes.
 
-Although unemployment has dropped down from their peak in March and April, more than 1 million new claims are being filed each week, and more than 31 million people were claiming benefits as of early July. **Despite the significant economic impact, homebuyers seem pretty resilient**. With mortgage rates near record lows, high buyer activity is expected to continue through the rest of this year.
+Although unemployment has dropped down from its peak in March and April, more than 1 million new claims are being filed each week, and more than 31 million people were claiming benefits as of early July. **Despite the significant economic impact, homebuyers seem pretty resilient**. With mortgage rates near record lows, high buyer activity is expected to continue through the rest of this year.
 
 {% include pullquote.html %}
 
