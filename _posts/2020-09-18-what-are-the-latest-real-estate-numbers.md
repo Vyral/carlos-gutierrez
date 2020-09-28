@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Market Update
 excerpt: Here’s what you need to know about our San Diego real estate market.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/What+Are+the+Latest+Real+Estate+Numbers_.mp4
 pullquote: Unemployment is certainly a factor to watch.
 enclosure_type: video/mp4
 enclosure_time:
