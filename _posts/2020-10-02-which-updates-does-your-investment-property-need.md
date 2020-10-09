@@ -7,7 +7,8 @@ tags:
 excerpt: >-
   Here’s my advice on how you should approach updating your investment
   properties.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/Which+Updates+Does+Your+Investment+Property+Need_.mp4
 pullquote: It’s better to take the junkiest home in the best neighborhood and fix it up.
 enclosure_type: video/mp4
 enclosure_time:
