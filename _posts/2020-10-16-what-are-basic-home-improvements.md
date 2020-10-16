@@ -4,6 +4,7 @@ title: What Are Basic Home Improvements?
 date: 2020-10-16 00:00:00
 tags:
   - Real Estate
+  - Home Seller Tips
 excerpt: This is what constitutes basic home improvements and upgrades.
 enclosure:
 pullquote: >-
