@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Seller Tips
 excerpt: This is what constitutes basic home improvements and upgrades.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/What+Are+Basic+Home+Improvements_.mp4
 pullquote: >-
   Basic remodeling projects focus on attributes that a buyer would expect to
   already be up to date when they walk into the home.
