@@ -78,7 +78,8 @@ sidebar_CTA:
       Are you thinking of selling your home or interested in learning about home
       prices in your neighborhood? We can help you.
     CTA_link_text: Free Home Value Report
-    CTA_url: 'http://carlosgutierrez.localrealestatereports.com/'
+    CTA_url: >-
+      https://docs.google.com/forms/d/e/1FAIpQLSdTImPhiYgMhaef9VCex0ZCgiwXLlH8bdiE8J6K7s9-Ll6pjQ/viewform
 second_sidebar_CTA:
   - CTA_image_path2: /img/cta-images/002.jpg
     CTA_title2: Looking for a San Diego Home?
