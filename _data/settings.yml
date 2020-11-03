@@ -15,8 +15,6 @@ custom_links:
   - title: Home Valuation
     url: >-
       https://docs.google.com/forms/d/e/1FAIpQLSdTImPhiYgMhaef9VCex0ZCgiwXLlH8bdiE8J6K7s9-Ll6pjQ/viewform
-  - title: Home Search
-    url: 'https://www.pacificsothebysrealty.com/properties.html'
 client:
   name: Carlos Gutierrez
   title:
@@ -86,7 +84,7 @@ second_sidebar_CTA:
     CTA_title2: Looking for a San Diego Home?
     CTA_text2: Search the entire MLS for your San Diego home.
     CTA_link_text2: Search the MLS
-    CTA_url2: 'https://www.pacificsothebysrealty.com/properties.html'
+    CTA_url2: 
 lender:
   show_section: false
   header_text: Preferred Lender
