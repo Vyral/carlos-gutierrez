@@ -69,8 +69,8 @@ CTAs:
   first_CTA_text: Home Valuation
   first_CTA_URL: >-
     https://docs.google.com/forms/d/e/1FAIpQLSdTImPhiYgMhaef9VCex0ZCgiwXLlH8bdiE8J6K7s9-Ll6pjQ/viewform
-  second_CTA_text:
-  second_CTA_URL:
+  second_CTA_text: Home Search
+  second_CTA_URL: 'http://carlosgsellssandiego.com/'
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/001.jpg
     CTA_title: What’s Your San Diego Home Worth?
