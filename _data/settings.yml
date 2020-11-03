@@ -13,7 +13,8 @@ custom_links:
   - title: About
     url: /about
   - title: Home Valuation
-    url: 'http://carlosgutierrez.localrealestatereports.com/'
+    url: >-
+      https://docs.google.com/forms/d/e/1FAIpQLSdTImPhiYgMhaef9VCex0ZCgiwXLlH8bdiE8J6K7s9-Ll6pjQ/viewform
   - title: Home Search
     url: 'https://www.pacificsothebysrealty.com/properties.html'
 client:
