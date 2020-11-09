@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Seller Tips
 excerpt: Here’s how to add some curb appeal to your home so buyers are wowed.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/How+Do+I+Add+Curb+Appeal_.mp4
 pullquote: Adding curb appeal helps the house look great when prospective buyers arrive.
 enclosure_type: video/mp4
 enclosure_time:
