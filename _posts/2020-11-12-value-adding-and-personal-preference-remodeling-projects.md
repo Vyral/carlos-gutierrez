@@ -8,7 +8,8 @@ tags:
 excerpt: >-
   This is what you should know about value-adding and personal preference
   upgrades.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/Value-Adding+and+Personal+Preference+Remodeling+Projects.mp4
 pullquote: >-
   Don’t bother undertaking expensive projects strictly to increase the purchase
   price of the property.
