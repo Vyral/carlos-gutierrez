@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Buyer Tips
 excerpt: 'Here’s a quick, helpful overview of the home-buying process.'
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/What+Can+You+Expect+as+a+Homebuyer_.mp4
 pullquote: >-
   It’s imperative that I continuously ask the seller key questions so that my
   buyer can craft the most appealing offer.
