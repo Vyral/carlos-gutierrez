@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Wish You a Wonderful Holiday Season
-date: 2020-12-14 17:25:04
+date: 2020-12-14 17:25:00
 tags:
   - Real Estate
 excerpt: May your holiday season be filled with joy and gratitude!
