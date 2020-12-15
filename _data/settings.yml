@@ -1,4 +1,5 @@
-audit_header: false
+---
+audit_header: true
 title: San Diego Real Estate Video Blog with Carlos Gutierrez
 description: >-
   Our mission is to be your best resource for San Diego real estate advice.
@@ -84,7 +85,7 @@ second_sidebar_CTA:
     CTA_title2: Looking for a San Diego Home?
     CTA_text2: Search the entire MLS for your San Diego home.
     CTA_link_text2: Search the MLS
-    CTA_url2: 
+    CTA_url2:
 lender:
   show_section: false
   header_text: Preferred Lender
@@ -159,3 +160,4 @@ buttons:
   secondary_button_border_color: '#ffffff'
   secondary_button_background_color: 'rgba(0, 0, 0, 0)'
   secondary_button_text_color: '#ffffff'
+---
