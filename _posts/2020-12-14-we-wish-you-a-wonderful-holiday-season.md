@@ -5,7 +5,8 @@ date: 2020-12-14 17:25:00
 tags:
   - Real Estate
 excerpt: May your holiday season be filled with joy and gratitude!
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2020/We+Wish+You+a+Wonderful+Holiday+Season.mp4
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
