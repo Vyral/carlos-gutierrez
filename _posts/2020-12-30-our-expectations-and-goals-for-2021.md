@@ -31,8 +31,8 @@ There are lots of people taking advantage of the market by buying investment pro
 
 {% include pullquote.html %}
 
-That said, **there are also still a lot of people moving out of the state**, and we expect that to continue at a very high level here in 2021. I know quite a few people who are moving to Arizona, Idaho, Utah, and even North Carolina. Larger homes are still popular with those who are working from home. Bigger homes allow people to add things on, like ADUs, which can be used for gyms, office spaces, and so on.
+That said, **there are also still a lot of people moving out of the state**, and we expect that to continue at a very high level here in 2021. I know quite a few people who are moving to Arizona, Idaho, Utah, and even North Carolina. Larger homes are still popular with those who are working from home. Bigger homes allow people to add things on, like ADUs, which can be used for gyms, office spaces, and more.
 
-Now, let’s talk about our goals for 2021. In 2020, I helped over 53 families make great moves, and **my goal for this year is to help at least 75**. I hired a director of client success to help us elevate our service to the highest level of any other real estate professionals in San Diego.
+Now, let’s talk about our goals for 2021. In 2020, I helped over 53 families make great moves, and **my goal for this year is to help at least 75**. I hired a director of client success to help us elevate our service to the highest level of any real estate professional in San Diego.
 
 If you’re looking to make a move or invest in a home this year, give us a call. We’d love to sit down for a short, 15-minute interview with you to see if we can help you reach your goals. Until then, we hope you have an amazing 2021\! It’s going to be an awesome year.
