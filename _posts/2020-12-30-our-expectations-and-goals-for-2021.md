@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Market Update
 excerpt: What can we expect the coming year to bring?
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2021/Our+Expectations+and+Goals+for+2021.mp4
 pullquote: >-
   We can expect interest rates to stay as low as they have been through at least
   the first or second quarters of 2021.
