@@ -5,7 +5,8 @@ date: 2021-01-13 00:00:00
 tags:
   - Real Estate
 excerpt: Finding a coach is very important in this industry. Let me share why.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2021/Why+Hire+a+Coach+in+Your+Business_.mp4
 pullquote: 'With someone helping you to improve, you’re better able to help others.'
 enclosure_type: video/mp4
 enclosure_time:
