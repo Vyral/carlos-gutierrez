@@ -19,7 +19,7 @@ youtube_code: DS2JXl1QHzY
 
 <center><em>I have six reasons for you why spring is an ideal time for 2021 home sellers.</em></center>
 
-<br>It’s another amazing day in San Diego. Right now is probably one of the best times to be a seller that I’ve ever seen, and **there are six reasons in particular that you should consider an early spring home sale:**
+<br>Right now is probably one of the best times to be a seller that I’ve ever seen, and **there are six reasons in particular that you should consider an early spring home sale:**
 
 **1\. There’s less competition among sellers**. With low interest rates, demand from buyers remains high. With lower inventory, you’ll stand out more to these buyers.
 
