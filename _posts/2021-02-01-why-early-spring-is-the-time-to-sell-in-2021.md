@@ -7,7 +7,7 @@ tags:
   - Home Seller Tips
 excerpt: I have six reasons for you why spring is an ideal time for 2021 home sellers.
 enclosure:
-pullquote: You’ve got a month or two now to get your home ready for the market.
+pullquote: You have a month or two now to get your home ready for the market.
 enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
@@ -19,7 +19,7 @@ youtube_code: DS2JXl1QHzY
 
 <center><em>I have six reasons for you why spring is an ideal time for 2021 home sellers.</em></center>
 
-<br>Right now is probably one of the best times to be a seller that I’ve ever seen, and **there are six reasons in particular that you should consider an early spring home sale:**
+<br>Right now is probably one of the best times to be a seller that I’ve ever seen, and **there are six reasons in particular why you should consider an early spring home sale:**
 
 **1\. There’s less competition among sellers**. With low interest rates, demand from buyers remains high. With lower inventory, you’ll stand out more to these buyers.
 
