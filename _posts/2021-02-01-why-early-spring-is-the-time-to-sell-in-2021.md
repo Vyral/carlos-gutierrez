@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Seller Tips
 excerpt: I have six reasons for you why spring is an ideal time for 2021 home sellers.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2021/Why+Early+Spring+Is+THE+Time+to+Sell+in+2021.mp4
 pullquote: You have a month or two now to get your home ready for the market.
 enclosure_type: video/mp4
 enclosure_time:
