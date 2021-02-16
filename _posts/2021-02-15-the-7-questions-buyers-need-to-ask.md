@@ -25,7 +25,7 @@ youtube_code: l6yuBA_PtT0
 
 **1\. How long has the home been on the market?** When looking at homes or comps, real estate agents should always check the history. Not only will the MLS tell us how long the house has been on the market but also how many times it’s been on it and at what price. This is a great indication of whether it’s priced correctly or if it’s been reduced a few times.
 
-**2\. What are the comparables?** You want to know what homes similar to this one in area and floorplan have sold, at what price, and how long they were on the market. You want to look at what price they started at and what they sold for. An agent should also look deeper into whether there were any concessions from the seller to the buyer.
+**2\. What are the comparables?** You want to know what homes similar to this one in area and floorplan have sold for and how long they were on the market. You want to look at what price they started at and what they sold for. An agent should also look deeper into whether there were any concessions from the seller to the buyer.
 
 **3\. Are the sellers behind on their property taxes?** This will come up when you open the preliminary title report and when in escrow. Knowing this can give you leverage to possibly get a better deal.
 
@@ -33,7 +33,7 @@ youtube_code: l6yuBA_PtT0
 
 **4\. What’s under the carpets?** This is crucial because you need to know if there’s any damage to the foundation. Once we were looking at an older house, and we didn’t see any cracks at first. However, when we pulled up the carpets, there was a crack in the foundation, which could have cost several hundred thousand dollars to repair, but we minimized it by bringing in a structural engineer to help.
 
-**5\. How much are the standard utility costs?** What will it cost you for water, electricity, gas, is there solar power in the home, etc.? You need to know these expenses before you buy.
+**5\. How much are the standard utility costs?** What will it cost you for water, electricity, and gas? Is there solar power in the home, etc.? You need to know these expenses before you buy.
 
 **6\. How did the neighborhood fare during the 2008 crisis?** If something similar occurs again, you need to know what may happen.
 
