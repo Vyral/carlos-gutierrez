@@ -14,7 +14,7 @@ enclosure_type: video/mp4
 enclosure_time:
 use_youtube_image: false
 youtube_alternate_image: /uploads/02-15-gutierrez-youtube.jpg
-youtube_code: l6yuBA_PtT0
+youtube_code: 66bNrytSSQ0
 ---
 
 {% include youtube.html %}
