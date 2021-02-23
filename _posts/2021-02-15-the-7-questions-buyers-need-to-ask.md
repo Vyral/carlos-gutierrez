@@ -6,7 +6,8 @@ tags:
   - Real Estate
   - Home Buyer Tips
 excerpt: I’m sharing seven questions buyers need to ask their agents before buying.
-enclosure:
+enclosure: >-
+  https://vyralmarketing.s3.amazonaws.com/Carlos+Gutierrez/Videos/2021/The+7+Questions+Buyers+Need+to+Ask.mp4
 pullquote: >-
   When looking at homes or comps, real estate agents should always check the
   history.
