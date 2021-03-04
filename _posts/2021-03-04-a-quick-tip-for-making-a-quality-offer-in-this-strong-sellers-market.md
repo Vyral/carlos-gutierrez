@@ -3,6 +3,7 @@ layout: post
 title: A Quick Tip for Making a Quality Offer in This Strong Seller's Market
 date: 2021-03-04 22:58:54
 tags:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6DnSjVIyPIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 excerpt: >-
   Today I’m sharing a quick tip for buyers writing offers in this hot real
   estate market.
