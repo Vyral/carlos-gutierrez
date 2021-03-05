@@ -3,7 +3,9 @@ layout: post
 title: Quick Buyer Tip for Writing a Strong Offer
 date: 2021-03-05 22:03:00
 tags:
-excerpt:
+excerpt: >-
+  Today I’m sharing a quick tip for buyers writing offers in this hot real
+  estate market.
 enclosure:
 pullquote:
 enclosure_type: video/mp4
