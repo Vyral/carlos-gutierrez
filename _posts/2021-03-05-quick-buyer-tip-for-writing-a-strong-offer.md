@@ -12,6 +12,8 @@ use_youtube_image: true
 youtube_alternate_image: /uploads/carlos-g-yt-tn.jpg
 youtube_code:
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6DnSjVIyPIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The real estate market has been very strong both here in San Diego and across the country. This means multiple offers are coming in on many homes and, as a result, **buyers need to write strong offers to stand out** to these sellers.
 
 **When writing your offer, the most crucial elements are the appraisal and loan contingencies, plus the time frame for inspections.**
